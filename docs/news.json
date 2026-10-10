@@ -1,5 +1,42 @@
 [
  {
+  "id": "456a4726c1fe9fb54c775bf56979aaa1",
+  "time": "20:34",
+  "title": "Crude Oil drops on Trump's Russian diesel plan",
+  "link": "https://www.fxstreet.com/news/crude-oil-drops-on-trumps-russian-diesel-plan-202610091923",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "ترامب علن باللي روسيا غادي تزود السوق العالمية والميريكانية بالديزل، هادشي اللي خلى أسعار الطاقة والنفط تهبط. هاد الانخفاض فأسعار المحروقات كينقص من الضغوط التضخمية، الشي اللي كيعاون أسواق الأسهم وكيخفف العوائد على السندات.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "396dc848333b8782678c3da6fb72b50b",
   "time": "20:30",
   "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",

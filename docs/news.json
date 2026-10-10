@@ -1,5 +1,30 @@
 [
  {
+  "id": "396dc848333b8782678c3da6fb72b50b",
+  "time": "20:30",
+  "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+  "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+  "source": "FRB: Press Release - All Releases",
+  "relevant": true,
+  "importance": 1,
+  "summary": "الفيدرالي ثبت تعديلات جديدة باش يرفع الشفافية فاختبارات الضغط (stress tests) ويقلل من تقلب متطلبات رأس المال للأبناك. هادشي كيعطي استقرار نسبي وتنظيم أوضح للقطاع البنكي الأمريكي. التأثير كيبقى ضعيف ومحدود على المؤشرات حيت الخبر تقني وتنظيمي ماشي مفاجأة اقتصادية.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "b41a41921ee860d72b702820570eb088",
   "time": "20:10",
   "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",

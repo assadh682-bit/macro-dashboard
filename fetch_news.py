@@ -1,4 +1,6 @@
 import os, json, hashlib, time, requests, feedparser
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 KEY = os.environ["GEMINI_API_KEY"].strip()
@@ -6,6 +8,7 @@ TG_TOKEN = os.environ["TELEGRAM_TOKEN"].strip()
 TG_CHAT = os.environ["TELEGRAM_CHAT_ID"].strip()
 MAX_PER_RUN = 6
 ALERT_MIN_IMPORTANCE = 4
+ALERT_MIN_CONFIDENCE = 50
 
 FEEDS = [
     "https://www.federalreserve.gov/feeds/press_all.xml",
@@ -42,15 +45,24 @@ def save(path, data):
         json.dump(data, f, ensure_ascii=False, indent=1)
 
 
+def now_ma():
+    return datetime.now(ZoneInfo("Africa/Casablanca")).strftime("%H:%M")
+
+
 def analyze(title, summary):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
     body = {
         "contents": [{"parts": [{"text": PROMPT.format(title=title, summary=summary[:800], assets=ASSETS)}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }
-    r = requests.post(url, json=body, headers={"x-goog-api-key": KEY}, timeout=60)
+    for attempt in range(3):
+        r = requests.post(url, json=body, headers={"x-goog-api-key": KEY}, timeout=60)
+        if r.status_code in (429, 500, 503) and attempt < 2:
+            time.sleep(15)
+            continue
+        break
     if not r.ok:
-        print("GEMINI:", r.text[:400])
+        print("GEMINI:", r.status_code, r.text[:300])
     r.raise_for_status()
     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
 
@@ -58,10 +70,18 @@ def analyze(title, summary):
 def telegram(text):
     r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
                       json={"chat_id": TG_CHAT, "text": text}, timeout=30)
-    print("TELEGRAM:", r.status_code, r.text[:200])
+    print("TELEGRAM:", r.status_code)
 
 
 ARROW = {"up": "\u25b2", "down": "\u25bc", "neutral": "\u25cf"}
+
+
+def should_alert(n):
+    if n.get("importance", 0) < ALERT_MIN_IMPORTANCE:
+        return False
+    if n.get("confidence", 0) < ALERT_MIN_CONFIDENCE:
+        return False
+    return any(i.get("direction") != "neutral" for i in n.get("impacts", []))
 
 
 def format_alert(n):
@@ -86,24 +106,30 @@ def main():
             if uid not in seen:
                 fresh.append((uid, e, feed.feed.get("title", url)))
     for uid, e, src in fresh[:MAX_PER_RUN]:
-        seen.add(uid)
         try:
             a = analyze(e.get("title", ""), e.get("summary", ""))
-        except Exception as err:
-            print("AI error:", err)
+        except requests.HTTPError as err:
+            code = err.response.status_code if err.response is not None else 0
+            print("AI error:", code)
+            if code not in (429, 500, 503):
+                seen.add(uid)
             continue
+        except Exception as err:
+            print("AI error:", type(err).__name__)
+            seen.add(uid)
+            continue
+        seen.add(uid)
         time.sleep(5)
         if not a.get("relevant"):
             continue
-        item = {"id": uid, "time": time.strftime("%H:%M", time.gmtime()), "title": e.get("title", ""),
+        item = {"id": uid, "time": now_ma(), "title": e.get("title", ""),
                 "link": e.get("link", ""), "source": src, **a}
         news.insert(0, item)
-        if a.get("importance", 0) >= ALERT_MIN_IMPORTANCE:
+        if should_alert(item):
             telegram(format_alert(item))
     save("docs/news.json", news[:40])
     save("seen.json", list(seen)[-2000:])
 
 
 if __name__ == "__main__":
-    telegram("TEST bot OK")
     main()

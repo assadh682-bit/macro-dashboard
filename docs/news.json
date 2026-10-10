@@ -1,5 +1,30 @@
 [
  {
+  "id": "366de4cdec0f86be5dba13324275daf7",
+  "time": "23:07",
+  "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
+  "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 2,
+  "summary": "وزير الخزانة سكوت بيسنت عيّن جودي شيلتون كمستشارة ليه، وهي معروفة بآرائها الاقتصادية غير التقليدية ودعمها لمعيار الذهب وانتقاد استقلالية الفيدرالي. هاد التعيين يقدر يعطي دفعة معنوية طفيفة للذهب نظراً لأفكارها، ولكن التأثير كيبقى محدود حيت الدور ديالها استشاري فقط.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "456a4726c1fe9fb54c775bf56979aaa1",
   "time": "20:34",
   "title": "Crude Oil drops on Trump's Russian diesel plan",

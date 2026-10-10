@@ -49,6 +49,7 @@ def analyze(title, summary):
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }
     r = requests.post(url, json=body, timeout=60)
+    if not r.ok: print("GEMINI:", r.text[:400])
     r.raise_for_status()
     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
 

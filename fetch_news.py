@@ -2,8 +2,8 @@ import os, json, hashlib, time, requests, feedparser
 
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 KEY = os.environ["GEMINI_API_KEY"].strip()
-TG_TOKEN = os.environ["TELEGRAM_TOKEN"]
-TG_CHAT = os.environ["TELEGRAM_CHAT_ID"]
+TG_TOKEN = os.environ["TELEGRAM_TOKEN"].strip()
+TG_CHAT = os.environ["TELEGRAM_CHAT_ID"].strip()
 MAX_PER_RUN = 6
 ALERT_MIN_IMPORTANCE = 4
 
@@ -49,7 +49,8 @@ def analyze(title, summary):
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }
     r = requests.post(url, json=body, headers={"x-goog-api-key": KEY}, timeout=60)
-    if not r.ok: print("GEMINI:", r.text[:400])
+    if not r.ok:
+        print("GEMINI:", r.text[:400])
     r.raise_for_status()
     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
 
@@ -104,4 +105,5 @@ def main():
 
 
 if __name__ == "__main__":
-       telegram("TEST bot OK") main()
+    telegram("TEST bot OK")
+    main()

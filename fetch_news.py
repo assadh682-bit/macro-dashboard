@@ -4,8 +4,8 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
 KEY = os.environ["GEMINI_API_KEY"]
 TG_TOKEN = os.environ["TELEGRAM_TOKEN"]
 TG_CHAT = os.environ["TELEGRAM_CHAT_ID"]
-MAX_PER_RUN = 6          # حد أقصى ديال الأخبار الجديدة فكل مرة (باش نبقاو فالمجاني)
-ALERT_MIN_IMPORTANCE = 4 # التنبيه على Telegram غير للأخبار High impact
+MAX_PER_RUN = 6
+ALERT_MIN_IMPORTANCE = 4
 
 FEEDS = [
     "https://www.federalreserve.gov/feeds/press_all.xml",
@@ -58,4 +58,48 @@ def telegram(text):
                   json={"chat_id": TG_CHAT, "text": text}, timeout=30)
 
 
-ARROW = {"up": "▲", "down": "▼", "neutr
+ARROW = {"up": "\u25b2", "down": "\u25bc", "neutral": "\u25cf"}
+
+
+def format_alert(n):
+    lines = ["\U0001F514 " + n["title"], "", n["summary"], ""]
+    for i in n["impacts"]:
+        lines.append(ARROW.get(i["direction"], "\u25cf") + " " + i["asset"] + " | قوة " + str(i["strength"]) + "/5 | " + i["duration"])
+    lines += ["", "ثقة AI: " + str(n["confidence"]) + "% | المصدر: " + n["source"]]
+    return "\n".join(lines)
+
+
+def main():
+    seen = set(load("seen.json", []))
+    news = load("docs/news.json", [])
+    fresh = []
+    for url in FEEDS:
+        try:
+            feed = feedparser.parse(url)
+        except Exception:
+            continue
+        for e in feed.entries[:10]:
+            uid = hashlib.md5((e.get("link") or e.get("title", "")).encode()).hexdigest()
+            if uid not in seen:
+                fresh.append((uid, e, feed.feed.get("title", url)))
+    for uid, e, src in fresh[:MAX_PER_RUN]:
+        seen.add(uid)
+        try:
+            a = analyze(e.get("title", ""), e.get("summary", ""))
+        except Exception as err:
+            print("AI error:", err)
+            continue
+        time.sleep(5)
+        if not a.get("relevant"):
+            continue
+        item = {"id": uid, "time": time.strftime("%H:%M", time.gmtime()), "title": e.get("title", ""),
+                "link": e.get("link", ""), "source": src, **a}
+        news.insert(0, item)
+        if a.get("importance", 0) >= ALERT_MIN_IMPORTANCE:
+            telegram(format_alert(item))
+    save("docs/news.json", news[:40])
+    save("seen.json", list(seen)[-2000:])
+
+
+if __name__ == "__main__":
+    main()

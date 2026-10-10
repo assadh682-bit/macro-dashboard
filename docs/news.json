@@ -1,1 +1,39 @@
-[]
+[
+ {
+  "id": "b41a41921ee860d72b702820570eb088",
+  "time": "20:10",
+  "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+  "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+  "source": "FRB: Press Release - All Releases",
+  "relevant": true,
+  "importance": 4,
+  "summary": "هاد الخبر كيعلن على محضر اجتماع الفيدرالي الأمريكي (FOMC) اللي كيكون عندو تأثير قوي على السياسة النقدية. ولكن حيت النص ما فيه حتى تفاصيل على واش التوجه متشدد ولا ميسر، ما يمكنش نحسمو فالاتجاه. لذلك التأثير كيبقى محايد حتى تبان تفاصيل القرارات ومعدلات الفائدة.",
+  "confidence": 20,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ }
+]

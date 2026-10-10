@@ -55,8 +55,9 @@ def analyze(title, summary):
 
 
 def telegram(text):
-    requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-                  json={"chat_id": TG_CHAT, "text": text}, timeout=30)
+    r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
+                      json={"chat_id": TG_CHAT, "text": text}, timeout=30)
+    print("TELEGRAM:", r.status_code, r.text[:200])
 
 
 ARROW = {"up": "\u25b2", "down": "\u25bc", "neutral": "\u25cf"}
@@ -103,4 +104,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+       telegram("TEST bot OK") main()

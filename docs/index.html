@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>منصة الماكرو</title>
+<style>
+:root{--bg:#000;--p:#0c0c0c;--ln:#2a2a2a;--tx:#e8e2d4;--mu:#8a8578;--am:#ffa028;--up:#19c37d;--dn:#ff4d4f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.7 system-ui,sans-serif}
+header{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:10px 14px;border-bottom:2px solid var(--am)}
+h1{margin:0;font-size:18px;color:var(--am)}
+h2{margin:0 0 8px;font-size:15px;color:var(--am)}
+.tag{font-size:12px;color:var(--mu)}
+main{display:grid;gap:12px;padding:12px;max-width:1100px;margin:auto}
+@media(min-width:900px){main{grid-template-columns:1.6fr 1fr;align-items:start}}
+section{background:var(--p);border:1px solid var(--ln);padding:12px}
+.news{padding:10px 0;border-top:1px solid var(--ln)}
+.meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mu)}
+.hi{background:var(--am);color:#000;padding:0 6px;font-weight:600}
+.news b{display:block;margin-top:2px}
+.news a{color:var(--tx);text-decoration:none}
+.news p{margin:4px 0 6px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--ln);padding:2px 8px;font-size:12px}
+.up{color:var(--up)}.dn{color:var(--dn)}.nu{color:var(--mu)}
+.hm{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:6px}
+.cell{padding:8px;text-align:center;border:1px solid var(--ln)}
+.ltr{direction:ltr;unicode-bidi:isolate;font-family:ui-monospace,monospace}
+</style>
+</head>
+<body>
+<header><h1>منصة الماكرو</h1><span class="tag" id="upd">كيتحمل...</span></header>
+<main>
+<section><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
+<section><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
+<p class="tag">المجموع ديال تأثير الأخبار الأخيرة على كل أصل.</p></section>
+</main>
+<script>
+var ASSETS=["GC","SIL","NQ","ES","DXY","US10Y","VIX"];
+var DUR={instant:"لحظي",daily:"يومي",weekly:"أسبوعي"};
+var ARR={up:"\u25b2",down:"\u25bc",neutral:"\u25cf"};
+var CLS={up:"up",down:"dn",neutral:"nu"};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function render(list){
+  var feed=document.getElementById("feed"),score={};
+  ASSETS.forEach(function(a){score[a]=0});
+  if(!list.length){feed.appendChild(el("p","tag","ما كاين حتى خبر محلل دابا. المنصة كتجيب الأخبار كل 10 دقايق."))}
+  list.forEach(function(n){
+    var d=el("div","news"),m=el("div","meta");
+    m.appendChild(el("span","ltr",n.time||""));
+    m.appendChild(el("span","",n.source||""));
+    if((n.importance||0)>=4)m.appendChild(el("span","hi","High impact"));
+    m.appendChild(el("span","","ثقة AI: "+(n.confidence||0)+"%"));
+    d.appendChild(m);
+    var b=el("b");
+    if(/^https?:/.test(n.link||"")){var a=el("a","",n.title||"");a.href=n.link;a.target="_blank";a.rel="noopener";b.appendChild(a)}
+    else b.textContent=n.title||"";
+    d.appendChild(b);
+    d.appendChild(el("p","",n.summary||""));
+    var c=el("div","chips");
+    (n.impacts||[]).forEach(function(i){
+      var k=i.direction||"neutral";
+      var ch=el("span","chip "+(CLS[k]||"nu"));
+      ch.appendChild(el("span","ltr",i.asset+" "));
+      ch.appendChild(document.createTextNode((ARR[k]||"")+" قوة "+i.strength+"/5 \u00b7 "+(DUR[i.duration]||i.duration)));
+      c.appendChild(ch);
+      if(score[i.asset]!==undefined)score[i.asset]+=(k==="up"?1:k==="down"?-1:0)*(i.strength||0);
+    });
+    d.appendChild(c);feed.appendChild(d);
+  });
+  var hm=document.getElementById("hm");
+  ASSETS.forEach(function(a){
+    var v=score[a],k=v>0?"up":v<0?"dn":"nu",cell=el("div","cell");
+    cell.appendChild(el("b","ltr",a));cell.appendChild(el("br"));
+    cell.appendChild(el("span",k,(v>0?"\u25b2 +":v<0?"\u25bc ":"\u25cf ")+v));
+    hm.appendChild(cell);
+  });
+  document.getElementById("upd").textContent=list.length?"آخر خبر: "+(list[0].time||"")+" (توقيت المغرب)":"";
+}
+fetch("news.json?t="+Date.now()).then(function(r){return r.json()}).then(render).catch(function(){
+  document.getElementById("feed").appendChild(el("p","tag","ما قدرتش نحمل الأخبار. عاود حدث الصفحة بعد شوية."));
+  document.getElementById("upd").textContent="";
+});
+</script>
+</body>
+</html>

@@ -1,5 +1,42 @@
 [
  {
+  "id": "fda286b21082a35f4bf28480614f1a4a",
+  "time": "13:04",
+  "title": "The bull market is turning 4 years old — but yields could crash the party",
+  "link": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "سوق الأسهم ومؤشرات التكنولوجيا كملو ربع سنين ديال الصعود، ولكن الارتفاع ديال عوائد السندات كيهدد باش يفراني هاد الحفلة. ملي كيطلعو العوائد، كيتزير التمويل وكيطيحو التقييمات ديال شركات التكنولوجيا العالية، الشي اللي يقدر يدخل السوق فـ تصحيح.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "edb2f913d2fc6793144e59ed5b5faf52",
   "time": "04:41",
   "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",

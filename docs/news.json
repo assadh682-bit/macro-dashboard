@@ -1,5 +1,73 @@
 [
  {
+  "id": "99919246cb1e07669c74e203dc8f2bb6",
+  "time": "23:20",
+  "title": "Middle East War updates: New attack launched on Saudi airport",
+  "link": "https://www.fxstreet.com/news/middle-east-war-updates-new-attack-launched-on-saudi-airport-202610112228",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "كاين تصعيد جيوسياسي جديد فـالشرق الأوسط مع هجوم على مطار فـالسعودية خلال نهاية الأسبوع. هاد التوترات غادي تخلق حالة ديال الحذر فـالأسواق وتزيد الطلب على الملاذات الآمنة بحال الذهب. فـنفس الوقت، الخوف من اتساع رقعة الصراع غادي يضغط سلباً على أسواق الأسهم ويرفع مؤشر التذبذب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "e39848859f69bd02db224a4096d681d4",
+  "time": "23:19",
+  "title": "US President Donald Trump says Russia and Ukraine agree to an ‘energy ceasefire’",
+  "link": "https://www.fxstreet.com/news/us-president-donald-trump-says-russia-and-ukraine-agree-to-an-energy-ceasefire-202610112238",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "ترامب صرح بلي روسيا وأوكرانيا تفاهمو على هدنة كتشمل قطاع الطاقة، واخا ما زاد حتى تفاصيل رسمية. هاد الخطوة كتقلل من التوترات الجيوسياسية ومخاوف إمدادات الطاقة، الشي اللي كيعزز شهية المخاطرة ويضغط على أصول الملاذ الآمن.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "fda286b21082a35f4bf28480614f1a4a",
   "time": "13:04",
   "title": "The bull market is turning 4 years old — but yields could crash the party",

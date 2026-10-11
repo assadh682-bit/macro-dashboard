@@ -1,5 +1,48 @@
 [
  {
+  "id": "edb2f913d2fc6793144e59ed5b5faf52",
+  "time": "04:41",
+  "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
+  "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "توقعات التضخم لعام مقبل فاستطلاع الفيدرالي طلعات لـ 3.9%، وهادا أعلى مستوى من ماي 2023. هاد الشي كيزيد الضغط على الفيدرالي يخلي أسعار الفائدة طالعة لمدة أطول، الشي اللي غايقوي الدولار وعوائد السندات ويضغط سلبياً على الأسهم.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "366de4cdec0f86be5dba13324275daf7",
   "time": "23:07",
   "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",

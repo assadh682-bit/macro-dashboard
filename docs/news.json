@@ -1,5 +1,42 @@
 [
  {
+  "id": "d574fd6be23c280f769b10f8d0a6503e",
+  "time": "06:18",
+  "title": "WTI falls to near $90.00 as Russia-Ukraine energy ceasefire fuels supply hopes",
+  "link": "https://www.fxstreet.com/news/wti-falls-to-near-9000-as-russia-ukraine-energy-ceasefire-fuels-supply-hopes-202610120603",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "البترول هبط بسباب آمال الهدنة فمجال الطاقة بين روسيا وأوكرانيا، الشي اللي كيرفع احتمالات زيادة الإمدادات وكيخفف الضغط على التضخم. هاد التطور الجيوسياسي كيحسن شهية المخاطرة وكيشجع الأسهم بحال NQ وES باش تطلع. فالمقابل، الملاذات الآمنة بحال الذهب (GC) ومؤشر الخوف (VIX) كيتوقع ليهم الهبوط مع نقص حدة التوتر.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "12b36d0f5c87d3053a47e84410c325dd",
   "time": "01:26",
   "title": "WTI declines to near $90.00 despite escalating Middle East conflict, supply risks",

@@ -38,13 +38,13 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
 {
 "symbols":[
-{"proName":"COMEX:GC1!","title":"GC"},
-{"proName":"COMEX:SI1!","title":"SIL"},
-{"proName":"CME_MINI:NQ1!","title":"NQ"},
-{"proName":"CME_MINI:ES1!","title":"ES"},
+{"proName":"OANDA:XAUUSD","title":"GC"},
+{"proName":"OANDA:XAGUSD","title":"SIL"},
+{"proName":"FOREXCOM:NSXUSD","title":"NQ"},
+{"proName":"FOREXCOM:SPXUSD","title":"ES"},
 {"proName":"TVC:DXY","title":"DXY"},
 {"proName":"TVC:US10Y","title":"US10Y"},
-{"proName":"TVC:VIX","title":"VIX"}
+{"proName":"CBOE:VIX","title":"VIX"}
 ],
 "showSymbolLogo":false,
 "colorTheme":"dark",
@@ -54,6 +54,7 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 }
 </script>
 </div>
+<p class="tag" style="margin:4px 14px">الأسعار CFD/Cash وماشي عقود آجلة، فممكن يكون فرق صغير مع GC وSI وNQ وES.</p>
 
 <main>
 <section><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
@@ -69,7 +70,7 @@ function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==und
 function render(list){
   var feed=document.getElementById("feed"),score={};
   ASSETS.forEach(function(a){score[a]=0});
-  if(!list.length){feed.appendChild(el("p","tag","ما كاين حتى خبر محلل دابا. المنصة كتجيب الأخبار كل 10 دقايق."))}
+  if(!list.length){feed.appendChild(el("p","tag","ما كاين حتى خبر محلل دابا. المنصة كتجيب الأخبار كل 30 دقيقة."))}
   list.forEach(function(n){
     var d=el("div","news"),m=el("div","meta");
     m.appendChild(el("span","ltr",n.time||""));

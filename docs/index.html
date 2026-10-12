@@ -12,10 +12,10 @@ header{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding
 h1{margin:0;font-size:18px;color:var(--am)}
 h2{margin:0 0 8px;font-size:15px;color:var(--am)}
 .tag{font-size:12px;color:var(--mu)}
-.tv{direction:ltr;min-height:48px;border-bottom:1px solid var(--ln)}
 main{display:grid;gap:12px;padding:12px;max-width:1100px;margin:auto}
-@media(min-width:900px){main{grid-template-columns:1.6fr 1fr;align-items:start}}
+@media(min-width:900px){main{grid-template-columns:1.6fr 1fr;align-items:start}.full{grid-column:1/-1}}
 section{background:var(--p);border:1px solid var(--ln);padding:12px}
+.tv{direction:ltr}
 .news{padding:10px 0;border-top:1px solid var(--ln)}
 .meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mu)}
 .hi{background:var(--am);color:#000;padding:0 6px;font-weight:600}
@@ -32,31 +32,24 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 </head>
 <body>
 <header><h1>منصة الماكرو</h1><span class="tag" id="upd">كيتحمل...</span></header>
+<main>
 
+<section class="full"><h2>الـ calendar الاقتصادي</h2>
 <div class="tv tradingview-widget-container">
 <div class="tradingview-widget-container__widget"></div>
-<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
 {
-"symbols":[
-{"proName":"OANDA:XAUUSD","title":"GC"},
-{"proName":"OANDA:XAGUSD","title":"SIL"},
-{"proName":"FOREXCOM:NSXUSD","title":"NQ"},
-{"proName":"FOREXCOM:SPXUSD","title":"ES"},
-{"proName":"TVC:DXY","title":"DXY"},
-{"proName":"TVC:US10Y","title":"US10Y"},
-{"proName":"CBOE:VIX","title":"VIX"}
-],
-"showSymbolLogo":false,
 "colorTheme":"dark",
 "isTransparent":true,
-"displayMode":"adaptive",
-"locale":"en"
+"width":"100%",
+"height":"420",
+"locale":"en",
+"importanceFilter":"0,1",
+"countryFilter":"us,eu,gb"
 }
 </script>
-</div>
-<p class="tag" style="margin:4px 14px">الأسعار CFD/Cash وماشي عقود آجلة، فممكن يكون فرق صغير مع GC وSI وNQ وES.</p>
+</div></section>
 
-<main>
 <section><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
 <section><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
 <p class="tag">المجموع ديال تأثير الأخبار الأخيرة على كل أصل.</p></section>

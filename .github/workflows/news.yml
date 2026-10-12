@@ -1,10 +1,13 @@
 name: news
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: news
+  cancel-in-progress: false
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -1,5 +1,36 @@
 [
  {
+  "id": "a40d853d4e5f3951f4a6fe7de0ff7661",
+  "time": "00:10",
+  "title": "Australian Dollar edges higher to near 0.7000 on weak US Sentiment",
+  "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-to-near-07000-on-weak-us-sentiment-202610112344",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار الأمريكي كايتعرض لضغط هابط بسباب تراجع معنويات المستهلكين فالميريكان، هادشي اللي عاون الدولار الأسترالي يطلع. هاد التراجع فالبيانات الأمريكية كايأثر سلباً على مؤشر الدولار DXY وكايعطي دعم طفيف للذهب.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "99919246cb1e07669c74e203dc8f2bb6",
   "time": "23:20",
   "title": "Middle East War updates: New attack launched on Saudi airport",

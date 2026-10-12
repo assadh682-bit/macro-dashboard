@@ -1,5 +1,67 @@
 [
  {
+  "id": "12b36d0f5c87d3053a47e84410c325dd",
+  "time": "01:26",
+  "title": "WTI declines to near $90.00 despite escalating Middle East conflict, supply risks",
+  "link": "https://www.fxstreet.com/news/wti-declines-to-near-9000-despite-escalating-middle-east-conflict-supply-risks-202610120047",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تراجع سعر خام WTI لقريب من 90 دولار بعد يومين ديال الصعود، وخا كاينين توترات فـالشرق الأوسط. هاد الهبوط الخفيف كينقص شوية من ضغوط التضخم ومخاوف سلاسل التوريد، الشي اللي كيعطي نفس إيجابي لأسواق الأسهم.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "ec0916267adbb5ce0c5d8176ed3130ca",
+  "time": "01:25",
+  "title": "Euro holds gains above 1.1200 despite France’s bond turmoil",
+  "link": "https://www.fxstreet.com/news/euro-holds-gains-above-11200-despite-frances-bond-turmoil-202610120100",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار الأمريكي تراجع قدام الأورو بسباب بيانات ثقة المستهلك الميريكاني اللي خرجات ضعيفة على التوقعات. هاد الضعف كايضغط سلباً على مؤشر الدولار DXY باش يهبط، وفنفس الوقت كايعطي دعم خفيف لأسعار الذهب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "a40d853d4e5f3951f4a6fe7de0ff7661",
   "time": "00:10",
   "title": "Australian Dollar edges higher to near 0.7000 on weak US Sentiment",

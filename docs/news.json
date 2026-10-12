@@ -1,5 +1,36 @@
 [
  {
+  "id": "438d2deaae73a02789eedc9142855e4d",
+  "time": "11:45",
+  "title": "WTI rebounds as Middle East tensions clash with Russia-Ukraine peace hopes",
+  "link": "https://www.fxstreet.com/news/wti-rebounds-as-middle-east-tensions-clash-with-russia-ukraine-peace-hopes-202610121056",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "أسعار البترول عاودات طلعات بسباب التوترات فالشرق الأوسط، واخا كاين أمل فـتهدئة بين روسيا وأوكرانيا بخصوص الطاقة. هاد الارتفاع كيزيد من مخاوف التضخم والمخاطر الجيوسياسية، الشي اللي كيدعم أصول الملاذ الآمن بحال الذهب وكيضغط سلباً على الأسهم.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "46ae226b36d9afb103c2e4e014f4f9b5",
   "time": "08:55",
   "title": "Oil: Supply risks offset by Russia diesel deal – ING",

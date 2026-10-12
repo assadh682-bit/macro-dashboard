@@ -1,5 +1,42 @@
 [
  {
+  "id": "46ae226b36d9afb103c2e4e014f4f9b5",
+  "time": "08:55",
+  "title": "Oil: Supply risks offset by Russia diesel deal – ING",
+  "link": "https://www.fxstreet.com/news/oil-supply-risks-offset-by-russia-diesel-deal-ing-202610120807",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "أسعار النفط تراجعات واخا التوترات الجيوسياسية، والسبب هو تدفق الإمدادات واتفاق على الديزل الروسي مع احتمال هدنة طاقية. هاد التراجع فالطاقة كينقص من ضغوط التضخم، الشي اللي كيعطي دفعة خفيفة للأسهم وكيضغط سلباً على عوائد السندات.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "72d06af7b39b9342afced22e6127ccf5",
   "time": "07:58",
   "title": "Brent: Houthi escalation keeps risk premium elevated – Commerzbank",

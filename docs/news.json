@@ -1,5 +1,30 @@
 [
  {
+  "id": "2006dde9bfca1664a4e80cef2a948d09",
+  "time": "21:11",
+  "title": "Dow Jones Industrial Average edges higher with no memory chips to sell",
+  "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-edges-higher-with-no-memory-chips-to-sell-202610122000",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "سهم ميكرون هبط بحوالي 4% وجر معاه مؤشر الناسداك للهبوط بسباب الضغط على قطاع الرقائق الإلكترونية. مؤشر إس آند بي 500 حتى هو تراجع شوية لنفس السبب، بينما الداو جونز بقى رابح حينت مافيهش هاد الشركات. التأثير باين بشكل سلبي مباشر على المؤشرات التكنولوجية.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "438d2deaae73a02789eedc9142855e4d",
   "time": "11:45",
   "title": "WTI rebounds as Middle East tensions clash with Russia-Ukraine peace hopes",

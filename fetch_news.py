@@ -6,7 +6,7 @@ GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 KEY = os.environ["GEMINI_API_KEY"].strip()
 TG_TOKEN = os.environ["TELEGRAM_TOKEN"].strip()
 TG_CHAT = os.environ["TELEGRAM_CHAT_ID"].strip()
-MAX_PER_RUN = 6
+MAX_PER_RUN = 3
 ALERT_MIN_IMPORTANCE = 4
 ALERT_MIN_CONFIDENCE = 50
 
@@ -17,6 +17,15 @@ FEEDS = [
     "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
 ]
 ASSETS = ["GC", "SIL", "NQ", "ES", "DXY", "US10Y", "VIX"]
+
+KEYWORDS = [
+    "fed", "federal reserve", "fomc", "powell", "inflation", "cpi", "pce", "ppi",
+    "jobs", "payroll", "nfp", "unemployment", "gdp", "rate", "yield", "treasury",
+    "dollar", "gold", "silver", "oil", "crude", "wti", "brent", "opec", "tariff",
+    "sanction", "war", "iran", "israel", "russia", "ukraine", "china", "nasdaq",
+    "s&p", "stocks", "wall street", "ecb", "boj", "bank of", "recession", "vix",
+    "powell", "trump", "houthi", "middle east",
+]
 
 PROMPT = """نتا محلل ماكرو. هادا خبر:
 العنوان: {title}
@@ -49,20 +58,25 @@ def now_ma():
     return datetime.now(ZoneInfo("Africa/Casablanca")).strftime("%H:%M")
 
 
+def is_relevant(text):
+    t = text.lower()
+    return any(k in t for k in KEYWORDS)
+
+
 def analyze(title, summary):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
     body = {
         "contents": [{"parts": [{"text": PROMPT.format(title=title, summary=summary[:800], assets=ASSETS)}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2},
     }
-    for attempt in range(3):
+    for attempt in range(2):
         r = requests.post(url, json=body, headers={"x-goog-api-key": KEY}, timeout=60)
-        if r.status_code in (429, 500, 503) and attempt < 2:
-            time.sleep(15)
+        if r.status_code in (500, 503) and attempt < 1:
+            time.sleep(10)
             continue
         break
     if not r.ok:
-        print("GEMINI:", r.status_code, r.text[:300])
+        print("GEMINI:", r.status_code, r.text[:200])
     r.raise_for_status()
     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
 
@@ -103,15 +117,23 @@ def main():
             continue
         for e in feed.entries[:10]:
             uid = hashlib.md5((e.get("link") or e.get("title", "")).encode()).hexdigest()
-            if uid not in seen:
+            if uid in seen:
+                continue
+            text = e.get("title", "") + " " + e.get("summary", "")
+            if is_relevant(text):
                 fresh.append((uid, e, feed.feed.get("title", url)))
+            else:
+                seen.add(uid)
     for uid, e, src in fresh[:MAX_PER_RUN]:
         try:
             a = analyze(e.get("title", ""), e.get("summary", ""))
         except requests.HTTPError as err:
             code = err.response.status_code if err.response is not None else 0
             print("AI error:", code)
-            if code not in (429, 500, 503):
+            if code == 429:
+                print("Quota reached, stopping this run")
+                break
+            if code not in (500, 503):
                 seen.add(uid)
             continue
         except Exception as err:

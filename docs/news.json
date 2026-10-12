@@ -1,5 +1,61 @@
 [
  {
+  "id": "72d06af7b39b9342afced22e6127ccf5",
+  "time": "07:58",
+  "title": "Brent: Houthi escalation keeps risk premium elevated – Commerzbank",
+  "link": "https://www.fxstreet.com/news/brent-houthi-escalation-keeps-risk-premium-elevated-commerzbank-202610120621",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الهجمات ديال الحوثيين على البنية التحتية السعودية مخلية أسعار برنت فوق 100 دولار بسبب علاوة المخاطر الجيوسياسية. هاد التوتر كيهدد إمدادات الطاقة وكيغذي مخاوف التضخم، الشي اللي كيدعم الملاذات الآمنة بحال الذهب وكيطلع مؤشر الخوف VIX.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "71167667a6939865ab1739c432608feb",
+  "time": "07:57",
+  "title": "Gold eases from one-week top, falls below $4,200 as hawkish Fed and Iran risks support USD",
+  "link": "https://www.fxstreet.com/news/gold-holds-near-one-week-top-around-4-200-on-softer-usd-hawkish-fed-caps-gains-202610120452",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الذهب تراجع ونزل تحت 4,200 دولار بعدما كان وصل لأعلى مستوى فالسيمانة، وهادشي بسبب قوة الدولار الأمريكي. الموقف المتشدد ديال الفيدرالي الأمريكي مع التوترات فإيران دعمو الدولار، الشي اللي خلا المستثمرين يبيعو الذهب ويحبسو مسار الصعود ديال يومين.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "44ccb49fe49adc878e7352b373f7c113",
   "time": "07:39",
   "title": "British Pound: Range-bound trading within a tight band against US Dollar – UOB",

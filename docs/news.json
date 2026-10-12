@@ -1,5 +1,61 @@
 [
  {
+  "id": "44ccb49fe49adc878e7352b373f7c113",
+  "time": "07:39",
+  "title": "British Pound: Range-bound trading within a tight band against US Dollar – UOB",
+  "link": "https://www.fxstreet.com/news/british-pound-range-bound-trading-within-a-tight-band-against-us-dollar-uob-202610120648",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 1,
+  "summary": "التحليل كيشوف بلي الجنيه الإسترليني غادي يبقى يتحرك فمجال ضيق ومحصور قدام الدولار (GBP/USD) خلال اليوم. هاد التداول العرضي ما كيحملش معطيات ماكرو جديدة، وبالتالي التأثير كيبقى محايد على مؤشر الدولار.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "01f70ff11f37d96fdc471116fdb09be3",
+  "time": "07:38",
+  "title": "Forex Today: US Dollar softens amid hopes of Russia-Ukraine energy ceasefire",
+  "link": "https://www.fxstreet.com/news/forex-today-us-dollar-softens-amid-hopes-russia-ukraine-energy-ceasefire-202610120654",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الدولار الأمريكي تراجع بسباب تفاؤل فالسوق بخصوص وقف إطلاق النار على منشآت الطاقة بين روسيا وأوكرانيا. هاد الانفراج الجيوسياسي كينقص الطلب على الدولار والملاذات الآمنة وكيشجع شهية المخاطرة فالسوق.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "967d8cd0f8100893a7d291bad7cc4916",
   "time": "07:14",
   "title": "EUR/USD Price Forecast: Gets some relief from Russia-Ukraine energy ceasefire",

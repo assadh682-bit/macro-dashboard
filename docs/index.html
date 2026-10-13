@@ -8,9 +8,10 @@
 :root{--bg:#000;--p:#0c0c0c;--ln:#2a2a2a;--tx:#e8e2d4;--mu:#8a8578;--am:#ffa028;--up:#19c37d;--dn:#ff4d4f}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.7 system-ui,sans-serif}
-header{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:10px 14px;border-bottom:2px solid var(--am)}
+header{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 14px;border-bottom:2px solid var(--am)}
 h1{margin:0;font-size:18px;color:var(--am)}
 h2{margin:0 0 8px;font-size:15px;color:var(--am)}
+a.nav{color:var(--am)}
 .tag{font-size:12px;color:var(--mu)}
 main{display:grid;gap:12px;padding:12px;max-width:1100px;margin:auto}
 @media(min-width:900px){main{grid-template-columns:1.6fr 1fr;align-items:start}.full{grid-column:1/-1}}
@@ -36,7 +37,7 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 </style>
 </head>
 <body>
-<header><h1>منصة الماكرو</h1><span class="tag" id="upd">كيتحمل...</span></header>
+<header><h1>منصة الماكرو</h1><a class="nav" href="fundamentals.html">البيانات الأساسية</a><span class="tag" id="upd">كيتحمل...</span></header>
 <main>
 
 <section class="full"><h2>الـ calendar الاقتصادي</h2>

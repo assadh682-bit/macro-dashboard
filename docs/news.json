@@ -1,5 +1,31 @@
 [
  {
+  "id": "6fb2e16c28ea6cb64c0832987077be78",
+  "time": "23:18",
+  "ts": 1791933506118,
+  "title": "Yen trails the majors as the BoJ is said to lean against a hike",
+  "link": "https://www.fxstreet.com/news/yen-trails-the-majors-as-the-boj-is-said-to-lean-against-a-hike-202610132241",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "بنك اليابان ما ناويش يرفع سعر الفائدة فـ أكتوبر، هادشي خفف الضغط على الين ولكن الدولار تراجع قدام أغلب العملات الكبرى. هاد التراجع العام فالدولار كيضغط سلباً على مؤشر DXY وكيعطي دعم طفيف للذهب.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "cbd98a23e3429371b24a477931cb6787",
   "time": "22:55",
   "ts": 1791932158636,

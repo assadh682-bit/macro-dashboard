@@ -124,19 +124,24 @@ def main():
                 seen.add(uid)
     batch = fresh[:MAX_PER_RUN]
     results = None
+    ai_status = "idle"
     if batch:
         try:
             results = analyze_batch(batch)
+            ai_status = "ok"
         except requests.HTTPError as err:
             code = err.response.status_code if err.response is not None else 0
             print("AI error:", code)
+            ai_status = "quota" if code == 429 else "error"
             if code not in (429, 500, 503):
                 for uid, e, src in batch:
                     seen.add(uid)
         except Exception as err:
             print("AI error:", type(err).__name__)
+            ai_status = "error"
             for uid, e, src in batch:
                 seen.add(uid)
+    added = 0
     if results is not None:
         for uid, e, src in batch:
             seen.add(uid)
@@ -153,10 +158,17 @@ def main():
                     "importance": a.get("importance", 1), "summary": a.get("summary", ""),
                     "confidence": a.get("confidence", 0), "impacts": a.get("impacts", [])}
             news.insert(0, item)
+            added += 1
             if should_alert(item):
                 telegram(format_alert(item))
     save("docs/news.json", news[:40])
     save("seen.json", list(seen)[-2000:])
+    save("docs/status.json", {
+        "last_run": datetime.now(ZoneInfo("Africa/Casablanca")).isoformat(),
+        "ai": ai_status,
+        "fresh": len(fresh),
+        "added": added,
+    })
 
 
 if __name__ == "__main__":

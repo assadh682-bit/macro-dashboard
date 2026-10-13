@@ -1,5 +1,57 @@
 [
  {
+  "id": "cbd98a23e3429371b24a477931cb6787",
+  "time": "22:55",
+  "ts": 1791932158636,
+  "title": "Pound gains as Fed's Williams sees no 2027 hike",
+  "link": "https://www.fxstreet.com/news/pound-gains-and-stays-inside-its-range-for-a-third-week-202610132134",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الجنيه الإسترليني ربح شوية قدام الدولار بعد تصريحات عضو الفيدرالي ويليامز اللي لمح فيها لغياب زيادات فالفائدة. هاد النبرة الميسرة كتحط ضغط هابط خفيف على الدولار وكتدعم الذهب كأصل غير مدر للعائد. التداول باقي محصور فنطاق ضيق بانتظار بيانات أوضح.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "9d6b0e8068d87a642eeb5d086d2b0f4d",
+  "time": "22:55",
+  "ts": 1791932158636,
+  "title": "Mexican Peso buckles as Fed inflation fears overshadow dovish Williams",
+  "link": "https://www.fxstreet.com/news/mexican-peso-buckles-as-fed-inflation-fears-overshadow-dovish-williams-202610132217",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "البيزو المكسيكي تراجع قدام الدولار حيت كاين تخوف من التضخم فالميريكان قبل ما يخرج تقرير الـ CPI. هاد الترقب كيقوي الدولار الأمريكي حيت المستثمرين كيتوقعو الفيدرالي يقدر يشدد الفائدة. هاد الشي كيعطي دفعة إيجابية لمؤشر الدولار وعوائد السندات.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "180042ce7cdba6889f403b251434b972",
   "time": "21:56",
   "ts": 1791928582676,

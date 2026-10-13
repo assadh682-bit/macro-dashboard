@@ -34,11 +34,19 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 .bar i{display:block;height:100%;width:0;background:var(--am)}
 .zone{padding:6px 0;border-top:1px solid var(--ln);font-size:13px}
 .zone b{color:var(--am)}
+.cd{font-size:30px;color:var(--am);line-height:1.2}
+.evrow{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-top:1px solid var(--ln);font-size:13px}
 </style>
 </head>
 <body>
 <header><h1>منصة الماكرو</h1><a class="nav" href="fundamentals.html">البيانات الأساسية</a><span class="tag" id="upd">كيتحمل...</span></header>
 <main>
+
+<section class="full"><h2>الحدث الجاي (High impact، أمريكا)</h2>
+<div id="evname" class="ltr">--</div>
+<div class="cd ltr" id="cd">--:--:--</div>
+<div class="tag" id="evtime"></div>
+<div id="evlist"></div></section>
 
 <section class="full"><h2>الأسعار</h2>
 <div class="tv tradingview-widget-container">
@@ -180,6 +188,44 @@ function render(list){
 fetch("news.json?t="+Date.now()).then(function(r){return r.json()}).then(render).catch(function(){
   document.getElementById("feed").appendChild(el("p","tag","ما قدرتش نحمل الأخبار. عاود حدث الصفحة بعد شوية."));
   document.getElementById("upd").textContent="";
+});
+
+var EVENTS=[];
+function maTime(ts){
+  return new Date(ts).toLocaleString("en-GB",{timeZone:"Africa/Casablanca",weekday:"short",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"});
+}
+function pad(n){return String(n).padStart(2,"0")}
+function tickEv(){
+  var now=Date.now(),next=null;
+  for(var i=0;i<EVENTS.length;i++){if(EVENTS[i].ts>now){next=EVENTS[i];break}}
+  if(!next)return;
+  var s=Math.floor((next.ts-now)/1000),d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),sec=s%60;
+  document.getElementById("cd").textContent=(d>0?d+"d ":"")+pad(h)+":"+pad(m)+":"+pad(sec);
+}
+function renderEvents(d){
+  var name=document.getElementById("evname"),list=document.getElementById("evlist");
+  if(!d||!d.calendar||!d.calendar.length){
+    name.textContent="ما لقيتش بيانات الأحداث دابا.";
+    return;
+  }
+  EVENTS=d.calendar;
+  var now=Date.now(),up=EVENTS.filter(function(e){return e.ts>now});
+  if(!up.length){name.textContent="ما كاين حتى حدث مهم فالأيام الجاية.";return}
+  name.textContent=up[0].title;
+  var t="التوقيت بالمغرب: "+maTime(up[0].ts);
+  if(up[0].forecast)t+=" | Forecast: "+up[0].forecast;
+  if(up[0].previous)t+=" | Previous: "+up[0].previous;
+  document.getElementById("evtime").textContent=t;
+  up.slice(1,5).forEach(function(e){
+    var r=el("div","evrow");
+    r.appendChild(el("span","ltr",e.title));
+    r.appendChild(el("span","tag ltr",maTime(e.ts)));
+    list.appendChild(r);
+  });
+  tickEv();setInterval(tickEv,1000);
+}
+fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(renderEvents).catch(function(){
+  document.getElementById("evname").textContent="ما لقيتش بيانات الأحداث دابا.";
 });
 </script>
 </body>

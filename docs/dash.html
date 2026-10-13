@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#050506">
+<meta name="theme-color" content="#070912">
 <title>منصة الماكرو</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css?v=1">
+<link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 <header>
@@ -20,13 +20,13 @@
 <div class="status" id="health"></div>
 <main>
 
-<section class="full"><h2>الحدث الجاي (High impact، أمريكا)</h2>
+<section class="full c-amber"><h2>الحدث الجاي (High impact، أمريكا)</h2>
 <div id="evname" class="ltr">--</div>
 <div class="cd ltr" id="cd">--:--:--</div>
 <div class="tag" id="evtime"></div>
 <div id="evlist"></div></section>
 
-<section class="full"><h2>الأسعار</h2>
+<section class="full c-blue"><h2>الأسعار</h2>
 <div class="tv tradingview-widget-container">
 <div class="tradingview-widget-container__widget"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
@@ -53,7 +53,7 @@
 </div>
 <p class="tag">أسعار Cash/CFD وماشي عقود آجلة، فممكن يكون فرق صغير مع GC وSI وNQ وES الحقيقيين. US10Y يومي ماشي لحظي.</p></section>
 
-<section class="full"><h2>الـ calendar الاقتصادي</h2>
+<section class="full c-violet"><h2>الـ calendar الاقتصادي</h2>
 <div class="tv tradingview-widget-container">
 <div class="tradingview-widget-container__widget"></div>
 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
@@ -69,16 +69,16 @@
 </script>
 </div></section>
 
-<section><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
+<section class="c-cyan"><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
 
 <div>
-<section><h2>المخاطر الجيوسياسية</h2>
+<section class="c-rose"><h2>المخاطر الجيوسياسية</h2>
 <div class="risk ltr" id="risk">--</div>
 <div class="bar"><i id="bar"></i></div>
 <div id="zones"></div>
 <p class="tag">مؤشر تقريبي محسوب من عناوين الأخبار الأخيرة بكلمات مفتاحية، ماشي تحليل AI.</p></section>
 
-<section style="margin-top:12px"><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
+<section class="c-green" style="margin-top:12px"><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
 <p class="tag">الأخبار الجديدة كتوزن أكثر، والوزن كينقص للنصف كل 6 ساعات. الأخبار القديمة بلا وقت دقيق كتحسب بوزن صغير حتى كيتبدلو.</p></section>
 </div>
 

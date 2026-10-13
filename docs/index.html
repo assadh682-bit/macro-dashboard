@@ -104,7 +104,7 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 <p class="tag">مؤشر تقريبي محسوب من عناوين الأخبار الأخيرة بكلمات مفتاحية، ماشي تحليل AI.</p></section>
 
 <section style="margin-top:12px"><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
-<p class="tag">المجموع ديال تأثير الأخبار الأخيرة على كل أصل.</p></section>
+<p class="tag">الأخبار الجديدة كتوزن أكثر، والوزن كينقص للنصف كل 6 ساعات. الأخبار القديمة بلا وقت دقيق كتحسب بوزن صغير حتى كيتبدلو.</p></section>
 </div>
 
 </main>
@@ -121,6 +121,19 @@ var GEO={
 "عقوبات وحرب تجارية":["sanction","tariff","embargo","trade war"]
 };
 function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+
+function ageH(n){return n.ts?Math.max(0,(Date.now()-n.ts)/3600000):null}
+function weight(n){
+  var h=ageH(n);
+  if(h===null)return 0.3;
+  if(h>48)return 0;
+  return Math.pow(0.5,h/6);
+}
+function agoText(h){
+  if(h<1)return "قبل "+Math.max(1,Math.round(h*60))+" د";
+  if(h<24)return "قبل "+Math.round(h)+" س";
+  return "قبل "+Math.round(h/24)+" ي";
+}
 
 function geo(list){
   var items=list.slice(0,15),sum=0,zones={};
@@ -156,8 +169,9 @@ function render(list){
   ASSETS.forEach(function(a){score[a]=0});
   if(!list.length){feed.appendChild(el("p","tag","ما كاين حتى خبر محلل دابا. المنصة كتجيب الأخبار كل ساعة فأيام العمل."))}
   list.forEach(function(n){
-    var d=el("div","news"),m=el("div","meta");
+    var d=el("div","news"),m=el("div","meta"),w=weight(n),h=ageH(n);
     m.appendChild(el("span","ltr",n.time||""));
+    if(h!==null)m.appendChild(el("span","",agoText(h)));
     m.appendChild(el("span","",n.source||""));
     if((n.importance||0)>=4)m.appendChild(el("span","hi","High impact"));
     m.appendChild(el("span","","ثقة AI: "+(n.confidence||0)+"%"));
@@ -174,13 +188,13 @@ function render(list){
       ch.appendChild(el("span","ltr",i.asset+" "));
       ch.appendChild(document.createTextNode((ARR[k]||"")+" قوة "+i.strength+"/5 \u00b7 "+(DUR[i.duration]||i.duration)));
       c.appendChild(ch);
-      if(score[i.asset]!==undefined)score[i.asset]+=(k==="up"?1:k==="down"?-1:0)*(i.strength||0);
+      if(score[i.asset]!==undefined)score[i.asset]+=(k==="up"?1:k==="down"?-1:0)*(i.strength||0)*w;
     });
     d.appendChild(c);feed.appendChild(d);
   });
   var hm=document.getElementById("hm");
   ASSETS.forEach(function(a){
-    var v=score[a],k=v>0?"up":v<0?"dn":"nu",cell=el("div","cell");
+    var v=Math.round(score[a]*10)/10,k=v>0?"up":v<0?"dn":"nu",cell=el("div","cell");
     cell.appendChild(el("b","ltr",a));cell.appendChild(el("br"));
     cell.appendChild(el("span",k,(v>0?"\u25b2 +":v<0?"\u25bc ":"\u25cf ")+v));
     hm.appendChild(cell);
@@ -230,6 +244,36 @@ function renderEvents(d){
 fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(renderEvents).catch(function(){
   document.getElementById("evname").textContent="ما لقيتش بيانات الأحداث دابا.";
 });
+
+var AI_TXT={ok:"Gemini خدام",quota:"حد Gemini وصل",error:"خطأ فـ Gemini",idle:"ما كاين أخبار جديدة"};
+function ageText(min){
+  if(min<60)return min+" دقيقة";
+  var h=Math.floor(min/60);
+  return h<24?h+" ساعة":Math.floor(h/24)+" يوم";
+}
+function inWorkHours(){
+  var p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Casablanca",weekday:"short",hour:"2-digit",hour12:false}).formatToParts(new Date());
+  var wd="",hr=0;
+  p.forEach(function(x){if(x.type==="weekday")wd=x.value;if(x.type==="hour")hr=parseInt(x.value,10)%24});
+  return ["Mon","Tue","Wed","Thu","Fri"].indexOf(wd)>-1&&hr>=7&&hr<=21;
+}
+fetch("status.json?t="+Date.now()).then(function(r){return r.json()}).then(function(s){
+  var box=document.getElementById("health");
+  var last=new Date(s.last_run).getTime();
+  if(isNaN(last))return;
+  var min=Math.max(0,Math.floor((Date.now()-last)/60000));
+  var txt="آخر تشغيل للبوت: قبل "+ageText(min)+" | "+(AI_TXT[s.ai]||s.ai);
+  if(min>180&&inWorkHours()){
+    box.className="status bad";
+    txt="تنبيه: البوت ما خدمش من "+ageText(min)+". شوف Actions فـ GitHub.";
+  }else if(s.ai==="quota"||s.ai==="error"){
+    box.className="status bad";
+  }
+  box.textContent=txt;
+}).catch(function(){});
+</script>
+</body>
+</html>;
 
 var AI_TXT={ok:"Gemini خدام",quota:"حد Gemini وصل",error:"خطأ فـ Gemini",idle:"ما كاين أخبار جديدة"};
 function ageText(min){

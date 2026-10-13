@@ -1,5 +1,31 @@
 [
  {
+  "id": "799aee4a58a20337e41d137b51b90bf5",
+  "time": "06:56",
+  "ts": 1791874603641,
+  "title": "New Zealand Dollar rebounds to near 0.5600 amid geopolitical tensions and US CPI focus",
+  "link": "https://www.fxstreet.com/news/new-zealand-dollar-rebounds-to-near-05600-amid-geopolitical-tensions-and-us-cpi-focus-202610130457",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الدولار النيوزيلندي كيحاول يتعافى ولكن باقي تحت الضغط بسباب توترات الشرق الأوسط وارتفاع أسعار البترول. هاد المخاوف الجيوسياسية وترقب التضخم الأمريكي كيعطيو دعم للدولار والملاذات الآمنة بحال الذهب. هادشي كيقدر يرفع التقلبات فالسوق فالمدى القريب.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "0e494ad107cb1b30860a55ac1e84d4be",
   "time": "06:17",
   "ts": 1791872278116,

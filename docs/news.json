@@ -1,5 +1,69 @@
 [
  {
+  "id": "180042ce7cdba6889f403b251434b972",
+  "time": "21:56",
+  "ts": 1791928582676,
+  "title": "The latest inflation data is expected to show price increases are accelerating",
+  "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "توقعات بتسارع التضخم فميريكان مع ارتفاع مؤشر أسعار المستهلكين، الشي اللي غادي يضغط على الفيدرالي باش يخلي أسعار الفائدة طالعة. هاد السيناريو كيعزز قوة الدولار وعوائد السندات، وكيضغط فالمقابل على الأسهم والذهب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "cb38cb63724edd654a2231f42d2d5845",
+  "time": "21:56",
+  "ts": 1791928582676,
+  "title": "Dow Jones Industrial Average gives back a 500-point earnings jump",
+  "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-gives-back-a-500-point-earnings-jump-202610132112",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "نتائج الأبناك الأمريكية خرجات متباينة بين غولدمان ساكس وجي بي مورغان، والداو جونز ضيّع الأرباح ديالو من بعد ما طلع بـ 500 نقطة. هاد التردد ديال السوق كيضغط سلبياً على مؤشرات الأسهم وكيرفع من نسبة التذبذب.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "8435c27da981cab8d3b2549b9eeee843",
   "time": "15:49",
   "ts": 1791906587781,

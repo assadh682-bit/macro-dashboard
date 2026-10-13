@@ -13,6 +13,8 @@ h1{margin:0;font-size:18px;color:var(--am)}
 h2{margin:0 0 8px;font-size:15px;color:var(--am)}
 a.nav{color:var(--am)}
 .tag{font-size:12px;color:var(--mu)}
+.status{padding:4px 14px;font-size:12px;border-bottom:1px solid var(--ln);color:var(--mu)}
+.status.bad{color:#000;background:var(--dn)}
 main{display:grid;gap:12px;padding:12px;max-width:1100px;margin:auto}
 @media(min-width:900px){main{grid-template-columns:1.6fr 1fr;align-items:start}.full{grid-column:1/-1}}
 section{background:var(--p);border:1px solid var(--ln);padding:12px}
@@ -40,6 +42,7 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 </head>
 <body>
 <header><h1>منصة الماكرو</h1><a class="nav" href="fundamentals.html">البيانات الأساسية</a><span class="tag" id="upd">كيتحمل...</span></header>
+<div class="status" id="health"></div>
 <main>
 
 <section class="full"><h2>الحدث الجاي (High impact، أمريكا)</h2>
@@ -227,6 +230,33 @@ function renderEvents(d){
 fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(renderEvents).catch(function(){
   document.getElementById("evname").textContent="ما لقيتش بيانات الأحداث دابا.";
 });
+
+var AI_TXT={ok:"Gemini خدام",quota:"حد Gemini وصل",error:"خطأ فـ Gemini",idle:"ما كاين أخبار جديدة"};
+function ageText(min){
+  if(min<60)return min+" دقيقة";
+  var h=Math.floor(min/60);
+  return h<24?h+" ساعة":Math.floor(h/24)+" يوم";
+}
+function inWorkHours(){
+  var p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Casablanca",weekday:"short",hour:"2-digit",hour12:false}).formatToParts(new Date());
+  var wd="",hr=0;
+  p.forEach(function(x){if(x.type==="weekday")wd=x.value;if(x.type==="hour")hr=parseInt(x.value,10)%24});
+  return ["Mon","Tue","Wed","Thu","Fri"].indexOf(wd)>-1&&hr>=7&&hr<=21;
+}
+fetch("status.json?t="+Date.now()).then(function(r){return r.json()}).then(function(s){
+  var box=document.getElementById("health");
+  var last=new Date(s.last_run).getTime();
+  if(isNaN(last))return;
+  var min=Math.max(0,Math.floor((Date.now()-last)/60000));
+  var txt="آخر تشغيل للبوت: قبل "+ageText(min)+" | "+(AI_TXT[s.ai]||s.ai);
+  if(min>180&&inWorkHours()){
+    box.className="status bad";
+    txt="تنبيه: البوت ما خدمش من "+ageText(min)+". شوف Actions فـ GitHub.";
+  }else if(s.ai==="quota"||s.ai==="error"){
+    box.className="status bad";
+  }
+  box.textContent=txt;
+}).catch(function(){});
 </script>
 </body>
 </html>

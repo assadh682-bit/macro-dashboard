@@ -1,5 +1,103 @@
 [
  {
+  "id": "0e494ad107cb1b30860a55ac1e84d4be",
+  "time": "06:17",
+  "ts": 1791872278116,
+  "title": "Swiss Franc strengthens as US Dollar Index pulls back from 18-month highs",
+  "link": "https://www.fxstreet.com/news/swiss-franc-strengthens-as-us-dollar-index-pulls-back-from-18-month-highs-202610130500",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الفرنك السويسري طلع حيت مؤشر الدولار هبط من أعلى مستوياتو فـ 18 شهر. هاد التراجع ديال الدولار كايعكس ضعف فمؤشر DXY كيدعم تصحيح هابط مؤقت.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "48692684c776183a36134a65d16516e3",
+  "time": "06:17",
+  "ts": 1791872277657,
+  "title": "Gold advances to $4,200 amid retreating USD; Fed hike bets to cap further gains",
+  "link": "https://www.fxstreet.com/news/gold-bounces-off-4-150-amid-modest-usd-pullback-but-stays-in-two-week-old-range-202610130353",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "الذهب طلع لمستويات قياسية مع تراجع الدولار الأمريكي وعمليات جني الأرباح عليه. واخا توقعات رفع الفايدة تقدر تحد من الصعود، الذهب مستافد دابا من ضعف العملة.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "22395528898add3146bb9fa3ee6eeef2",
+  "time": "06:17",
+  "ts": 1791872277657,
+  "title": "EUR/USD Price Forecast: Holds gains above 1.1150, but remains technically bearish under 100-day SMA",
+  "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-holds-gains-above-11150-but-remains-technically-bearish-under-100-day-sma-202610130600",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "اليورو شاد راسو ولكن توقعات الفيدرالي المتشددة وارتفاع عوائد السندات كايعطيو قوة للدولار. هاد الشي كايشكل ضغط سلبي على العملات والأسواق ومزيان للدولار.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "2ac53eb9a036a0ea9f367b5872e69582",
+  "time": "06:17",
+  "ts": 1791872277657,
+  "title": "US Dollar Index Price Forecast: Likely extend advance to near 103.00",
+  "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-likely-extend-advance-to-near-10300-202610130608",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الدولار الأمريكي تراجع قدام العملات الرئيسية بسبب هبوط عوائد سندات الخزينة الأمريكية. هاد التراجع كايأثر سلبا على مؤشر الدولار فالمدا القريب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "e7d2a0a180c297685d2818eb27749a23",
   "time": "02:14",
   "title": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",

@@ -196,7 +196,7 @@ function render(list){
   ASSETS.forEach(function(a){
     var v=Math.round(score[a]*10)/10,k=v>0?"up":v<0?"dn":"nu",cell=el("div","cell");
     cell.appendChild(el("b","ltr",a));cell.appendChild(el("br"));
-    cell.appendChild(el("span",k,(v>0?"\u25b2 +":v<0?"\u25bc ":"\u25cf ")+v));
+    cell.appendChild(el("span",k+" ltr",(v>0?"\u25b2 +":v<0?"\u25bc ":"\u25cf ")+v));
     hm.appendChild(cell);
   });
   geo(list);
@@ -232,6 +232,48 @@ function renderEvents(d){
   var t="التوقيت بالمغرب: "+maTime(up[0].ts);
   if(up[0].forecast)t+=" | Forecast: "+up[0].forecast;
   if(up[0].previous)t+=" | Previous: "+up[0].previous;
+  document.getElementById("evtime").textContent=t;
+  up.slice(1,5).forEach(function(e){
+    var r=el("div","evrow");
+    r.appendChild(el("span","ltr",e.title));
+    r.appendChild(el("span","tag ltr",maTime(e.ts)));
+    list.appendChild(r);
+  });
+  tickEv();setInterval(tickEv,1000);
+}
+fetch("data.json?t="+Date.now()).then(function(r){return r.json()}).then(renderEvents).catch(function(){
+  document.getElementById("evname").textContent="ما لقيتش بيانات الأحداث دابا.";
+});
+
+var AI_TXT={ok:"Gemini خدام",quota:"حد Gemini وصل",error:"خطأ فـ Gemini",idle:"ما كاين أخبار جديدة"};
+function ageText(min){
+  if(min<60)return min+" دقيقة";
+  var h=Math.floor(min/60);
+  return h<24?h+" ساعة":Math.floor(h/24)+" يوم";
+}
+function inWorkHours(){
+  var p=new Intl.DateTimeFormat("en-GB",{timeZone:"Africa/Casablanca",weekday:"short",hour:"2-digit",hour12:false}).formatToParts(new Date());
+  var wd="",hr=0;
+  p.forEach(function(x){if(x.type==="weekday")wd=x.value;if(x.type==="hour")hr=parseInt(x.value,10)%24});
+  return ["Mon","Tue","Wed","Thu","Fri"].indexOf(wd)>-1&&hr>=7&&hr<=21;
+}
+fetch("status.json?t="+Date.now()).then(function(r){return r.json()}).then(function(s){
+  var box=document.getElementById("health");
+  var last=new Date(s.last_run).getTime();
+  if(isNaN(last))return;
+  var min=Math.max(0,Math.floor((Date.now()-last)/60000));
+  var txt="آخر تشغيل للبوت: قبل "+ageText(min)+" | "+(AI_TXT[s.ai]||s.ai);
+  if(min>180&&inWorkHours()){
+    box.className="status bad";
+    txt="تنبيه: البوت ما خدمش من "+ageText(min)+". شوف Actions فـ GitHub.";
+  }else if(s.ai==="quota"||s.ai==="error"){
+    box.className="status bad";
+  }
+  box.textContent=txt;
+}).catch(function(){});
+</script>
+</body>
+</html>].previous)t+=" | Previous: "+up[0].previous;
   document.getElementById("evtime").textContent=t;
   up.slice(1,5).forEach(function(e){
     var r=el("div","evrow");

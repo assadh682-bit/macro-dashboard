@@ -1,0 +1,87 @@
+{
+ "updated": "2026-10-13 01:04",
+ "auctions": [
+  {
+   "type": "Bill",
+   "term": "13-Week",
+   "date": "2026-10-13",
+   "amount": "95000000000"
+  },
+  {
+   "type": "Bill",
+   "term": "26-Week",
+   "date": "2026-10-13",
+   "amount": "82000000000"
+  },
+  {
+   "type": "Bill",
+   "term": "6-Week",
+   "date": "2026-10-13",
+   "amount": "95000000000"
+  },
+  {
+   "type": "Bill",
+   "term": "17-Week",
+   "date": "2026-10-14",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "4-Week",
+   "date": "2026-10-15",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "8-Week",
+   "date": "2026-10-15",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "13-Week",
+   "date": "2026-10-19",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "26-Week",
+   "date": "2026-10-19",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "6-Week",
+   "date": "2026-10-20",
+   "amount": ""
+  },
+  {
+   "type": "Bond",
+   "term": "19-Year 10-Month",
+   "date": "2026-10-21",
+   "amount": ""
+  },
+  {
+   "type": "Note",
+   "term": "5-Year",
+   "date": "2026-10-22",
+   "amount": ""
+  }
+ ],
+ "cot": {
+  "GC": {
+   "date": "2026-10-06",
+   "long": 127101,
+   "short": 16114,
+   "net": 110987,
+   "change": -9331
+  },
+  "SIL": {
+   "date": "2026-10-06",
+   "long": 16457,
+   "short": 8929,
+   "net": 7528,
+   "change": -86
+  }
+ }
+}

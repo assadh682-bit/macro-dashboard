@@ -40,6 +40,33 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 <header><h1>منصة الماكرو</h1><a class="nav" href="fundamentals.html">البيانات الأساسية</a><span class="tag" id="upd">كيتحمل...</span></header>
 <main>
 
+<section class="full"><h2>الأسعار</h2>
+<div class="tv tradingview-widget-container">
+<div class="tradingview-widget-container__widget"></div>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+"width":"100%",
+"height":360,
+"symbolsGroups":[
+{"name":"Markets","symbols":[
+{"name":"OANDA:XAUUSD","displayName":"GC (Gold)"},
+{"name":"OANDA:XAGUSD","displayName":"SIL (Silver)"},
+{"name":"FOREXCOM:NSXUSD","displayName":"NQ (Nasdaq 100)"},
+{"name":"FOREXCOM:SPXUSD","displayName":"ES (S&P 500)"},
+{"name":"TVC:DXY","displayName":"DXY"},
+{"name":"TVC:US10Y","displayName":"US10Y"},
+{"name":"TVC:VIX","displayName":"VIX"}
+]}
+],
+"showSymbolLogo":false,
+"colorTheme":"dark",
+"isTransparent":true,
+"locale":"en"
+}
+</script>
+</div>
+<p class="tag">أسعار Cash/CFD وماشي عقود آجلة، فممكن يكون فرق صغير مع GC وSI وNQ وES الحقيقيين.</p></section>
+
 <section class="full"><h2>الـ calendar الاقتصادي</h2>
 <div class="tv tradingview-widget-container">
 <div class="tradingview-widget-container__widget"></div>
@@ -116,7 +143,7 @@ function geo(list){
 function render(list){
   var feed=document.getElementById("feed"),score={};
   ASSETS.forEach(function(a){score[a]=0});
-  if(!list.length){feed.appendChild(el("p","tag","ما كاين حتى خبر محلل دابا. المنصة كتجيب الأخبار كل 30 دقيقة."))}
+  if(!list.length){feed.appendChild(el("p","tag","ما كاين حتى خبر محلل دابا. المنصة كتجيب الأخبار كل ساعة فأيام العمل."))}
   list.forEach(function(n){
     var d=el("div","news"),m=el("div","meta");
     m.appendChild(el("span","ltr",n.time||""));

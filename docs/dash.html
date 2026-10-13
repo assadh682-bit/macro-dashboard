@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>منصة الماكرو</title>
+<style>
+:root{--bg:#000;--p:#0c0c0c;--ln:#2a2a2a;--tx:#e8e2d4;--mu:#8a8578;--am:#ffa028;--up:#19c37d;--dn:#ff4d4f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.7 system-ui,sans-serif}
+header{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding:10px 14px;border-bottom:2px solid var(--am)}
+h1{margin:0;font-size:18px;color:var(--am)}
+h2{margin:0 0 8px;font-size:15px;color:var(--am)}
+a.nav{color:var(--am)}
+.tag{font-size:12px;color:var(--mu)}
+.status{padding:4px 14px;font-size:12px;border-bottom:1px solid var(--ln);color:var(--mu)}
+.status.bad{color:#000;background:var(--dn)}
+main{display:grid;gap:12px;padding:12px;max-width:1100px;margin:auto}
+@media(min-width:900px){main{grid-template-columns:1.6fr 1fr;align-items:start}.full{grid-column:1/-1}}
+section{background:var(--p);border:1px solid var(--ln);padding:12px}
+.tv{direction:ltr}
+.news{padding:10px 0;border-top:1px solid var(--ln)}
+.meta{display:flex;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--mu)}
+.hi{background:var(--am);color:#000;padding:0 6px;font-weight:600}
+.news b{display:block;margin-top:2px}
+.news a{color:var(--tx);text-decoration:none}
+.news p{margin:4px 0 6px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--ln);padding:2px 8px;font-size:12px}
+.up{color:var(--up)}.dn{color:var(--dn)}.nu{color:var(--mu)}.am{color:var(--am)}
+.hm{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:6px}
+.cell{padding:8px;text-align:center;border:1px solid var(--ln)}
+.ltr{direction:ltr;unicode-bidi:isolate;font-family:ui-monospace,monospace}
+.risk{font-size:34px;line-height:1.2}
+.bar{height:6px;background:var(--ln);margin:6px 0 10px}
+.bar i{display:block;height:100%;width:0;background:var(--am)}
+.zone{padding:6px 0;border-top:1px solid var(--ln);font-size:13px}
+.zone b{color:var(--am)}
+.cd{font-size:30px;color:var(--am);line-height:1.2}
+.evrow{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-top:1px solid var(--ln);font-size:13px}
+</style>
+</head>
+<body>
+<header><h1>منصة الماكرو</h1><a class="nav" href="fundamentals.html">البيانات الأساسية</a><span class="tag" id="upd">كيتحمل...</span></header>
+<div class="status" id="health"></div>
+<main>
+
+<section class="full"><h2>الحدث الجاي (High impact، أمريكا)</h2>
+<div id="evname" class="ltr">--</div>
+<div class="cd ltr" id="cd">--:--:--</div>
+<div class="tag" id="evtime"></div>
+<div id="evlist"></div></section>
+
+<section class="full"><h2>الأسعار</h2>
+<div class="tv tradingview-widget-container">
+<div class="tradingview-widget-container__widget"></div>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+{
+"width":"100%",
+"height":360,
+"symbolsGroups":[
+{"name":"Markets","symbols":[
+{"name":"OANDA:XAUUSD","displayName":"GC (Gold)"},
+{"name":"OANDA:XAGUSD","displayName":"SIL (Silver)"},
+{"name":"FOREXCOM:NSXUSD","displayName":"NQ (Nasdaq 100)"},
+{"name":"FOREXCOM:SPXUSD","displayName":"ES (S&P 500)"},
+{"name":"CAPITALCOM:DXY","displayName":"DXY"},
+{"name":"FRED:DGS10","displayName":"US10Y"},
+{"name":"CAPITALCOM:VIX","displayName":"VIX"}
+]}
+],
+"showSymbolLogo":false,
+"colorTheme":"dark",
+"isTransparent":true,
+"locale":"en"
+}
+</script>
+</div>
+<p class="tag">أسعار Cash/CFD وماشي عقود آجلة، فممكن يكون فرق صغير مع GC وSI وNQ وES الحقيقيين. US10Y يومي ماشي لحظي.</p></section>
+
+<section class="full"><h2>الـ calendar الاقتصادي</h2>
+<div class="tv tradingview-widget-container">
+<div class="tradingview-widget-container__widget"></div>
+<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+{
+"colorTheme":"dark",
+"isTransparent":true,
+"width":"100%",
+"height":"420",
+"locale":"en",
+"importanceFilter":"0,1",
+"countryFilter":"us,eu,gb"
+}
+</script>
+</div></section>
+
+<section><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
+
+<div>
+<section><h2>المخاطر الجيوسياسية</h2>
+<div class="risk ltr" id="risk">--</div>
+<div class="bar"><i id="bar"></i></div>
+<div id="zones"></div>
+<p class="tag">مؤشر تقريبي محسوب من عناوين الأخبار الأخيرة بكلمات مفتاحية، ماشي تحليل AI.</p></section>
+
+<section style="margin-top:12px"><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
+<p class="tag">الأخبار الجديدة كتوزن أكثر، والوزن كينقص للنصف كل 6 ساعات. الأخبار القديمة بلا وقت دقيق كتحسب بوزن صغير حتى كيتبدلو.</p></section>
+</div>
+
+</main>
+<script>
+var ASSETS=["GC","SIL","NQ","ES","DXY","US10Y","VIX"];
+var DUR={instant:"لحظي",daily:"يومي",weekly:"أسبوعي"};
+var ARR={up:"\u25b2",down:"\u25bc",neutral:"\u25cf"};
+var CLS={up:"up",down:"dn",neutral:"nu"};
+var GEO={
+"الشرق الأوسط":["middle east","iran","israel","gaza","houthi","red sea","saudi","hormuz","lebanon","syria","yemen"],
+"روسيا وأوكرانيا":["russia","ukraine","kremlin","putin","moscow","kyiv"],
+"الصين وتايوان":["taiwan","south china sea","beijing"],
+"كوريا":["north korea","pyongyang"],
+"عقوبات وحرب تجارية":["sanction","tariff","embargo","trade war"]
+};
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+
+function ageH(n){return n.ts?Math.max(0,(Date.now()-n.ts)/3600000):null}
+function weight(n){
+  var h=ageH(n);
+  if(h===null)return 0.3;
+  if(h>48)return 0;
+  return Math.pow(0.5,h/6);
+}
+function agoText(h){
+  if(h<1)return "قبل "+Math.max(1,Math.round(h*60))+" د";
+  if(h<24)return "قبل "+Math.round(h)+" س";
+  return "قبل "+Math.round(h/24)+" ي";
+}
+
+function geo(list){
+  var items=list.slice(0,15),sum=0,zones={};
+  items.forEach(function(n){
+    var t=(n.title||"").toLowerCase(),hit=false;
+    Object.keys(GEO).forEach(function(z){
+      if(GEO[z].some(function(k){return t.indexOf(k)>-1})){
+        hit=true;
+        if(!zones[z])zones[z]={c:0,t:n.title||""};
+        zones[z].c++;
+      }
+    });
+    if(hit)sum+=(n.importance||2);
+  });
+  var idx=Math.min(10,Math.round(sum/4));
+  var r=document.getElementById("risk");

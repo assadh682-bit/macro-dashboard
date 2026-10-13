@@ -1,5 +1,31 @@
 [
  {
+  "id": "ea3d136006d764da2467965bf7c8dda7",
+  "time": "23:51",
+  "ts": 1791935513136,
+  "title": "Gold declines to near $4,150 ahead of US CPI inflation data",
+  "link": "https://www.fxstreet.com/news/gold-declines-to-near-4-150-ahead-of-us-cpi-inflation-data-202610132321",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الذهب تراجع لجهة 4,150 دولار قبل صدور أرقام التضخم الأمريكية CPI. هاد الانخفاض سبابو ارتفاع أسعار البترول اللي كيغذي مخاوف التضخم ويخلي البنوك المركزية تشدد السياسة النقدية، الشي اللي كيضغط سلباً على المعدن النفيس.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "6fb2e16c28ea6cb64c0832987077be78",
   "time": "23:18",
   "ts": 1791933506118,

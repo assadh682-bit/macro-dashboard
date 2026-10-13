@@ -96,7 +96,7 @@ function geo(list){
     });
     if(hit)sum+=(n.importance||2);
   });
-  var idx=Math.min(10,Math.round(sum/1.5));
+  var idx=Math.min(10,Math.round(sum/4));
   var r=document.getElementById("risk");
   r.textContent=idx+" / 10";
   r.className="risk ltr "+(idx>=7?"dn":idx>=4?"am":"up");

@@ -1,10 +1,16 @@
-import json, os, requests
+import json, os, time, requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
-def get(url, params=None):
-    r = requests.get(url, params=params, timeout=40, headers={"User-Agent": "macro-dashboard"})
+
+def get(url, params=None, headers=None):
+    h = {"User-Agent": "macro-dashboard"}
+    if headers:
+        h.update(headers)
+    r = requests.get(url, params=params, timeout=40, headers=h)
     r.raise_for_status()
     return r.json()
 
@@ -53,12 +59,26 @@ def cot():
 
 def calendar():
     events = []
+    headers = {"User-Agent": BROWSER_UA, "Accept": "application/json,text/plain,*/*",
+               "Referer": "https://www.forexfactory.com/"}
     for url in ("https://nfs.faireconomy.media/ff_calendar_thisweek.json",
                 "https://nfs.faireconomy.media/ff_calendar_nextweek.json"):
-        try:
-            rows = get(url)
-        except Exception as err:
-            print("calendar part error:", type(err).__name__)
+        rows = None
+        for attempt in range(2):
+            try:
+                rows = get(url, headers=headers)
+                break
+            except requests.HTTPError as err:
+                code = err.response.status_code if err.response is not None else 0
+                print("calendar HTTP", code, url)
+                if code == 429 and attempt == 0:
+                    time.sleep(8)
+                    continue
+                break
+            except Exception as err:
+                print("calendar part error:", type(err).__name__, str(err)[:150])
+                break
+        if not rows:
             continue
         for e in rows:
             if e.get("country") != "USD" or e.get("impact") != "High":

@@ -51,10 +51,34 @@ def cot():
     return res
 
 
+def calendar():
+    events = []
+    for url in ("https://nfs.faireconomy.media/ff_calendar_thisweek.json",
+                "https://nfs.faireconomy.media/ff_calendar_nextweek.json"):
+        try:
+            rows = get(url)
+        except Exception as err:
+            print("calendar part error:", type(err).__name__)
+            continue
+        for e in rows:
+            if e.get("country") != "USD" or e.get("impact") != "High":
+                continue
+            try:
+                ts = int(datetime.fromisoformat(e["date"]).timestamp() * 1000)
+            except Exception:
+                continue
+            events.append({"ts": ts, "title": e.get("title", ""),
+                           "forecast": e.get("forecast", ""), "previous": e.get("previous", "")})
+    if not events:
+        raise RuntimeError("no events")
+    events.sort(key=lambda x: x["ts"])
+    return events
+
+
 def main():
     out = {"updated": datetime.now(ZoneInfo("Africa/Casablanca")).strftime("%Y-%m-%d %H:%M"),
-           "auctions": None, "cot": None}
-    for key, fn in (("auctions", auctions), ("cot", cot)):
+           "auctions": None, "cot": None, "calendar": None}
+    for key, fn in (("auctions", auctions), ("cot", cot), ("calendar", calendar)):
         try:
             out[key] = fn()
         except Exception as err:

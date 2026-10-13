@@ -1,5 +1,91 @@
 [
  {
+  "id": "8435c27da981cab8d3b2549b9eeee843",
+  "time": "15:49",
+  "ts": 1791906587781,
+  "title": "Australian Dollar edges higher amid softer US Dollar, hawkish RBA",
+  "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-as-softer-us-dollar-hawkish-rba-offer-support-202610131336",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الدولار الأسترالي طلع بسباب هبوط عوائد سندات الخزانة الميريكانية وتراجع الدولار. هاد الهبوط كيدفع مؤشر DXY وعوائد السندات US10Y للهبوط على المدى اليومي.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "4bc1ecc42d0c9801a0e0af0794e2e4a2",
+  "time": "15:49",
+  "ts": 1791906587781,
+  "title": "Australian Dollar : Key support at 0.6935 in focus against US Dollar   – UOB",
+  "link": "https://www.fxstreet.com/news/australian-dollar-key-support-at-06935-in-focus-against-us-dollar-uob-202610131404",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار الأسترالي هبط قدام الدولار الميريكاني بسباب قوة هاد الأخير اللي ضاغط على عملات السلع. هاد التحرك كيعكس زخم صاعد محدود لمؤشر DXY.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "9c10c9573e3723fc65454a1ba9b77ab8",
+  "time": "15:49",
+  "ts": 1791906587781,
+  "title": "Canadian Dollar: Modest gains against US Dollar - Scotiabank",
+  "link": "https://www.fxstreet.com/news/canadian-dollar-modest-gains-against-us-dollar-scotiabank-202610131423",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار الكندي دار أرباح طفيفة ضد الدولار الميريكاني واخا بيانات التشغيل فكندا ضعيفة. هادشي كيعكس تراجع خفيف فالدولار اللي كيأثر بشكل هابط وضعيف على مؤشر DXY.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "4c1d72297d5ec8bd9dc4ee4f4cbb48ea",
+  "time": "15:49",
+  "ts": 1791906587781,
+  "title": "Euro finds support from softer US Dollar, French fiscal risks linger",
+  "link": "https://www.fxstreet.com/news/euro-finds-support-from-softer-us-dollar-french-fiscal-risks-linger-202610131509",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الأورو تراجع قدامو الدولار اللي نزل من القمم الأخيرة ديالو، واخا باقين مخاوف مالية ففرنسا. هاد التراجع فالدولار كيضغط سلبيا على مؤشر DXY بشكل يومي.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "1a5dc3b8d2ba47180498a17235dca401",
   "time": "12:56",
   "ts": 1791896189017,

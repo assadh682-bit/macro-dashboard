@@ -153,7 +153,8 @@ def main():
             if idx < 0 or idx >= len(batch) or not a.get("relevant"):
                 continue
             uid, e, src = batch[idx]
-            item = {"id": uid, "time": now_ma(), "title": e.get("title", ""),
+            item = {"id": uid, "time": now_ma(), "ts": int(time.time() * 1000),
+                    "title": e.get("title", ""),
                     "link": e.get("link", ""), "source": src, "relevant": True,
                     "importance": a.get("importance", 1), "summary": a.get("summary", ""),
                     "confidence": a.get("confidence", 0), "impacts": a.get("impacts", [])}

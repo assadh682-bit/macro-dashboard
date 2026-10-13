@@ -1,5 +1,103 @@
 [
  {
+  "id": "1a5dc3b8d2ba47180498a17235dca401",
+  "time": "12:56",
+  "ts": 1791896189017,
+  "title": "Options traders expect wild stock-market swings beginning later this month. Here are 4 things to watch.",
+  "link": "https://www.marketwatch.com/story/options-traders-expect-wild-stock-market-swings-beginning-later-this-month-here-are-4-things-to-watch-e4931b02?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "متداولي الأوبشنز كيتوقعو تقلبات وتحركات عنيفة فالأسهم الميريكانية مورا فترة الهدوء لي دازت. هاد الارتفاع المتوقع فحدة التذبذب كيعني صعود مباشر لمؤشر الخوف VIX وضغط على مؤشر ES.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "9dddacf638e039530ac902c93ed807f2",
+  "time": "12:56",
+  "ts": 1791896189017,
+  "title": "Fund managers retain surprising optimism in the face of stagnant stock market and tumultuous bond market",
+  "link": "https://www.marketwatch.com/story/fund-managers-retain-surprising-optimism-in-the-face-of-stagnant-stock-market-and-tumultuous-bond-market-3d9763dd?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "مدراء الصناديق كيتسناو عوائد السندات توصل لـ 6% باش يبدلو استثماراتهم من الأسهم لسوق السندات، وشي وحدين بداو من دابا. هاد الانتقال ديال السيولة يقدر يزيد يرفع عوائد السندات ويضغط سلبيا على مؤشر إس آند بي 500.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "17d2094e97dabf5872b59c83215a3025",
+  "time": "12:56",
+  "ts": 1791896189017,
+  "title": "U.S. wealth has shifted to stocks from homes. There are big reasons to worry.",
+  "link": "https://www.marketwatch.com/story/u-s-wealth-has-shifted-to-stocks-from-homes-there-are-big-reasons-to-worry-aa05864d?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الفلوس فميريكان تحولات بكثرة للأسهم بفضل طفرة الذكاء الاصطناعي، ولكن كلفة الاقتراض طالعة بزاف وكتشكل خطر. استمرار الفائدة المرتفعة يقدر يضغط سلبا على مؤشرات التكنولوجيا والأسهم بحال ناسداك.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "bb4864ce08ff3e763a62415f7a4ad935",
+  "time": "12:56",
+  "ts": 1791896189017,
+  "title": "Japanese Yen: Stronger footing with intervention risk – MUFG",
+  "link": "https://www.fxstreet.com/news/japanese-yen-stronger-footing-with-intervention-risk-mufg-202610131052",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الين الياباني كيزيد يقوى شوية بسباب مخاوف تدخل البنك المركزي الياباني، هادشي لي رجع زوج USD/JPY لتحت 158.00. هاد التحسن فالين كيدير ضغط هابط خفيف على مؤشر الدولار فالسوق.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "799aee4a58a20337e41d137b51b90bf5",
   "time": "06:56",
   "ts": 1791874603641,

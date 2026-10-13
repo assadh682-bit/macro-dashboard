@@ -24,10 +24,15 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 .news p{margin:4px 0 6px}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
 .chip{border:1px solid var(--ln);padding:2px 8px;font-size:12px}
-.up{color:var(--up)}.dn{color:var(--dn)}.nu{color:var(--mu)}
+.up{color:var(--up)}.dn{color:var(--dn)}.nu{color:var(--mu)}.am{color:var(--am)}
 .hm{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:6px}
 .cell{padding:8px;text-align:center;border:1px solid var(--ln)}
 .ltr{direction:ltr;unicode-bidi:isolate;font-family:ui-monospace,monospace}
+.risk{font-size:34px;line-height:1.2}
+.bar{height:6px;background:var(--ln);margin:6px 0 10px}
+.bar i{display:block;height:100%;width:0;background:var(--am)}
+.zone{padding:6px 0;border-top:1px solid var(--ln);font-size:13px}
+.zone b{color:var(--am)}
 </style>
 </head>
 <body>
@@ -51,15 +56,62 @@ section{background:var(--p);border:1px solid var(--ln);padding:12px}
 </div></section>
 
 <section><h2>آخر الأخبار والتأثير</h2><div id="feed"></div></section>
-<section><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
+
+<div>
+<section><h2>المخاطر الجيوسياسية</h2>
+<div class="risk ltr" id="risk">--</div>
+<div class="bar"><i id="bar"></i></div>
+<div id="zones"></div>
+<p class="tag">مؤشر تقريبي محسوب من عناوين الأخبار الأخيرة بكلمات مفتاحية، ماشي تحليل AI.</p></section>
+
+<section style="margin-top:12px"><h2>خريطة التأثير الحالية</h2><div class="hm" id="hm"></div>
 <p class="tag">المجموع ديال تأثير الأخبار الأخيرة على كل أصل.</p></section>
+</div>
+
 </main>
 <script>
 var ASSETS=["GC","SIL","NQ","ES","DXY","US10Y","VIX"];
 var DUR={instant:"لحظي",daily:"يومي",weekly:"أسبوعي"};
 var ARR={up:"\u25b2",down:"\u25bc",neutral:"\u25cf"};
 var CLS={up:"up",down:"dn",neutral:"nu"};
+var GEO={
+"الشرق الأوسط":["middle east","iran","israel","gaza","houthi","red sea","saudi","hormuz","lebanon","syria","yemen"],
+"روسيا وأوكرانيا":["russia","ukraine","kremlin","putin","moscow","kyiv"],
+"الصين وتايوان":["taiwan","south china sea","beijing"],
+"كوريا":["north korea","pyongyang"],
+"عقوبات وحرب تجارية":["sanction","tariff","embargo","trade war"]
+};
 function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+
+function geo(list){
+  var items=list.slice(0,15),sum=0,zones={};
+  items.forEach(function(n){
+    var t=(n.title||"").toLowerCase(),hit=false;
+    Object.keys(GEO).forEach(function(z){
+      if(GEO[z].some(function(k){return t.indexOf(k)>-1})){
+        hit=true;
+        if(!zones[z])zones[z]={c:0,t:n.title||""};
+        zones[z].c++;
+      }
+    });
+    if(hit)sum+=(n.importance||2);
+  });
+  var idx=Math.min(10,Math.round(sum/1.5));
+  var r=document.getElementById("risk");
+  r.textContent=idx+" / 10";
+  r.className="risk ltr "+(idx>=7?"dn":idx>=4?"am":"up");
+  document.getElementById("bar").style.width=(idx*10)+"%";
+  var z=document.getElementById("zones"),names=Object.keys(zones);
+  if(!names.length){z.appendChild(el("p","tag","ما كاين حتى توتر باين فالأخبار الأخيرة."));return}
+  names.sort(function(a,b){return zones[b].c-zones[a].c});
+  names.forEach(function(nm){
+    var d=el("div","zone");
+    d.appendChild(el("b","",nm+" ("+zones[nm].c+") "));
+    d.appendChild(el("span","tag ltr",zones[nm].t));
+    z.appendChild(d);
+  });
+}
+
 function render(list){
   var feed=document.getElementById("feed"),score={};
   ASSETS.forEach(function(a){score[a]=0});
@@ -94,6 +146,7 @@ function render(list){
     cell.appendChild(el("span",k,(v>0?"\u25b2 +":v<0?"\u25bc ":"\u25cf ")+v));
     hm.appendChild(cell);
   });
+  geo(list);
   document.getElementById("upd").textContent=list.length?"آخر خبر: "+(list[0].time||"")+" (توقيت المغرب)":"";
 }
 fetch("news.json?t="+Date.now()).then(function(r){return r.json()}).then(render).catch(function(){

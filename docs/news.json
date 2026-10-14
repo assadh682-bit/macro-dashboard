@@ -1,5 +1,71 @@
 [
  {
+  "id": "8b245ca4925a6767d17f681d3a4d2765",
+  "time": "01:11",
+  "ts": 1791940299607,
+  "title": "Australian Dollar climbs as Fed’s Williams push the brakes on rates",
+  "link": "https://www.fxstreet.com/news/australian-dollar-climbs-as-feds-williams-push-the-brakes-on-rates-202610132334",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار الأسترالي طلع مقابل الدولار الأمريكي بعد تصريحات ويليامز اللي لمحات لفرملة أسعار الفائدة. هاد التوجه كيزيد يضعف العملة الأمريكية وكيهبط مؤشر الدولار DXY على المدى القريب.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "38db8d16cb6ce662f638d9fc485f0ab5",
+  "time": "01:11",
+  "ts": 1791940299190,
+  "title": "Yemen's Houthis fire missiles at Saudi Arabia; Aramco facility catches fire",
+  "link": "https://www.fxstreet.com/news/yemens-houthis-fire-missiles-at-saudi-arabia-aramco-facility-catches-fire-202610132343",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "هجمات الحوثيين بالصواريخ على السعودية وتضرر منشأة ديال أرامكو صعدو التوترات الجيوسياسية فمنطقة الشرق الأوسط. هاد الخطر كيدفع المستثمرين للهروب نحو الملاذات الآمنة بحال الذهب وكيطلع مؤشر الخوف والتقلبات.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "fc4f37dae5579347044fc1927463bc6f",
+  "time": "01:11",
+  "ts": 1791940299190,
+  "title": "Euro edges higher above 1.1200 despite France fiscal risks, US CPI in focus",
+  "link": "https://www.fxstreet.com/news/euro-edges-higher-above-11200-despite-france-fiscal-risks-us-cpi-in-focus-202610140034",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار تراجع شوية قدام الأورو من بعد تصريحات جون ويليامز من الفيدرالي الأمريكي اللي مالت للتيسير. هاد الهبوط كيضغط سلباً على مؤشر الدولار DXY فالوقت اللي كيتسناو فيه الأسواق بيانات التضخم.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "ea3d136006d764da2467965bf7c8dda7",
   "time": "23:51",
   "ts": 1791935513136,

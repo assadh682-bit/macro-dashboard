@@ -1,5 +1,57 @@
 [
  {
+  "id": "82a2eae06cb1736125fa7c16b1a4e513",
+  "time": "23:20",
+  "ts": 1792020050045,
+  "title": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast",
+  "link": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "أسهم الشركات الصغيرة فـ ميريكان خسرات 10% فـ شهرين ودخلات فـ نطاق تصحيح بعد قمم تاريخية. هاد التراجع كيعكس تدهور شهية المخاطرة وضغط الفوائد المرتفعة، مما كيزيد التوتر فـ السوق كامل.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "75deea45d9fbad236805837d3e26d10f",
+  "time": "23:20",
+  "ts": 1792020049646,
+  "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
+  "link": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "السندات ديال شركة CoreWeave المتخصصة فـ الذكاء الاصطناعي انهارت وطلعات الفوائد ديالها لفوق 15%. هاد التراجع كيدق ناقوس الخطر على ديون شركات التقنية وغادي يضغط سلباً على قطاع التكنولوجيا فـ وول ستريت.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "600f70c588dd497a0dfe4311a1de871b",
   "time": "20:03",
   "ts": 1792008229415,
@@ -966,50 +1018,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "e7d2a0a180c297685d2818eb27749a23",
-  "time": "02:14",
-  "title": "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors",
-  "link": "https://www.marketwatch.com/story/nvidia-and-amd-shares-fall-as-new-ai-announcements-fail-to-re-energize-investors-4a0dd766?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "أسهم نفيديا وAMD هبطو حيت الإعلانات الجديدة على الذكاء الاصطناعي ما أقنعاتش المستثمرين ومردودها المالي بعيد. هاد التراجع فأسهم الرقائق كيضغط ديريكت وقوي على مؤشر ناسداك ومؤشر S&P 500.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "bf5302de5a6d24b019576ee180f2b5cc",
-  "time": "02:14",
-  "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
-  "link": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "المقال كيطمئن المستثمرين بلي طول مدة السوق الصاعد (Bull Market) ما كيعنيش بالضرورة نهايته قريبة. هاد النبرة الإيجابية كتساعد على استقرار المعنويات عند مستثمري الأسهم.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 1,
-    "duration": "weekly"
    }
   ]
  }

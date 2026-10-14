@@ -1,5 +1,127 @@
 [
  {
+  "id": "600f70c588dd497a0dfe4311a1de871b",
+  "time": "20:03",
+  "ts": 1792008229415,
+  "title": "How high inflation became a 'fact of life' in the U.S.",
+  "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "تخوف الفيدرالي من ترسيخ التضخم كعامل دائم عند المستهلكين كيعزز فكرة إبقاء أسعار الفائدة مرتفعة لمدة أطول. هاد التوجه كيقوي الدولار وعوائد السندات وكيشكل ضغط بيعي على الذهب والأسهم.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "922d579596d9a86cd284533355d79b62",
+  "time": "20:03",
+  "ts": 1792008229415,
+  "title": "3 things that are driving inflation higher",
+  "link": "https://www.marketwatch.com/story/3-things-that-are-driving-inflation-higher-26bda9a9?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "ارتفاع أسعار المحروقات كيعاود يدفع التضخم الفوق، الشي اللي كيزيد الضغط على الاقتصاد. هاد الضغوط التضخمية كتعني أن الفائدة غتبقى مرتفعة، وهادشي كيدعم الدولار وكيضغط على مؤشرات الأسهم.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "33d750ae3fcdb07e4a4499a2d67d53ae",
+  "time": "20:03",
+  "ts": 1792008228975,
+  "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
+  "link": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "ارتفاع عوائد السندات والتضخم حاطين الفيدرالي فمأزق حقيقي بخصوص تشديد السياسة النقدية. استمرار ضغط العوائد المرتفعة كيقلل شهية المخاطرة وكيأثر سلباً على أسهم التكنولوجيا والذهب.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "6c67eb654b5cd1fa282e69b4a5a60527",
+  "time": "20:03",
+  "ts": 1792008228524,
+  "title": "What to expect at the next Fed meeting now that rate-hike odds are rising",
+  "link": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "كاين انقسام كبير بين المحللين واش الفيدرالي غادي يزيد الفائدة بربع نقطة فالاجتماع الجاي. هاد التوقعات ديال رفع الفائدة كتعطي دفعة للدولار وكتضغط سلباً على مؤشرات الأسهم والذهب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "f4a80c4d8519e0650131ee4b5d2b8e6b",
   "time": "12:28",
   "ts": 1791980921218,
@@ -888,94 +1010,6 @@
     "direction": "up",
     "strength": 1,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "bd23ac7d3bd3285efc3eaec2f5d69dad",
-  "time": "02:14",
-  "title": "The global economy is starting to look K-shaped. Here are the winners and losers, and where the U.S. fits.",
-  "link": "https://www.marketwatch.com/story/the-global-economy-is-starting-to-look-k-shaped-here-are-the-winners-and-losers-and-where-the-u-s-fits-4ad93ea7?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "صندوق النقد الدولي كيشوف انقسام فالاقتصاد العالمي، بحيث الدول اللي كتستافد من الذكاء الاصطناعي وما متأثراش بصدمة البترول غادية مزيان. هادشي كيعطي دعم نسبي للأسهم الأمريكية المرتبطة بالتكنولوجيا.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 1,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "cfb9e84d98fcc3114fd38b057fd228ab",
-  "time": "02:14",
-  "title": "Euro gathers strength above 1.1150 despite France’s fiscal concerns",
-  "link": "https://www.fxstreet.com/news/euro-gathers-strength-above-11150-despite-frances-fiscal-concerns-202610130154",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "اليورو كيرتفع فوق 1.1150 مقابل الدولار وخا كاينين مخاوف سياسية ومالية ففرنسا. حيت اليورو كيشكل الحصة الكبيرة فمؤشر DXY، القوة ديالو كتضغط مباشرة على الدولار بشكل طفيف قبل بيانات التضخم.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "80214ecedf1681e5dff4dadd76d793c1",
-  "time": "02:14",
-  "title": "United States Dollar Index eases from 18-month peak; slips below 102.50",
-  "link": "https://www.fxstreet.com/news/united-states-dollar-index-eases-from-18-month-peak-slips-below-10250-202610130156",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "مؤشر الدولار تراجع شوية من أعلى قمة وصل ليها فـ 18 شهر تحت 102.50 فجلسة آسيا. هاد التصحيح كيعكس عمليات جني الأرباح بعد المكاسب القوية السابقة.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "40a96572c0203b31cfde20c568e6a14d",
-  "time": "02:14",
-  "title": "Silver Price Forecast: XAG/USD falls to near $60.00 amid higher oil prices, US Dollar",
-  "link": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6000-amid-higher-oil-prices-us-dollar-202610130206",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "الفضة عرفات هبوط لليوم الثاني على التوالي بسباب صعود أسعار البترول اللي كيشعل مخاوف التضخم. هادشي كيقوي التوقعات بأن الفيدرالي يقدر يزيد يرفع الفائدة، وهو ما كيضغط سلباً على المعادن.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "SIL",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

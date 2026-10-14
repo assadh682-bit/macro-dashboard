@@ -1,5 +1,83 @@
 [
  {
+  "id": "f4a80c4d8519e0650131ee4b5d2b8e6b",
+  "time": "12:28",
+  "ts": 1791980921218,
+  "title": "Here’s how much the AI boom is really contributing to inflation, according to Goldman Sachs calculations",
+  "link": "https://www.marketwatch.com/story/heres-how-much-the-ai-boom-is-contributing-to-inflation-according-to-goldman-sachs-calculations-5ec717ff?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "غولدمان ساكس كيتوقع التضخم الأساسي ما يرجع للهدف ديال 2% حتى لعام 2027 بسباب طفرة الذكاء الاصطناعي. هادشي كيعني الفائدة تقدر تبقى طالعة مدة أطول، الشي اللي كيدعم الدولار وعوائد السندات ويضغط على الذهب والأسهم.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "3c75ff5a2f5152e453d7c5c40f2d8a8a",
+  "time": "12:28",
+  "ts": 1791980921218,
+  "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
+  "link": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "سهم بنك أوف أمريكا طاح بعد أرباح ضعيفة وغرامة حكومية ديال 1.2 مليار دولار. هاد الضغط على القطاع البنكي يقدر يدير ضغط سلبي خفيف على مؤشر إس آند بي ويزيد القلق.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "4de42c4afdc0eefc4c9ef4be20af743d",
+  "time": "12:28",
+  "ts": 1791980921218,
+  "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
+  "link": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "بنك HSBC كيشوف بلي كاين إمكانية السوق يتسع ويشمل شركات خارج قطاع الطاقة والرقائق. هادشي يقدر يدعم المؤشرات الأمريكية حيت السيولة غاتوزع على قطاعات خرى بحال الخدمات والمالية.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "37086eb9b521075ee7db2d3e09cce59a",
   "time": "09:03",
   "ts": 1791968630561,
@@ -896,93 +974,6 @@
    {
     "asset": "DXY",
     "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "6be4470a9fbe7b6726f30edb451064f3",
-  "time": "01:48",
-  "title": "Gold tumbles below $4,200 on higher oil prices, firmer US Dollar",
-  "link": "https://www.fxstreet.com/news/gold-tumbles-below-4-200-on-higher-oil-prices-firmer-us-dollar-202610122318",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "سعر الذهب طاح تحت مستويات 4,200 دولار متأثراً بقوة الدولار وارتفاع أسعار البترول اللي كتعزز توقعات الفائدة. قوة العملة الأمريكية كتزيد كلفة حيازة المعدن النفيس وكتضغط عليه للنزول. هاد الحركة كتعكس انتعاش مؤشر DXY وهبوط مباشر فـ GC.",
-  "confidence": 90,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "fca2d6c13ffc8a53f8b3b77b756752a6",
-  "time": "01:48",
-  "title": "Saudi Arabia says drones and missiles still targeting kingdom as Houthis step up attacks",
-  "link": "https://www.fxstreet.com/news/saudi-arabia-says-drones-and-missiles-still-targeting-kingdom-as-houthis-step-up-attacks-202610122337",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "استمرار استهداف السعودية بالصواريخ والمسيرات كيزيد من حدة التوتر الجيوسياسي فمنطقة الخليج. هاد التصعيد كيرفع من مستويات الخطر والنفور من المخاطرة فالأسواق الدولية. الشي اللي كيدعم الذهب ومؤشر التقلب VIX وكيضغط على الأسهم الأمريكية.",
-  "confidence": 90,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "38b23e1ee3c8fc1d6871cfc9e99c0e13",
-  "time": "01:48",
-  "title": "Aussie Dollar struggles at 0.70, retreats as Oil shock boosts the USD",
-  "link": "https://www.fxstreet.com/news/aussie-dollar-struggles-at-070-retreats-as-oil-shock-boosts-the-usd-202610122347",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "تراجع الدولار الأسترالي بسباب صدمة البترول والتوترات الجيوسياسية اللي قواو الطلب على الدولار الأمريكي. المستثمرين كيتوجهو للدولار كملاذ ضد التضخم والمخاطر. هاد التحرك كيدعم مؤشر DXY وكيضغط على مؤشرات الأسهم بحال ES.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
     "strength": 2,
     "duration": "daily"
    }

@@ -1,5 +1,83 @@
 [
  {
+  "id": "44a741012640ec6ea5ac902e950e22a5",
+  "time": "03:27",
+  "ts": 1791948447166,
+  "title": "Japanese Yen softens as October BoJ hike bets fade; stuck in a range vs USD ahead of US CPI",
+  "link": "https://www.fxstreet.com/news/japanese-yen-softens-as-october-boj-hike-bets-fade-stuck-in-a-range-vs-usd-ahead-of-us-cpi-202610140127",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "تراجع رهانات رفع الفائدة من طرف بنك اليابان خلى الين يضعف وطلع زوج USD/JPY لمستويات مرتفعة. ضعف الين الياباني كيعطي دعم خفيف لمؤشر الدولار DXY بحكم وزنو داخل سلة العملات.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "18334404ff82de10a9e165b05bb4ccce",
+  "time": "03:27",
+  "ts": 1791948447166,
+  "title": "British Pound strengthens above 1.3250, traders await US CPI inflation data",
+  "link": "https://www.fxstreet.com/news/british-pound-strengthens-above-13250-traders-await-us-cpi-inflation-data-202610140145",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تصريحات تيسيرية من رئيس فيدرالي نيويورك جون ويليامز ضغطات على الدولار الأمريكي قبيل صدور بيانات التضخم US CPI. هاد الضعف فـ DXY وتراجع عوائد السندات كيقدم دعم مباشر لارتفاع الذهب GC.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "fa71a4d5ac1ec6c3f05a68b32ee2e86e",
+  "time": "03:27",
+  "ts": 1791948447166,
+  "title": "China's September Trade Balance: Exports and Imports beat estimates",
+  "link": "https://www.fxstreet.com/news/chinas-september-trade-balance-exports-and-imports-beat-estimates-202610140227",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الصادرات والواردات فـ الشينوا حققو أرقام قوية وفاتت التوقعات فـ شتنبر، وهادشي كيعكس تحسن التجارة والنشاط الاقتصادي العالمي. هاد المعطيات كتدعم شهية المخاطرة فـ الأسواق وكتعاون مؤشرات الأسهم بحال ES و NQ ترتفع.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "8b245ca4925a6767d17f681d3a4d2765",
   "time": "01:11",
   "ts": 1791940299607,

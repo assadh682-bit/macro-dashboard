@@ -1,5 +1,155 @@
 [
  {
+  "id": "37086eb9b521075ee7db2d3e09cce59a",
+  "time": "09:03",
+  "ts": 1791968630561,
+  "title": "Euro holds mild gains above 1.1200 as US Dollar drifts with US CPI on tap",
+  "link": "https://www.fxstreet.com/news/euro-holds-mild-gains-above-11200-as-the-us-dollar-drifts-with-us-cpi-on-tap-202610140732",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الأورو كيحقق مكاسب خفيفة بسباب تراجع وتراجع الدولار الأمريكي قبل صدور بيانات التضخم CPI. هاد الضعف فالدولار ناتج عن الحذر والتموضع الوقائي ديال المتداولين.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "adf94a24ed069049fa02a7316c75a41e",
+  "time": "09:03",
+  "ts": 1791968630088,
+  "title": "Equities: Chip-led drag as semiconductors slide – Deutsche Bank",
+  "link": "https://www.fxstreet.com/news/equities-chip-led-drag-as-semiconductors-slide-deutsche-bank-202610140805",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "تراجع أسهم أشباه الموصلات ومراكز البيانات كيضغط على مؤشر ستاندرد آند بورز وناسداك لليوم الخامس. هاد التراجع التكنولوجي كيعكس تصحيح قطاعي كيهبط مؤشرات الأسهم الأمريكية.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "57bdfc0af7df5cf1069477668486ac8e",
+  "time": "09:03",
+  "ts": 1791968629586,
+  "title": "Gold refreshes weekly low, below $4,150 as traders look to US CPI for Fed rate cuts",
+  "link": "https://www.fxstreet.com/news/gold-draws-support-from-retreating-usd-holds-above-4-150-as-traders-await-us-cpi-report-202610140409",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "الذهب سجل قاع أسبوعي جديد بسباب ترقب المستثمرين لبيانات التضخم الأمريكية اللي تقدر تقلص حظوظ خفض الفائدة. التخوف من بقاء الفائدة مرتفعة كيخلي الضغط البيعي مستمر على المعدن الأصفر.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "3b6b056cc675d48cbf56fd24b3634c41",
+  "time": "09:03",
+  "ts": 1791968629586,
+  "title": "New Zealand Dollar gains as US Dollar weakens on falling yields",
+  "link": "https://www.fxstreet.com/news/new-zealand-dollar-gains-as-us-dollar-weakens-on-falling-yields-202610140817",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الدولار كيتعرض لضغط هبوطي مع تراجع عوائد سندات الخزينة الأمريكية وهبوط أسعار البترول، الشي اللي عطى دفعة للدولار النيوزيلندي. تراجع العوائد كيضعف مؤشر الدولار بشكل مباشر.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "cf4c19b200d33ee5024cbc0f729f52b6",
+  "time": "09:03",
+  "ts": 1791968629586,
+  "title": "Japanese Yen extends range play vs USD; looks to US CPI report for some impetus",
+  "link": "https://www.fxstreet.com/news/japanese-yen-extends-range-play-vs-usd-looks-to-us-cpi-report-for-some-impetus-202610140827",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الدولار مقابل الين باقي فمسار عرضي ومستقر فحركة ضيقة قبل صدور بيانات التضخم الأمريكية. هاد الترقب كيعني غياب سيولة واتجاه واضح مؤقتا على مؤشر الدولار.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "24f425ed3f1cb627e86ade30f29fdc71",
+  "time": "09:03",
+  "ts": 1791968629094,
+  "title": "US CPI data expected to rise in September as markets reassess Fed rate outlook",
+  "link": "https://www.fxstreet.com/news/us-cpi-data-expected-to-rise-in-september-as-markets-reassess-fed-rate-outlook-202610140830",
+  "source": "FXStreet Forex & Commodities News",
+  "relevant": true,
+  "importance": 4,
+  "summary": "توقعات التضخم الأمريكي لشهر شتنبر كتشير لارتفاع محتمل، الشي اللي غيخلي الفيدرالي يتريث فخفض الفائدة. هاد الشي كيدعم صعود عوائد السندات والدولار، وكيضغط سلبا على الذهب والأسهم.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "44a741012640ec6ea5ac902e950e22a5",
   "time": "03:27",
   "ts": 1791948447166,
@@ -833,56 +983,6 @@
    {
     "asset": "ES",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "575f6b4c6a8e5cac85701efdded6bc39",
-  "time": "01:48",
-  "title": "WTI holds gains above $92.00 on persistent Middle East supply risks",
-  "link": "https://www.fxstreet.com/news/wti-holds-gains-above-9200-on-persistent-middle-east-supply-risks-202610130101",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "الهجوم على مطار الرياض فالسعودية شعل المخاوف من انقطاع إمدادات النفط وخلى خام تكساس يستقر فوق 92 دولار. ارتفاع الطاقة كيزيد من الضغوط التضخمية والتوتر فالأسواق. هاد الوضع كيضغط على الأسهم ويرفع مؤشر الخوف وعوائد السندات.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "5d9da86a2969d37724bd3c56d61ea996",
-  "time": "01:48",
-  "title": "Canadian Dollar edges higher but remains close to April 2025 lows vs bullish USD",
-  "link": "https://www.fxstreet.com/news/canadian-dollar-edges-higher-but-remains-close-to-april-2025-lows-vs-bullish-usd-202610130121",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الدولار كيحافظ على القوة ديالو مقابل الدولار الكندي وقريب من أعلى مستوياتو. هاد الزخم الإيجابي كيعطي دعم نسبي لمؤشر الدولار ولكن التأثير كيبقى محصور فالزوج نفسه. هادشي كيعكس استقرار فطلب العملة الأمريكية.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

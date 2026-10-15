@@ -1,5 +1,63 @@
 [
  {
+  "id": "20290f61567853ecd491e83ad89e7d36",
+  "time": "13:16",
+  "ts": 1792070181889,
+  "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+  "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "الخزانة الأمريكية قللات من تحذيرات صندوق النقد الدولي بخصوص تفاقم الدين العام اللي فات 40 تريليون دولار، مع بقاء عوائد السندات فوق 5%. هاد القلق المالي كيزيد الضغط على عوائد السندات وكيدعم الذهب كملاذ آمن ضد مخاطر الديون.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "732fe2b883e5d9f4a75c08552d952fa5",
+  "time": "13:16",
+  "ts": 1792070181412,
+  "title": "Micron, Nvidia and other chip stocks face renewed pressure as AI fears swell",
+  "link": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "أسهم الرقائق الإلكترونية بحال نفيديا وميكرون كتاكل الدق بسباب مخاوف جديدة على استمرارية نمو قطاع الذكاء الاصطناعي. هاد الشي يقدر يضغط بالسلب على مؤشرات التكنولوجيا ويزيد من التوتر والتقلبات فالأسواق الأمريكية.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "20ae6bd37cf8a8cf5f02f38eed63ffba",
   "time": "10:01",
   "ts": 1792058480273,
@@ -972,52 +1030,6 @@
   "importance": 2,
   "summary": "الين الياباني كيزيد يقوى شوية بسباب مخاوف تدخل البنك المركزي الياباني، هادشي لي رجع زوج USD/JPY لتحت 158.00. هاد التحسن فالين كيدير ضغط هابط خفيف على مؤشر الدولار فالسوق.",
   "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "799aee4a58a20337e41d137b51b90bf5",
-  "time": "06:56",
-  "ts": 1791874603641,
-  "title": "New Zealand Dollar rebounds to near 0.5600 amid geopolitical tensions and US CPI focus",
-  "link": "https://www.fxstreet.com/news/new-zealand-dollar-rebounds-to-near-05600-amid-geopolitical-tensions-and-us-cpi-focus-202610130457",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الدولار النيوزيلندي كيحاول يتعافى ولكن باقي تحت الضغط بسباب توترات الشرق الأوسط وارتفاع أسعار البترول. هاد المخاوف الجيوسياسية وترقب التضخم الأمريكي كيعطيو دعم للدولار والملاذات الآمنة بحال الذهب. هادشي كيقدر يرفع التقلبات فالسوق فالمدى القريب.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "0e494ad107cb1b30860a55ac1e84d4be",
-  "time": "06:17",
-  "ts": 1791872278116,
-  "title": "Swiss Franc strengthens as US Dollar Index pulls back from 18-month highs",
-  "link": "https://www.fxstreet.com/news/swiss-franc-strengthens-as-us-dollar-index-pulls-back-from-18-month-highs-202610130500",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الفرنك السويسري طلع حيت مؤشر الدولار هبط من أعلى مستوياتو فـ 18 شهر. هاد التراجع ديال الدولار كايعكس ضعف فمؤشر DXY كيدعم تصحيح هابط مؤقت.",
-  "confidence": 80,
   "impacts": [
    {
     "asset": "DXY",

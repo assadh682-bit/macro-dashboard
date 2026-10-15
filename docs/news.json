@@ -1,5 +1,37 @@
 [
  {
+  "id": "20ae6bd37cf8a8cf5f02f38eed63ffba",
+  "time": "10:01",
+  "ts": 1792058480273,
+  "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+  "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "العجز المالي لميريكان اللي واصل 2 تريليون دولار مع عوائد السندات فوق 5% كيصعب تمويل الديون وكيزيد كلفة الاقتراض. هاد الضغط كينعكس سلباً على مؤشرات الأسهم بسبب ارتفاع تكلفة رأس المال، وكيخلي عوائد السندات مرتفعة.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "b951bfeb6b6ca7197b5a152e4ae7487a",
   "time": "09:03",
   "ts": 1792055027971,
@@ -987,32 +1019,6 @@
   "summary": "الفرنك السويسري طلع حيت مؤشر الدولار هبط من أعلى مستوياتو فـ 18 شهر. هاد التراجع ديال الدولار كايعكس ضعف فمؤشر DXY كيدعم تصحيح هابط مؤقت.",
   "confidence": 80,
   "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "48692684c776183a36134a65d16516e3",
-  "time": "06:17",
-  "ts": 1791872277657,
-  "title": "Gold advances to $4,200 amid retreating USD; Fed hike bets to cap further gains",
-  "link": "https://www.fxstreet.com/news/gold-bounces-off-4-150-amid-modest-usd-pullback-but-stays-in-two-week-old-range-202610130353",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "الذهب طلع لمستويات قياسية مع تراجع الدولار الأمريكي وعمليات جني الأرباح عليه. واخا توقعات رفع الفايدة تقدر تحد من الصعود، الذهب مستافد دابا من ضعف العملة.",
-  "confidence": 90,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
    {
     "asset": "DXY",
     "direction": "down",

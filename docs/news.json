@@ -1,5 +1,57 @@
 [
  {
+  "id": "b951bfeb6b6ca7197b5a152e4ae7487a",
+  "time": "09:03",
+  "ts": 1792055027971,
+  "title": "TSMC CEO sees no sign of a slowdown as chip foundry reports record profit",
+  "link": "https://www.marketwatch.com/story/tsmc-ceo-sees-no-sign-of-a-slowdown-as-chip-foundry-reports-record-profit-17a065d3?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "شركة TSMC سجلات أرباح قياسية فالربع الثالث والرئيس التنفيذي كيشوف بلي ما كاين حتى تباطؤ فالطلب على الرقائق الإلكترونية. هاد النتائج الممتازة كتعزز التفاؤل فأسهم التكنولوجيا والذكاء الاصطناعي وكتدعم مؤشر الناسداك.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "1165cc2d0bb913c09a2974e61e0d8993",
+  "time": "09:03",
+  "ts": 1792055027971,
+  "title": "Why the AI trade is not set up for a rebound like July’s, according to JPMorgan",
+  "link": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "محلل من جيبيمورغان كيوضح بلي قطاع الذكاء الاصطناعي ما مستاعدش لارتداد قوي دابا حيت السيولة ناقصة وبرامج إعادة شراء الأسهم وقفات. هاد الشي كيدل على استمرار الحذر وممكن يضغط على أسهم التكنولوجيا سلبا فالأيام الجاية.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "82a2eae06cb1736125fa7c16b1a4e513",
   "time": "23:20",
   "ts": 1792020050045,
@@ -963,58 +1015,6 @@
    },
    {
     "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "22395528898add3146bb9fa3ee6eeef2",
-  "time": "06:17",
-  "ts": 1791872277657,
-  "title": "EUR/USD Price Forecast: Holds gains above 1.1150, but remains technically bearish under 100-day SMA",
-  "link": "https://www.fxstreet.com/news/eur-usd-price-forecast-holds-gains-above-11150-but-remains-technically-bearish-under-100-day-sma-202610130600",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "اليورو شاد راسو ولكن توقعات الفيدرالي المتشددة وارتفاع عوائد السندات كايعطيو قوة للدولار. هاد الشي كايشكل ضغط سلبي على العملات والأسواق ومزيان للدولار.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "2ac53eb9a036a0ea9f367b5872e69582",
-  "time": "06:17",
-  "ts": 1791872277657,
-  "title": "US Dollar Index Price Forecast: Likely extend advance to near 103.00",
-  "link": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-likely-extend-advance-to-near-10300-202610130608",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الدولار الأمريكي تراجع قدام العملات الرئيسية بسبب هبوط عوائد سندات الخزينة الأمريكية. هاد التراجع كايأثر سلبا على مؤشر الدولار فالمدا القريب.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
     "direction": "down",
     "strength": 2,
     "duration": "daily"

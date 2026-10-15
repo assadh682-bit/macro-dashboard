@@ -1,5 +1,31 @@
 [
  {
+  "id": "15e13d6c0b6da1b78602c2af1e6af8ee",
+  "time": "18:28",
+  "ts": 1792088924867,
+  "title": "Big pharma stocks near all-time highs as tech selloff pushes investors toward safer bets",
+  "link": "https://www.marketwatch.com/story/big-pharma-stocks-near-all-time-highs-as-tech-selloff-pushes-investors-toward-safer-bets-0a5d5d07?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "أسهم شركات الأدوية الكبرى وصلات لمستويات قياسية بسباب موجة البيع اللي ضربات أسهم التكنولوجيا وخلات المستثمرين يهربو للأسهم الدفاعية. هاد التحول كيبين تراجع شهية المخاطرة، الشي اللي كيضغط سلباً على مؤشر التكنولوجيا ناسداك وكيطلع التذبذب.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "20290f61567853ecd491e83ad89e7d36",
   "time": "13:16",
   "ts": 1792070181889,
@@ -1016,26 +1042,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "bb4864ce08ff3e763a62415f7a4ad935",
-  "time": "12:56",
-  "ts": 1791896189017,
-  "title": "Japanese Yen: Stronger footing with intervention risk – MUFG",
-  "link": "https://www.fxstreet.com/news/japanese-yen-stronger-footing-with-intervention-risk-mufg-202610131052",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الين الياباني كيزيد يقوى شوية بسباب مخاوف تدخل البنك المركزي الياباني، هادشي لي رجع زوج USD/JPY لتحت 158.00. هاد التحسن فالين كيدير ضغط هابط خفيف على مؤشر الدولار فالسوق.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

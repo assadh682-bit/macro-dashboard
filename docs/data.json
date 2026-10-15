@@ -1,12 +1,6 @@
 {
- "updated": "2026-10-14 06:22",
+ "updated": "2026-10-15 06:24",
  "auctions": [
-  {
-   "type": "Bill",
-   "term": "17-Week",
-   "date": "2026-10-14",
-   "amount": "75000000000"
-  },
   {
    "type": "Bill",
    "term": "4-Week",

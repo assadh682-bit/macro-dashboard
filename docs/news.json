@@ -1,5 +1,101 @@
 [
  {
+  "id": "897304aca427777481305d0563593fc3",
+  "time": "18:24",
+  "ts": 1792175099333,
+  "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+  "link": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "التحليل كيشير لاحتمال مفاجأة من الفيدرالي بخصوص الفائدة بسبب مخاوف التضخم عكس توقعات التثبيت. حالة عدم اليقين والتشديد المحتمل كتدعم الدولار وعوائد السندات وتضغط على أسهم التكنولوجيا والذهب.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "8730cefdf738cf28a2a5337bb14f519c",
+  "time": "18:24",
+  "ts": 1792175099333,
+  "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+  "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "العجز فالميزانية الأمريكية طلع لتقريباً 2 تريليون دولار بزيادة 12% فالعام. هاد التوسع المالي كيعني زيادة إصدارات الخزينة مما كيرفع عوائد السندات وكيدعم الذهب كملاذ ضد المخاطر المالية.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "11bcb0a853b351ed8cf7803384633462",
+  "time": "18:24",
+  "ts": 1792175099333,
+  "title": "Many of 2026’s hottest stocks have seen dramatic comedowns this week",
+  "link": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "كاين تراجع حاد فالأسهم اللي كانت كتقود الارتفاعات هاد العام مع حركة تصحيح ودوران فالسوق. هاد الشي كيدل على جني أرباح فأسهم النمو والزخم، مما كيضغط سلباً على مؤشر النازداك والأسهم بشكل عام.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "0808a9baf35638dceed026ebfcf542f9",
   "time": "11:58",
   "ts": 1792151910326,
@@ -981,72 +1077,6 @@
     "asset": "VIX",
     "direction": "up",
     "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "8435c27da981cab8d3b2549b9eeee843",
-  "time": "15:49",
-  "ts": 1791906587781,
-  "title": "Australian Dollar edges higher amid softer US Dollar, hawkish RBA",
-  "link": "https://www.fxstreet.com/news/australian-dollar-edges-higher-as-softer-us-dollar-hawkish-rba-offer-support-202610131336",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الدولار الأسترالي طلع بسباب هبوط عوائد سندات الخزانة الميريكانية وتراجع الدولار. هاد الهبوط كيدفع مؤشر DXY وعوائد السندات US10Y للهبوط على المدى اليومي.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "4bc1ecc42d0c9801a0e0af0794e2e4a2",
-  "time": "15:49",
-  "ts": 1791906587781,
-  "title": "Australian Dollar : Key support at 0.6935 in focus against US Dollar   – UOB",
-  "link": "https://www.fxstreet.com/news/australian-dollar-key-support-at-06935-in-focus-against-us-dollar-uob-202610131404",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الدولار الأسترالي هبط قدام الدولار الميريكاني بسباب قوة هاد الأخير اللي ضاغط على عملات السلع. هاد التحرك كيعكس زخم صاعد محدود لمؤشر DXY.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "9c10c9573e3723fc65454a1ba9b77ab8",
-  "time": "15:49",
-  "ts": 1791906587781,
-  "title": "Canadian Dollar: Modest gains against US Dollar - Scotiabank",
-  "link": "https://www.fxstreet.com/news/canadian-dollar-modest-gains-against-us-dollar-scotiabank-202610131423",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الدولار الكندي دار أرباح طفيفة ضد الدولار الميريكاني واخا بيانات التشغيل فكندا ضعيفة. هادشي كيعكس تراجع خفيف فالدولار اللي كيأثر بشكل هابط وضعيف على مؤشر DXY.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 1,
     "duration": "daily"
    }
   ]

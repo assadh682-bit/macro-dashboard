@@ -1,5 +1,37 @@
 [
  {
+  "id": "a6201e0c025a019bb684ed9751d2fe7a",
+  "time": "20:58",
+  "ts": 1792184314593,
+  "title": "AI investors have woken up to the bond market’s warning signs",
+  "link": "https://www.marketwatch.com/story/ai-investors-have-woken-up-to-the-bond-markets-warning-signs-6f604c61?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "المستثمرين فمجال الذكاء الاصطناعي بداو كيردو البال لتحذيرات سوق السندات وارتفاع العوائد. هاد التخوف يقدر يشكل ضغط على تقييمات أسهم التكنولوجيا والنمو السريع ويزيد من الحذر فالأسواق.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "897304aca427777481305d0563593fc3",
   "time": "18:24",
   "ts": 1792175099333,
@@ -1050,32 +1082,6 @@
    {
     "asset": "GC",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "cb38cb63724edd654a2231f42d2d5845",
-  "time": "21:56",
-  "ts": 1791928582676,
-  "title": "Dow Jones Industrial Average gives back a 500-point earnings jump",
-  "link": "https://www.fxstreet.com/news/dow-jones-industrial-average-gives-back-a-500-point-earnings-jump-202610132112",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "نتائج الأبناك الأمريكية خرجات متباينة بين غولدمان ساكس وجي بي مورغان، والداو جونز ضيّع الأرباح ديالو من بعد ما طلع بـ 500 نقطة. هاد التردد ديال السوق كيضغط سلبياً على مؤشرات الأسهم وكيرفع من نسبة التذبذب.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

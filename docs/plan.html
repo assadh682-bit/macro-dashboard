@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070912">
+<title>خطة التداول</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="plan.css?v=1">
+</head>
+<body>
+<header>
+<div class="brand"><i class="dot"></i><h1>خطة التداول</h1></div>
+<a class="nav" href="dash.html">الدشبورد</a>
+</header>
+<main class="plan">
+
+<section class="c-amber"><h2>إعداد الصفقة</h2>
+<div class="form">
+<div class="col"><label class="l">الأصل</label><select id="asset"></select></div>
+<div class="col"><label class="l">الاتجاه</label>
+<div class="seg"><button class="seg-btn" data-dir="long" type="button">Long</button><button class="seg-btn" data-dir="short" type="button">Short</button></div></div>
+<div class="col"><label class="l">Entry</label><input id="entry" type="number" step="any" inputmode="decimal"></div>
+<div class="col"><label class="l">SL</label><input id="sl" type="number" step="any" inputmode="decimal"></div>
+<div class="col"><label class="l">TP</label><input id="tp" type="number" step="any" inputmode="decimal"></div>
+<div class="col"><label class="l">RR</label><div class="rr" id="rrout">--</div></div>
+<div class="col full2"><div class="tag" id="ctxinfo"></div></div>
+</div></section>
+
+<section class="c-blue"><h2>EXECUTION SYSTEM: تحليل HTF</h2><div id="g_htf"></div></section>
+<section class="c-violet"><h2>CONCEPT CONFIRMATION: الدخول LTF</h2><div id="g_ltf"></div></section>
+<section class="c-rose"><h2>المخاطرة</h2><div id="g_risk"></div></section>
+<section class="c-cyan"><h2>من الدشبورد</h2><div id="g_ctx"></div></section>
+
+<section class="c-green"><h2>النتيجة</h2>
+<div class="big ltr" id="pct">0%</div>
+<div class="meter"><i id="meter"></i></div>
+<div class="verdict" id="verdict"></div>
+<div id="warns"></div>
+<div class="note" id="hist"></div>
+<div class="note">هادي درجة توافق حسب شروطك، ماشي احتمال ربح مضمون. النسبة الحقيقية كتبان من صفقاتك المسجلة تحت.</div>
+</section>
+
+<section class="c-amber"><h2>سجل الصفقات</h2>
+<div class="row2"><button class="btn" id="btnSave" type="button">حفظ الصفقة</button><button class="btn ghost" id="btnReset" type="button">صفقة جديدة</button></div>
+<div class="note" id="msg"></div>
+<div id="journal"></div>
+<div class="note" id="stats"></div>
+<div class="row2"><button class="btn ghost" id="btnCopy" type="button">نسخ البيانات</button></div>
+<div class="note">السجل كيتحفظ فهاد المتصفح فقط. إلا مسحتي بيانات Chrome غيتمسح، فنسخ البيانات من وقت لآخر.</div>
+</section>
+
+</main>
+<div class="dock"><span>درجة التوافق</span><span id="dockv"></span><span id="dockpct" class="ltr">0%</span></div>
+<script src="plan.js"></script>
+</body>
+</html>

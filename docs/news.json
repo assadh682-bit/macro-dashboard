@@ -1,5 +1,31 @@
 [
  {
+  "id": "2ec682e5f684d65d18ae1eaf17c80f13",
+  "time": "21:24",
+  "ts": 1792185864603,
+  "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
+  "link": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "التحليل التقني لمؤشر الناسداك كيبين بلي أسهم التكنولوجيا باقا مهددة بمزيد من النزول وما خاصش بنادم يزرب ويشري فهاد الهبوط. هاد النظرة السلبية غاتضغط على مؤشر NQ بالهبوط وتقدر ترفع من مستويات القلق والتقلب فالسوق.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "a6201e0c025a019bb684ed9751d2fe7a",
   "time": "20:58",
   "ts": 1792184314593,
@@ -1044,44 +1070,6 @@
    {
     "asset": "US10Y",
     "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "180042ce7cdba6889f403b251434b972",
-  "time": "21:56",
-  "ts": 1791928582676,
-  "title": "The latest inflation data is expected to show price increases are accelerating",
-  "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 4,
-  "summary": "توقعات بتسارع التضخم فميريكان مع ارتفاع مؤشر أسعار المستهلكين، الشي اللي غادي يضغط على الفيدرالي باش يخلي أسعار الفائدة طالعة. هاد السيناريو كيعزز قوة الدولار وعوائد السندات، وكيضغط فالمقابل على الأسهم والذهب.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
     "strength": 2,
     "duration": "daily"
    }

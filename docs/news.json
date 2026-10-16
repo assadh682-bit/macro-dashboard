@@ -1,5 +1,109 @@
 [
  {
+  "id": "0808a9baf35638dceed026ebfcf542f9",
+  "time": "11:58",
+  "ts": 1792151910326,
+  "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
+  "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "رئيس الفيدرالي فضل يخلي الأسواق فغموض بلا ما يلمح لقرارات الفائدة الجاية قبل اجتماع البنك المركزي. هاد التردد كيزيد من عدم اليقين وكيخلي المستثمرين فترقب حذر.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "4869ce15eddd46ce0591cb274729aa09",
+  "time": "11:58",
+  "ts": 1792151910326,
+  "title": "The best of the AI trade could be behind us. Here’s how to prepare, according to Barclays.",
+  "link": "https://www.marketwatch.com/story/the-best-of-the-ai-trade-could-be-behind-us-heres-how-to-prepare-according-to-barclays-725ab4dd?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تحليل باركليز كيشير إلى أن أفضل فترات طفرة الذكاء الاصطناعي ممكن تكون سالات، مع ضرورة التركيز على الشركات ذات النماذج التشغيلية الصلبة. هادشي كيعني احتمال تباطؤ الزخم الصعودي لأسهم التكنولوجيا الكبرى.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "c5b1c4494bfa4b60bb8c8a4a061ef4c6",
+  "time": "11:58",
+  "ts": 1792151910326,
+  "title": "Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end",
+  "link": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تراجع أسعار الفائدة بدا كيعطي نفس جديد للأسهم خارج قطاع التكنولوجيا، الشي اللي كيمهد لرالي إيجابي حتى لآخر السنة. هاد المعطى كيدعم مؤشرات الأسهم الأمريكية ويخفف الضغط على العوائد.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "0ccda704363dbfad2591de209c9830f6",
+  "time": "11:58",
+  "ts": 1792151910326,
+  "title": "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.",
+  "link": "https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تقريبا 40% من شركات مؤشر S&P 500 داخلة فمنطقة هبوط حاد وخا المؤشر شاد راسو بفضل الشركات الكبرى. هاد التباين كيبين هشاشة فعمق السوق وممكن يرفع من الحيطة والحذر عند المستثمرين.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "neutral",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "15e13d6c0b6da1b78602c2af1e6af8ee",
   "time": "18:28",
   "ts": 1792088924867,
@@ -944,104 +1048,6 @@
     "direction": "down",
     "strength": 1,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "4c1d72297d5ec8bd9dc4ee4f4cbb48ea",
-  "time": "15:49",
-  "ts": 1791906587781,
-  "title": "Euro finds support from softer US Dollar, French fiscal risks linger",
-  "link": "https://www.fxstreet.com/news/euro-finds-support-from-softer-us-dollar-french-fiscal-risks-linger-202610131509",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الأورو تراجع قدامو الدولار اللي نزل من القمم الأخيرة ديالو، واخا باقين مخاوف مالية ففرنسا. هاد التراجع فالدولار كيضغط سلبيا على مؤشر DXY بشكل يومي.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "1a5dc3b8d2ba47180498a17235dca401",
-  "time": "12:56",
-  "ts": 1791896189017,
-  "title": "Options traders expect wild stock-market swings beginning later this month. Here are 4 things to watch.",
-  "link": "https://www.marketwatch.com/story/options-traders-expect-wild-stock-market-swings-beginning-later-this-month-here-are-4-things-to-watch-e4931b02?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "متداولي الأوبشنز كيتوقعو تقلبات وتحركات عنيفة فالأسهم الميريكانية مورا فترة الهدوء لي دازت. هاد الارتفاع المتوقع فحدة التذبذب كيعني صعود مباشر لمؤشر الخوف VIX وضغط على مؤشر ES.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "9dddacf638e039530ac902c93ed807f2",
-  "time": "12:56",
-  "ts": 1791896189017,
-  "title": "Fund managers retain surprising optimism in the face of stagnant stock market and tumultuous bond market",
-  "link": "https://www.marketwatch.com/story/fund-managers-retain-surprising-optimism-in-the-face-of-stagnant-stock-market-and-tumultuous-bond-market-3d9763dd?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "مدراء الصناديق كيتسناو عوائد السندات توصل لـ 6% باش يبدلو استثماراتهم من الأسهم لسوق السندات، وشي وحدين بداو من دابا. هاد الانتقال ديال السيولة يقدر يزيد يرفع عوائد السندات ويضغط سلبيا على مؤشر إس آند بي 500.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "17d2094e97dabf5872b59c83215a3025",
-  "time": "12:56",
-  "ts": 1791896189017,
-  "title": "U.S. wealth has shifted to stocks from homes. There are big reasons to worry.",
-  "link": "https://www.marketwatch.com/story/u-s-wealth-has-shifted-to-stocks-from-homes-there-are-big-reasons-to-worry-aa05864d?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الفلوس فميريكان تحولات بكثرة للأسهم بفضل طفرة الذكاء الاصطناعي، ولكن كلفة الاقتراض طالعة بزاف وكتشكل خطر. استمرار الفائدة المرتفعة يقدر يضغط سلبا على مؤشرات التكنولوجيا والأسهم بحال ناسداك.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
    }
   ]
  }

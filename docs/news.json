@@ -1,5 +1,37 @@
 [
  {
+  "id": "08b3528ee1a828c1419371f7f541e536",
+  "time": "21:55",
+  "ts": 1792187758630,
+  "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
+  "link": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "سوق السندات تجاهل أرقام التضخم لي خرجات مرتفعة، والمستثمرين دخلو كيشريو حيت العوائد وصلات لمستويات مغرية. هاد الاستقرار أو التراجع فالعوائد ديال الخزينة كيعطي إشارة إيجابية ومحفزة لأسواق الأسهم لي كترتاح من ضغط الفائدة.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "2ec682e5f684d65d18ae1eaf17c80f13",
   "time": "21:24",
   "ts": 1792185864603,
@@ -1043,32 +1075,6 @@
    },
    {
     "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "9d6b0e8068d87a642eeb5d086d2b0f4d",
-  "time": "22:55",
-  "ts": 1791932158636,
-  "title": "Mexican Peso buckles as Fed inflation fears overshadow dovish Williams",
-  "link": "https://www.fxstreet.com/news/mexican-peso-buckles-as-fed-inflation-fears-overshadow-dovish-williams-202610132217",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "البيزو المكسيكي تراجع قدام الدولار حيت كاين تخوف من التضخم فالميريكان قبل ما يخرج تقرير الـ CPI. هاد الترقب كيقوي الدولار الأمريكي حيت المستثمرين كيتوقعو الفيدرالي يقدر يشدد الفائدة. هاد الشي كيعطي دفعة إيجابية لمؤشر الدولار وعوائد السندات.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
     "direction": "up",
     "strength": 2,
     "duration": "daily"

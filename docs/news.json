@@ -1,5 +1,25 @@
 [
  {
+  "id": "55cf2c726cedd165877745304bb29058",
+  "time": "13:53",
+  "ts": 1792245228948,
+  "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+  "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "المستثمرين الأفراد والمشترين ديال الديور الثانوية كيشكلو خمس المبيعات فشتنبر وخا واصلة فائدة القروض لـ 7%. هاد الإقبال كيبين استمرار الطلب وقوة بعض الفئات فالاقتصاد الأمريكي، الشي اللي كيعزز فكرة بقاء الفائدة والعوائد طالعة.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "12fdcc98636c55c49ec7a9639555b866",
   "time": "13:01",
   "ts": 1792242102455,
@@ -1069,26 +1089,6 @@
     "asset": "VIX",
     "direction": "up",
     "strength": 3,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "fc4f37dae5579347044fc1927463bc6f",
-  "time": "01:11",
-  "ts": 1791940299190,
-  "title": "Euro edges higher above 1.1200 despite France fiscal risks, US CPI in focus",
-  "link": "https://www.fxstreet.com/news/euro-edges-higher-above-11200-despite-france-fiscal-risks-us-cpi-in-focus-202610140034",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الدولار تراجع شوية قدام الأورو من بعد تصريحات جون ويليامز من الفيدرالي الأمريكي اللي مالت للتيسير. هاد الهبوط كيضغط سلباً على مؤشر الدولار DXY فالوقت اللي كيتسناو فيه الأسواق بيانات التضخم.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
     "duration": "daily"
    }
   ]

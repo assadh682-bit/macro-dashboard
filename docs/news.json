@@ -1,5 +1,43 @@
 [
  {
+  "id": "690682bf124c356653f0f3b6c5223810",
+  "time": "11:17",
+  "ts": 1792235868758,
+  "title": "Fed interest-rate decision this month is a closer call than markets think",
+  "link": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "قرار الفيدرالي بخصوص أسعار الفائدة هاد الشهر متقارب وصعيب كثر من توقعات السوق، حيت كاين انقسام ونقاش واش يزيدو يرفعو الفائدة ولا يحبسو. هاد الغموض كيزيد من التذبذب فالأسواق ويقدر يضغط على الذهب والأسهم إذا رجحات كفة رفع الفائدة.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "08b3528ee1a828c1419371f7f541e536",
   "time": "21:55",
   "ts": 1792187758630,
@@ -1040,32 +1078,6 @@
   "importance": 2,
   "summary": "بنك اليابان ما ناويش يرفع سعر الفائدة فـ أكتوبر، هادشي خفف الضغط على الين ولكن الدولار تراجع قدام أغلب العملات الكبرى. هاد التراجع العام فالدولار كيضغط سلباً على مؤشر DXY وكيعطي دعم طفيف للذهب.",
   "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "cbd98a23e3429371b24a477931cb6787",
-  "time": "22:55",
-  "ts": 1791932158636,
-  "title": "Pound gains as Fed's Williams sees no 2027 hike",
-  "link": "https://www.fxstreet.com/news/pound-gains-and-stays-inside-its-range-for-a-third-week-202610132134",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الجنيه الإسترليني ربح شوية قدام الدولار بعد تصريحات عضو الفيدرالي ويليامز اللي لمح فيها لغياب زيادات فالفائدة. هاد النبرة الميسرة كتحط ضغط هابط خفيف على الدولار وكتدعم الذهب كأصل غير مدر للعائد. التداول باقي محصور فنطاق ضيق بانتظار بيانات أوضح.",
-  "confidence": 70,
   "impacts": [
    {
     "asset": "DXY",

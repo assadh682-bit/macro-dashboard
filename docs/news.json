@@ -1,5 +1,57 @@
 [
  {
+  "id": "12fdcc98636c55c49ec7a9639555b866",
+  "time": "13:01",
+  "ts": 1792242102455,
+  "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+  "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "توقعات أرباح إيجابية لشركات التكنولوجيا والذكاء الاصطناعي بحال مايكروسوفت مع بداية موسم النتائج. هاد التفاؤل كيدعم معنويات المستثمرين فأسواق الأسهم وكيعطي دفعة إيجابية لمؤشر الناسداك.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "822757bfc91216fdc91a1f250ff69b43",
+  "time": "13:01",
+  "ts": 1792242102455,
+  "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+  "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الهبوط القوي للفضة بنسبة كتر من 50% كيشير لتباطؤ اقتصادي محتمل حيت الفضة معدن صناعي واستثماري فنفس الوقت. هاد التراجع كيضغط على أسعار الفضة مباشرة وكيعكس مخاوف على النمو اللي تقدر تأثر على مؤشرات الأسهم بحال إس آند بي.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "SIL",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "690682bf124c356653f0f3b6c5223810",
   "time": "11:17",
   "ts": 1792235868758,
@@ -1036,58 +1088,6 @@
    {
     "asset": "DXY",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "ea3d136006d764da2467965bf7c8dda7",
-  "time": "23:51",
-  "ts": 1791935513136,
-  "title": "Gold declines to near $4,150 ahead of US CPI inflation data",
-  "link": "https://www.fxstreet.com/news/gold-declines-to-near-4-150-ahead-of-us-cpi-inflation-data-202610132321",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الذهب تراجع لجهة 4,150 دولار قبل صدور أرقام التضخم الأمريكية CPI. هاد الانخفاض سبابو ارتفاع أسعار البترول اللي كيغذي مخاوف التضخم ويخلي البنوك المركزية تشدد السياسة النقدية، الشي اللي كيضغط سلباً على المعدن النفيس.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "6fb2e16c28ea6cb64c0832987077be78",
-  "time": "23:18",
-  "ts": 1791933506118,
-  "title": "Yen trails the majors as the BoJ is said to lean against a hike",
-  "link": "https://www.fxstreet.com/news/yen-trails-the-majors-as-the-boj-is-said-to-lean-against-a-hike-202610132241",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "بنك اليابان ما ناويش يرفع سعر الفائدة فـ أكتوبر، هادشي خفف الضغط على الين ولكن الدولار تراجع قدام أغلب العملات الكبرى. هاد التراجع العام فالدولار كيضغط سلباً على مؤشر DXY وكيعطي دعم طفيف للذهب.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

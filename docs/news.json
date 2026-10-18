@@ -1,5 +1,43 @@
 [
  {
+  "id": "671fcb8506cd00af05d14674361a521b",
+  "time": "13:54",
+  "ts": 1792331642258,
+  "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+  "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "كاين تخوف كبير فالسوق بسباب ارتفاع عوائد السندات وتكاليف الاقتراض لي ولات كتضغط على أسهم التكنولوجيا وخا كاين نتائج أرباح قوية. هاد الصراع بين الفائدة المرتفعة ونمو الذكاء الاصطناعي يقدر يضغط سلباً على المؤشرات ويزيد التقلبات.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "d85e9e0678f3107172590cbc10fd30d7",
   "time": "12:19",
   "ts": 1792325977328,
@@ -1068,26 +1106,6 @@
    {
     "asset": "NQ",
     "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "8b245ca4925a6767d17f681d3a4d2765",
-  "time": "01:11",
-  "ts": 1791940299607,
-  "title": "Australian Dollar climbs as Fed’s Williams push the brakes on rates",
-  "link": "https://www.fxstreet.com/news/australian-dollar-climbs-as-feds-williams-push-the-brakes-on-rates-202610132334",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الدولار الأسترالي طلع مقابل الدولار الأمريكي بعد تصريحات ويليامز اللي لمحات لفرملة أسعار الفائدة. هاد التوجه كيزيد يضعف العملة الأمريكية وكيهبط مؤشر الدولار DXY على المدى القريب.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
     "strength": 2,
     "duration": "daily"
    }

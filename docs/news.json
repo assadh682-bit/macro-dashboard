@@ -1,5 +1,31 @@
 [
  {
+  "id": "aac25fcc239d39f6fe9dea3185069930",
+  "time": "14:18",
+  "ts": 1792333112531,
+  "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+  "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "شركات كبرى بحال بوينغ وميتا غادي تساهم فدعم نمو أرباح S&P 500 فهاد الربع، حيت العام الفايت كانت عندها مصاريف استثنائية كتسهل المقارنة دابا. هاد التوقعات الإيجابية كتعطي دفعة للمؤشرات الأمريكية بحال ES وNQ.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "671fcb8506cd00af05d14674361a521b",
   "time": "13:54",
   "ts": 1792331642258,
@@ -1079,32 +1105,6 @@
    },
    {
     "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "fa71a4d5ac1ec6c3f05a68b32ee2e86e",
-  "time": "03:27",
-  "ts": 1791948447166,
-  "title": "China's September Trade Balance: Exports and Imports beat estimates",
-  "link": "https://www.fxstreet.com/news/chinas-september-trade-balance-exports-and-imports-beat-estimates-202610140227",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الصادرات والواردات فـ الشينوا حققو أرقام قوية وفاتت التوقعات فـ شتنبر، وهادشي كيعكس تحسن التجارة والنشاط الاقتصادي العالمي. هاد المعطيات كتدعم شهية المخاطرة فـ الأسواق وكتعاون مؤشرات الأسهم بحال ES و NQ ترتفع.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "NQ",
     "direction": "up",
     "strength": 2,
     "duration": "daily"

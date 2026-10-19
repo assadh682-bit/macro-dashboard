@@ -1,5 +1,37 @@
 [
  {
+  "id": "1bd23407b487494d77adb69cb0b4a794",
+  "time": "20:01",
+  "ts": 1792440105782,
+  "title": "Why the Treasury’s financing plans are sparking anxiety on Wall Street",
+  "link": "https://www.marketwatch.com/story/why-the-treasurys-financing-plans-are-sparking-anxiety-on-wall-street-b49b5e17?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "خطط وزارة الخزينة الأمريكية لتمويل الديون كتثير القلق فـ وول ستريت، وهادشي خلا عوائد سندات 10 سنين تعاود تطلع. ارتفاع العوائد كيضغط بشكل مباشر على أسواق الأسهم وتكلفة الاقتراض.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "9b9d8925068f949989eef33c8631879d",
   "time": "12:02",
   "ts": 1792411320422,
@@ -1081,26 +1113,6 @@
     "asset": "DXY",
     "direction": "down",
     "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "cf4c19b200d33ee5024cbc0f729f52b6",
-  "time": "09:03",
-  "ts": 1791968629586,
-  "title": "Japanese Yen extends range play vs USD; looks to US CPI report for some impetus",
-  "link": "https://www.fxstreet.com/news/japanese-yen-extends-range-play-vs-usd-looks-to-us-cpi-report-for-some-impetus-202610140827",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الدولار مقابل الين باقي فمسار عرضي ومستقر فحركة ضيقة قبل صدور بيانات التضخم الأمريكية. هاد الترقب كيعني غياب سيولة واتجاه واضح مؤقتا على مؤشر الدولار.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "neutral",
-    "strength": 1,
     "duration": "daily"
    }
   ]

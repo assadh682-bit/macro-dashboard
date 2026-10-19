@@ -1,5 +1,37 @@
 [
  {
+  "id": "84cc17973d80ace60ac3f1933f8a337e",
+  "time": "22:01",
+  "ts": 1792447290146,
+  "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
+  "link": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "أسواق السندات عالية المخاطر كتعطي إشارات تحذيرية ومقلقة للمستثمرين على كثرة الضغوط الائتمانية. هاد التوتر كيعزز الحذر والمخاوف من تباطؤ اقتصادي أو مشاكل فتمويل الشركات، الشي اللي كيضغط سلباً على الأسهم وكيطلع مؤشر التقلب.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "1bd23407b487494d77adb69cb0b4a794",
   "time": "20:01",
   "ts": 1792440105782,
@@ -1087,32 +1119,6 @@
     "asset": "GC",
     "direction": "down",
     "strength": 3,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "3b6b056cc675d48cbf56fd24b3634c41",
-  "time": "09:03",
-  "ts": 1791968629586,
-  "title": "New Zealand Dollar gains as US Dollar weakens on falling yields",
-  "link": "https://www.fxstreet.com/news/new-zealand-dollar-gains-as-us-dollar-weakens-on-falling-yields-202610140817",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الدولار كيتعرض لضغط هبوطي مع تراجع عوائد سندات الخزينة الأمريكية وهبوط أسعار البترول، الشي اللي عطى دفعة للدولار النيوزيلندي. تراجع العوائد كيضعف مؤشر الدولار بشكل مباشر.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
     "duration": "daily"
    }
   ]

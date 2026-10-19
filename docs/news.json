@@ -1,5 +1,57 @@
 [
  {
+  "id": "0373eb6e9355fb36b636aeaf2f79dda5",
+  "time": "11:00",
+  "ts": 1792407643280,
+  "title": "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.",
+  "link": "https://www.marketwatch.com/story/big-tech-is-wobbling-goldman-sachs-says-its-time-to-buy-these-23-unloved-stocks-instead-cff7a9e0?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "غولدمان ساكس كيحذر من تذبذب وتراجع شركات التكنولوجيا الكبرى مع توقعات بتباطؤ نمو الأرباح العام الجاي، وكيشجع على التدوير نحو أسهم قطاعات أخرى. هاد الضغط على قطاع التيك كيأثر بشكل سلبي ومباشر على مؤشر النازداك NQ.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "e6fc1d6c9c7680cc89ba6d4a66b0f3f7",
+  "time": "11:00",
+  "ts": 1792407643280,
+  "title": "The S&P 500 is masking a hidden market pullback. Why Morgan Stanley says an index retreat would signal a buying opportunity.",
+  "link": "https://www.marketwatch.com/story/the-s-p-500-is-masking-a-hidden-market-pullback-why-morgan-stanley-says-an-index-retreat-would-signal-a-buying-opportunity-08d079c0?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "مورغان ستانلي كيشير بلي مؤشر S&P 500 مخبي تراجع داخلي فالسوق، ولكن أي هبوط غيكون فرصة مزيانة للشراء. هاد الحذر وتركيز المستثمرين على الشركات الدفاعية كيقدر يضغط مؤقتاً على مؤشر ES ويرفع من تقلبات VIX.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "aac25fcc239d39f6fe9dea3185069930",
   "time": "14:18",
   "ts": 1792333112531,
@@ -1054,58 +1106,6 @@
    {
     "asset": "ES",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "44a741012640ec6ea5ac902e950e22a5",
-  "time": "03:27",
-  "ts": 1791948447166,
-  "title": "Japanese Yen softens as October BoJ hike bets fade; stuck in a range vs USD ahead of US CPI",
-  "link": "https://www.fxstreet.com/news/japanese-yen-softens-as-october-boj-hike-bets-fade-stuck-in-a-range-vs-usd-ahead-of-us-cpi-202610140127",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 2,
-  "summary": "تراجع رهانات رفع الفائدة من طرف بنك اليابان خلى الين يضعف وطلع زوج USD/JPY لمستويات مرتفعة. ضعف الين الياباني كيعطي دعم خفيف لمؤشر الدولار DXY بحكم وزنو داخل سلة العملات.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "18334404ff82de10a9e165b05bb4ccce",
-  "time": "03:27",
-  "ts": 1791948447166,
-  "title": "British Pound strengthens above 1.3250, traders await US CPI inflation data",
-  "link": "https://www.fxstreet.com/news/british-pound-strengthens-above-13250-traders-await-us-cpi-inflation-data-202610140145",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "تصريحات تيسيرية من رئيس فيدرالي نيويورك جون ويليامز ضغطات على الدولار الأمريكي قبيل صدور بيانات التضخم US CPI. هاد الضعف فـ DXY وتراجع عوائد السندات كيقدم دعم مباشر لارتفاع الذهب GC.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

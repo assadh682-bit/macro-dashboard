@@ -1,5 +1,37 @@
 [
  {
+  "id": "9b9d8925068f949989eef33c8631879d",
+  "time": "12:02",
+  "ts": 1792411320422,
+  "title": "Tech stocks stumbled. Now comes a crucial week for Wall Street.",
+  "link": "https://www.marketwatch.com/story/tech-stocks-stumbled-now-comes-a-crucial-week-for-wall-street-2a093abe?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "أسهم قطاع التكنولوجيا تعترات، ووال ستريت مقبلة على سيمانة حاسمة مع تقارير أرباح الشركات الكبرى. هاد النتائج غادي تحدد واش موجة الصعود الحالية غادي تستامر ولا المستثمرين بداو يخافو ويتراجعو. هاد الترقب كيزيد من الحذر والتقلبات فالسوق، الشي اللي يقدر يضغط على مؤشرات الأسهم ويطلع مؤشر الخوف.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "0373eb6e9355fb36b636aeaf2f79dda5",
   "time": "11:00",
   "ts": 1792407643280,
@@ -1069,44 +1101,6 @@
     "asset": "DXY",
     "direction": "neutral",
     "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "24f425ed3f1cb627e86ade30f29fdc71",
-  "time": "09:03",
-  "ts": 1791968629094,
-  "title": "US CPI data expected to rise in September as markets reassess Fed rate outlook",
-  "link": "https://www.fxstreet.com/news/us-cpi-data-expected-to-rise-in-september-as-markets-reassess-fed-rate-outlook-202610140830",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "توقعات التضخم الأمريكي لشهر شتنبر كتشير لارتفاع محتمل، الشي اللي غيخلي الفيدرالي يتريث فخفض الفائدة. هاد الشي كيدعم صعود عوائد السندات والدولار، وكيضغط سلبا على الذهب والأسهم.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
     "duration": "daily"
    }
   ]

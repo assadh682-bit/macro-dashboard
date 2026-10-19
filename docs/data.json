@@ -1,76 +1,76 @@
 {
- "updated": "2026-10-16 21:52",
+ "updated": "2026-10-19 06:26",
  "auctions": [
   {
    "type": "Bill",
    "term": "13-Week",
-   "date": "2026-10-19",
+   "date": "",
    "amount": "95000000000"
   },
   {
    "type": "Bill",
    "term": "26-Week",
-   "date": "2026-10-19",
+   "date": "",
    "amount": "82000000000"
   },
   {
    "type": "Bill",
    "term": "6-Week",
-   "date": "2026-10-20",
+   "date": "",
    "amount": "95000000000"
   },
   {
    "type": "Bond",
    "term": "19-Year 10-Month",
-   "date": "2026-10-21",
+   "date": "",
    "amount": "13000000000"
-  },
-  {
-   "type": "Bill",
-   "term": "17-Week",
-   "date": "2026-10-21",
-   "amount": ""
   },
   {
    "type": "Note",
    "term": "5-Year",
-   "date": "2026-10-22",
+   "date": "",
    "amount": "26000000000"
   },
   {
    "type": "Bill",
+   "term": "17-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
    "term": "4-Week",
-   "date": "2026-10-22",
+   "date": "",
    "amount": ""
   },
   {
    "type": "Bill",
    "term": "8-Week",
-   "date": "2026-10-22",
+   "date": "",
    "amount": ""
   },
   {
    "type": "Bill",
    "term": "13-Week",
-   "date": "2026-10-26",
+   "date": "",
    "amount": ""
   },
   {
    "type": "Bill",
    "term": "26-Week",
-   "date": "2026-10-26",
+   "date": "",
    "amount": ""
   },
   {
    "type": "Note",
    "term": "2-Year",
-   "date": "2026-10-26",
+   "date": "",
    "amount": ""
   },
   {
    "type": "Bill",
    "term": "52-Week",
-   "date": "2026-10-27",
+   "date": "",
    "amount": ""
   }
  ],
@@ -90,60 +90,5 @@
    "change": -1909
   }
  },
- "calendar": [
-  {
-   "ts": 1791981000000,
-   "title": "Core CPI m/m",
-   "forecast": "0.2%",
-   "previous": "0.3%"
-  },
-  {
-   "ts": 1791981000000,
-   "title": "Core CPI y/y",
-   "forecast": "2.5%",
-   "previous": "2.4%"
-  },
-  {
-   "ts": 1791981000000,
-   "title": "CPI m/m",
-   "forecast": "0.6%",
-   "previous": "0.4%"
-  },
-  {
-   "ts": 1791981000000,
-   "title": "CPI y/y",
-   "forecast": "3.6%",
-   "previous": "3.4%"
-  },
-  {
-   "ts": 1792067400000,
-   "title": "Core PPI m/m",
-   "forecast": "0.3%",
-   "previous": "0.2%"
-  },
-  {
-   "ts": 1792067400000,
-   "title": "Core Retail Sales m/m",
-   "forecast": "0.6%",
-   "previous": "1.4%"
-  },
-  {
-   "ts": 1792067400000,
-   "title": "PPI m/m",
-   "forecast": "0.6%",
-   "previous": "0.4%"
-  },
-  {
-   "ts": 1792067400000,
-   "title": "Retail Sales m/m",
-   "forecast": "0.3%",
-   "previous": "1.2%"
-  },
-  {
-   "ts": 1792121400000,
-   "title": "Fed Chairman Warsh Speaks",
-   "forecast": "",
-   "previous": ""
-  }
- ]
+ "calendar": null
 }

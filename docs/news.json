@@ -1,5 +1,37 @@
 [
  {
+  "id": "74b7cfcd1e2e4ccb47ef826a92a76577",
+  "time": "16:03",
+  "ts": 1792512219669,
+  "title": "Pending home sales sink to 25-year low as buyers flee high mortgage rates",
+  "link": "https://www.marketwatch.com/story/pending-home-sales-sink-to-25-year-low-as-buyers-flee-high-mortgage-rates-d02c6b30?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "مبيعات المنازل المنتظرة فميريكان طاحت لأدنى مستوى فـ 25 عام بسباب قفزة فوائد الرهن العقاري فوق 7%. هاد التراجع الحاد كيعكس تباطؤ ملحوظ فالاقتصاد الميريكاني، الشي اللي يقدر يضغط على عوائد السندات والدولار ويدعم الذهب كملاذ آمن.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "9b94a70a3585916271cfa72cb6e20664",
   "time": "14:07",
   "ts": 1792505255941,
@@ -1100,32 +1132,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "3c75ff5a2f5152e453d7c5c40f2d8a8a",
-  "time": "12:28",
-  "ts": 1791980921218,
-  "title": "Bank of America adds a profit miss to the misery of a $1.2 billion government fine",
-  "link": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "سهم بنك أوف أمريكا طاح بعد أرباح ضعيفة وغرامة حكومية ديال 1.2 مليار دولار. هاد الضغط على القطاع البنكي يقدر يدير ضغط سلبي خفيف على مؤشر إس آند بي ويزيد القلق.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 1,
-    "duration": "daily"
    }
   ]
  }

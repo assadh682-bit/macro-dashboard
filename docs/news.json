@@ -1,5 +1,51 @@
 [
  {
+  "id": "6cfc0cc9233e47f4c8e7ba713cbfdf21",
+  "time": "13:16",
+  "ts": 1792502161306,
+  "title": "The AI boom is getting all the attention. We’re about to find out how the rest of the economy is holding up.",
+  "link": "https://www.marketwatch.com/story/the-ai-boom-is-getting-all-the-attention-were-about-to-find-out-how-the-rest-of-the-economy-is-holding-up-77b2266d?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "موسم نتائج الشركات غادي يكشف دابا على صحة الاقتصاد الأمريكي خارج قطاع الذكاء الاصطناعي، خصوصاً إنفاق المستهلكين. هاد البيانات غادي تبين واش كاين تباطؤ اقتصادي حقيقي ولا الاقتصاد باقي شاد راسو. هادشي كيأثر مباشرة على تحركات المؤشر العام للأسهم الأمريكية.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "neutral",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "dedeb5353e66ef808f165532e8e0f9de",
+  "time": "13:16",
+  "ts": 1792502161306,
+  "title": "What happens to Wall Street if CoreWeave defaults? JPMorgan checked the math.",
+  "link": "https://www.marketwatch.com/story/what-happens-to-wall-street-if-coreweave-defaults-jpmorgan-checked-the-math-cd16938c?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "بنك جي بي مورغان كيدرس سيناريو عجز شركة كورويف ديال الذكاء الاصطناعي على سداد ديونها وتأثير داكشي على الأبناك. هاد التخوف كيبين بلي كاين قلق متزايد من ديون قطاع البنية التحتية للذكاء الاصطناعي. إلا تطورات هاد المخاوف تقدر تضغط على مؤشرات التكنولوجيا وترفع من تقلبات السوق.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "656f9db4d65d67328ec3ed88bb675490",
   "time": "08:27",
   "ts": 1792484849640,
@@ -1080,52 +1126,6 @@
     "direction": "up",
     "strength": 2,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "37086eb9b521075ee7db2d3e09cce59a",
-  "time": "09:03",
-  "ts": 1791968630561,
-  "title": "Euro holds mild gains above 1.1200 as US Dollar drifts with US CPI on tap",
-  "link": "https://www.fxstreet.com/news/euro-holds-mild-gains-above-11200-as-the-us-dollar-drifts-with-us-cpi-on-tap-202610140732",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الأورو كيحقق مكاسب خفيفة بسباب تراجع وتراجع الدولار الأمريكي قبل صدور بيانات التضخم CPI. هاد الضعف فالدولار ناتج عن الحذر والتموضع الوقائي ديال المتداولين.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "adf94a24ed069049fa02a7316c75a41e",
-  "time": "09:03",
-  "ts": 1791968630088,
-  "title": "Equities: Chip-led drag as semiconductors slide – Deutsche Bank",
-  "link": "https://www.fxstreet.com/news/equities-chip-led-drag-as-semiconductors-slide-deutsche-bank-202610140805",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "تراجع أسهم أشباه الموصلات ومراكز البيانات كيضغط على مؤشر ستاندرد آند بورز وناسداك لليوم الخامس. هاد التراجع التكنولوجي كيعكس تصحيح قطاعي كيهبط مؤشرات الأسهم الأمريكية.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

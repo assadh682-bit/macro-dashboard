@@ -1,5 +1,25 @@
 [
  {
+  "id": "9b94a70a3585916271cfa72cb6e20664",
+  "time": "14:07",
+  "ts": 1792505255941,
+  "title": "Salesforce gets a chilly investor response to a $6 billion deal at a 58% premium",
+  "link": "https://www.marketwatch.com/story/salesforce-gets-a-chilly-investor-response-to-a-6-billion-deal-at-a-58-premium-57bd260b?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "سيلزفورس علنات على صفقة استحواذ بقيمة 6 مليار دولار بعلاوة مرتفعة، والأسواق استقبلات الخبر ببرود وتخوف من تشتيت السيولة. هاد التراجع فسهم تكنولوجي كبير يقدر يدير ضغط طفيف ومحلي على مؤشرات الأسهم بحال إس آند بي 500.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "6cfc0cc9233e47f4c8e7ba713cbfdf21",
   "time": "13:16",
   "ts": 1792502161306,
@@ -1106,26 +1126,6 @@
     "direction": "up",
     "strength": 1,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "4de42c4afdc0eefc4c9ef4be20af743d",
-  "time": "12:28",
-  "ts": 1791980921218,
-  "title": "Charles Schwab and DoorDash ranked among bargain stocks that could lead the market higher",
-  "link": "https://www.marketwatch.com/story/from-charles-schwab-to-doordash-why-these-bargain-stocks-could-lead-the-market-higher-4d99fb97?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "بنك HSBC كيشوف بلي كاين إمكانية السوق يتسع ويشمل شركات خارج قطاع الطاقة والرقائق. هادشي يقدر يدعم المؤشرات الأمريكية حيت السيولة غاتوزع على قطاعات خرى بحال الخدمات والمالية.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
    }
   ]
  }

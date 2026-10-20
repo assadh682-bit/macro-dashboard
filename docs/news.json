@@ -1,5 +1,37 @@
 [
  {
+  "id": "f95815613d0cfd01eda0dca7766a35a8",
+  "time": "20:59",
+  "ts": 1792529980276,
+  "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
+  "link": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "هاد التحليل كيحذر من إمكانية وصول سوق الأسهم للذروة ديالو وحدوث تصحيح بنسبة 15% فمؤشر S&P 500 بشكل تدريجي. هاد النظرة السلبية كتعزز الحذر عند المستثمرين وكتضغط على مؤشرات الأسهم بينما كترفع مؤشر التقلبات VIX.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "137c59887b8555bb006e99a87e6f324f",
   "time": "20:01",
   "ts": 1792526492186,
@@ -1086,38 +1118,6 @@
    {
     "asset": "ES",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "33d750ae3fcdb07e4a4499a2d67d53ae",
-  "time": "20:03",
-  "ts": 1792008228975,
-  "title": "Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma",
-  "link": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "ارتفاع عوائد السندات والتضخم حاطين الفيدرالي فمأزق حقيقي بخصوص تشديد السياسة النقدية. استمرار ضغط العوائد المرتفعة كيقلل شهية المخاطرة وكيأثر سلباً على أسهم التكنولوجيا والذهب.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

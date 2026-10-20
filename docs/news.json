@@ -1,5 +1,31 @@
 [
  {
+  "id": "d4649e19629a5e6e0cb8c97fa05b050d",
+  "time": "23:52",
+  "ts": 1792540370809,
+  "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+  "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الطلب القوي بزاف على قدرات الحوسبة المرتبطة بـ SpaceX والذكاء الاصطناعي عطا ثقة كبيرة للمستثمرين فوول ستريت. هاد التفاؤل بموجة الذكاء الاصطناعي كيدعم قطاع التكنولوجيا والأسهم الأمريكية بشكل إيجابي.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "f95815613d0cfd01eda0dca7766a35a8",
   "time": "20:59",
   "ts": 1792529980276,
@@ -1094,32 +1120,6 @@
     "direction": "up",
     "strength": 3,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "922d579596d9a86cd284533355d79b62",
-  "time": "20:03",
-  "ts": 1792008229415,
-  "title": "3 things that are driving inflation higher",
-  "link": "https://www.marketwatch.com/story/3-things-that-are-driving-inflation-higher-26bda9a9?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "ارتفاع أسعار المحروقات كيعاود يدفع التضخم الفوق، الشي اللي كيزيد الضغط على الاقتصاد. هاد الضغوط التضخمية كتعني أن الفائدة غتبقى مرتفعة، وهادشي كيدعم الدولار وكيضغط على مؤشرات الأسهم.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

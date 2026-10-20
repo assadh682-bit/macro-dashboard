@@ -1,5 +1,31 @@
 [
  {
+  "id": "656f9db4d65d67328ec3ed88bb675490",
+  "time": "08:27",
+  "ts": 1792484849640,
+  "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
+  "link": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "سوق العقار فميريكان كيعاني من ركود كبير بسباب فوائد الرهن العقاري اللي فايتة 7%، وبنك غولدمان ساكس كيتوقع الوضع يزيد يسوء. هاد التراجع كيدل على تباطؤ فالنمو الاقتصادي العام وكيضغط على عوائد السندات والأسهم.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "84cc17973d80ace60ac3f1933f8a337e",
   "time": "22:01",
   "ts": 1792447290146,
@@ -1099,26 +1125,6 @@
     "asset": "ES",
     "direction": "down",
     "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "57bdfc0af7df5cf1069477668486ac8e",
-  "time": "09:03",
-  "ts": 1791968629586,
-  "title": "Gold refreshes weekly low, below $4,150 as traders look to US CPI for Fed rate cuts",
-  "link": "https://www.fxstreet.com/news/gold-draws-support-from-retreating-usd-holds-above-4-150-as-traders-await-us-cpi-report-202610140409",
-  "source": "FXStreet Forex & Commodities News",
-  "relevant": true,
-  "importance": 4,
-  "summary": "الذهب سجل قاع أسبوعي جديد بسباب ترقب المستثمرين لبيانات التضخم الأمريكية اللي تقدر تقلص حظوظ خفض الفائدة. التخوف من بقاء الفائدة مرتفعة كيخلي الضغط البيعي مستمر على المعدن الأصفر.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 3,
     "duration": "daily"
    }
   ]

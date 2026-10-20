@@ -1,5 +1,57 @@
 [
  {
+  "id": "137c59887b8555bb006e99a87e6f324f",
+  "time": "20:01",
+  "ts": 1792526492186,
+  "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+  "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "تراجع بيانات قطاع الإسكان الأمريكي كيزيد من مخاوف تباطؤ الاقتصاد، خصوصاً مع تلويح الفيدرالي بمزيد من رفع الفائدة. هاد الضعف كيهدد النمو الاقتصادي وكيشكل ضغط سلبي على سوق الأسهم.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "68ea953cffe248dd7b5a2a24cf3bae74",
+  "time": "20:01",
+  "ts": 1792526492186,
+  "title": "Investors’ search for safety has made toothpaste stocks more expensive than tech",
+  "link": "https://www.marketwatch.com/story/investors-search-for-safety-has-made-toothpaste-stocks-more-expensive-than-tech-57a75e56?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "المستثمرين كيهربو من أسهم التكنولوجيا وكيفضلو الأسهم الدفاعية بحال المواد الاستهلاكية خوفاً من تقلبات السوق. هاد التحول كيبين ضعف شهية المخاطرة وكيضغط بشكل سلبي على مؤشر التكنولوجيا.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "74b7cfcd1e2e4ccb47ef826a92a76577",
   "time": "16:03",
   "ts": 1792512219669,
@@ -1068,70 +1120,6 @@
     "direction": "up",
     "strength": 2,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "6c67eb654b5cd1fa282e69b4a5a60527",
-  "time": "20:03",
-  "ts": 1792008228524,
-  "title": "What to expect at the next Fed meeting now that rate-hike odds are rising",
-  "link": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "كاين انقسام كبير بين المحللين واش الفيدرالي غادي يزيد الفائدة بربع نقطة فالاجتماع الجاي. هاد التوقعات ديال رفع الفائدة كتعطي دفعة للدولار وكتضغط سلباً على مؤشرات الأسهم والذهب.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "f4a80c4d8519e0650131ee4b5d2b8e6b",
-  "time": "12:28",
-  "ts": 1791980921218,
-  "title": "Here’s how much the AI boom is really contributing to inflation, according to Goldman Sachs calculations",
-  "link": "https://www.marketwatch.com/story/heres-how-much-the-ai-boom-is-contributing-to-inflation-according-to-goldman-sachs-calculations-5ec717ff?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "غولدمان ساكس كيتوقع التضخم الأساسي ما يرجع للهدف ديال 2% حتى لعام 2027 بسباب طفرة الذكاء الاصطناعي. هادشي كيعني الفائدة تقدر تبقى طالعة مدة أطول، الشي اللي كيدعم الدولار وعوائد السندات ويضغط على الذهب والأسهم.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
    }
   ]
  }

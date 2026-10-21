@@ -1,5 +1,91 @@
 [
  {
+  "id": "17f633796af8b147030a1cbf89ac80e5",
+  "time": "22:22",
+  "ts": 1792621364999,
+  "title": "7 healthcare stocks that stand out as investors pay up for the sector",
+  "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "قطاع الرعاية الصحية وصل لمستويات قياسية بفضل إقبال المستثمرين وتوقعات النمو القوية. هاد الزخم فالأسهم الدفاعية كيعطي دعم إيجابي متوازن لمؤشر إس آند بي 500.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "802017dc6638c89e40595154aaa338a4",
+  "time": "22:22",
+  "ts": 1792621364999,
+  "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
+  "link": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "صادرات النفط من الخليج رجعات كتعافى لمستويات ما قبل التوترات، ولكن الأسعار باقا شادة بسبب هشاشة الوضع الجيوسياسي. استقرار الإمدادات كينقص تدريجيا من علاوة المخاطر والتضخم، الشي اللي كيهدّن عوائد السندات.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "1b0e018f98823315f5b925b77fe4ab4c",
+  "time": "22:22",
+  "ts": 1792621364999,
+  "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
+  "link": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "ترامب طالب مراكز البيانات باش تولد الطاقة ديالها بنفسها، وخا التطبيق القانوني صعيب. هاد المقترح كيزيد الشكوك حول تكاليف البنية التحتية لشركات الذكاء الاصطناعي والتكنولوجيا.",
+  "confidence": 55,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 1,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "95e8b122360418a04efaee08b83af3ea",
+  "time": "22:22",
+  "ts": 1792621364999,
+  "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
+  "link": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "كاين تشكيك كبير فالسوق بخصوص إمكانية اندماج تسلا مع سبيس إكس، والخبراء كيعتبروها خطوة سلبية للمساهمين. هاد الحذر كيقدر يدير ضغط سلبي خفيف ومؤقت على أسهم التكنولوجيا ومؤشر ناسداك.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "e993c2eb343b99565b2d6653c460867b",
   "time": "12:00",
   "ts": 1792584013535,
@@ -983,122 +1069,6 @@
    },
    {
     "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "20290f61567853ecd491e83ad89e7d36",
-  "time": "13:16",
-  "ts": 1792070181889,
-  "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
-  "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 4,
-  "summary": "الخزانة الأمريكية قللات من تحذيرات صندوق النقد الدولي بخصوص تفاقم الدين العام اللي فات 40 تريليون دولار، مع بقاء عوائد السندات فوق 5%. هاد القلق المالي كيزيد الضغط على عوائد السندات وكيدعم الذهب كملاذ آمن ضد مخاطر الديون.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "732fe2b883e5d9f4a75c08552d952fa5",
-  "time": "13:16",
-  "ts": 1792070181412,
-  "title": "Micron, Nvidia and other chip stocks face renewed pressure as AI fears swell",
-  "link": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "أسهم الرقائق الإلكترونية بحال نفيديا وميكرون كتاكل الدق بسباب مخاوف جديدة على استمرارية نمو قطاع الذكاء الاصطناعي. هاد الشي يقدر يضغط بالسلب على مؤشرات التكنولوجيا ويزيد من التوتر والتقلبات فالأسواق الأمريكية.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "20ae6bd37cf8a8cf5f02f38eed63ffba",
-  "time": "10:01",
-  "ts": 1792058480273,
-  "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-  "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 4,
-  "summary": "العجز المالي لميريكان اللي واصل 2 تريليون دولار مع عوائد السندات فوق 5% كيصعب تمويل الديون وكيزيد كلفة الاقتراض. هاد الضغط كينعكس سلباً على مؤشرات الأسهم بسبب ارتفاع تكلفة رأس المال، وكيخلي عوائد السندات مرتفعة.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 4,
-    "duration": "weekly"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "b951bfeb6b6ca7197b5a152e4ae7487a",
-  "time": "09:03",
-  "ts": 1792055027971,
-  "title": "TSMC CEO sees no sign of a slowdown as chip foundry reports record profit",
-  "link": "https://www.marketwatch.com/story/tsmc-ceo-sees-no-sign-of-a-slowdown-as-chip-foundry-reports-record-profit-17a065d3?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "شركة TSMC سجلات أرباح قياسية فالربع الثالث والرئيس التنفيذي كيشوف بلي ما كاين حتى تباطؤ فالطلب على الرقائق الإلكترونية. هاد النتائج الممتازة كتعزز التفاؤل فأسهم التكنولوجيا والذكاء الاصطناعي وكتدعم مؤشر الناسداك.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
     "direction": "up",
     "strength": 2,
     "duration": "daily"

@@ -1,5 +1,51 @@
 [
  {
+  "id": "e993c2eb343b99565b2d6653c460867b",
+  "time": "12:00",
+  "ts": 1792584013535,
+  "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
+  "link": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الرئيس التنفيذي ديال بلاك روك، لاري فينك، كيحذر من أن عرقلة بناء مراكز البيانات غادية تزيد من الضغوط التضخمية وتأثر سلباً على النمو. هاد التحذير كيركز على تكاليف الطاقة والبنية التحتية، الشي اللي يقدر ينعكس على توقعات التضخم وعوائد السندات عل المدى المتوسط.",
+  "confidence": 55,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 1,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "a9ba9add87047719685846750818b3ba",
+  "time": "12:00",
+  "ts": 1792584013535,
+  "title": "Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?",
+  "link": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "إيلون ماسك كيفكر فإمكانية دمج SpaceX مع Tesla، وهاد الهضرة مع تحركات إيجابية فشركات التكنولوجيا رجعات التفاؤل لوول ستريت. هاد الأخبار كتعزز شهية المخاطرة وكتدعم أسهم التكنولوجيا ومؤشرات الأسهم الأمريكية.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "e66488d2a436f1e80afb6eb2bb74dd2d",
   "time": "11:01",
   "ts": 1792580504782,
@@ -1053,58 +1099,6 @@
    },
    {
     "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "1165cc2d0bb913c09a2974e61e0d8993",
-  "time": "09:03",
-  "ts": 1792055027971,
-  "title": "Why the AI trade is not set up for a rebound like July’s, according to JPMorgan",
-  "link": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "محلل من جيبيمورغان كيوضح بلي قطاع الذكاء الاصطناعي ما مستاعدش لارتداد قوي دابا حيت السيولة ناقصة وبرامج إعادة شراء الأسهم وقفات. هاد الشي كيدل على استمرار الحذر وممكن يضغط على أسهم التكنولوجيا سلبا فالأيام الجاية.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "82a2eae06cb1736125fa7c16b1a4e513",
-  "time": "23:20",
-  "ts": 1792020050045,
-  "title": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast",
-  "link": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "أسهم الشركات الصغيرة فـ ميريكان خسرات 10% فـ شهرين ودخلات فـ نطاق تصحيح بعد قمم تاريخية. هاد التراجع كيعكس تدهور شهية المخاطرة وضغط الفوائد المرتفعة، مما كيزيد التوتر فـ السوق كامل.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
     "direction": "up",
     "strength": 2,
     "duration": "daily"

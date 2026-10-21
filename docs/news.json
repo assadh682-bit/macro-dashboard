@@ -1,5 +1,31 @@
 [
  {
+  "id": "e66488d2a436f1e80afb6eb2bb74dd2d",
+  "time": "11:01",
+  "ts": 1792580504782,
+  "title": "In the battle for AI supremacy, China is only six months behind the U.S — but that means it’s winning, says former Google CEO",
+  "link": "https://www.marketwatch.com/story/in-the-battle-for-ai-supremacy-china-is-only-six-months-behind-the-u-s-but-that-means-theyre-winning-says-former-google-ceo-82d71e7a?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "الرئيس التنفيذي السابق لغوغل كايأكد بلي الذكاء الاصطناعي ماشي فقاعة وفيه نمو وأرباح حقيقية، وخا الشينوا قريبة بزاف للميريكان فالمنافسة. هاد الهضرة كتعطي ثقة للمستثمرين فأسهم التكنولوجيا وكتدعم قطاع التقنية. التأثير كيبقى إيجابي نسبياً على مؤشر الناسداك على المدى القصير.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "4dc297000efe699ca63fcfc0a3facd83",
   "time": "02:03",
   "ts": 1792548182746,
@@ -1081,32 +1107,6 @@
     "asset": "VIX",
     "direction": "up",
     "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "75deea45d9fbad236805837d3e26d10f",
-  "time": "23:20",
-  "ts": 1792020049646,
-  "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
-  "link": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "السندات ديال شركة CoreWeave المتخصصة فـ الذكاء الاصطناعي انهارت وطلعات الفوائد ديالها لفوق 15%. هاد التراجع كيدق ناقوس الخطر على ديون شركات التقنية وغادي يضغط سلباً على قطاع التكنولوجيا فـ وول ستريت.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
     "duration": "daily"
    }
   ]

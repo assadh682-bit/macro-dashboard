@@ -1,5 +1,25 @@
 [
  {
+  "id": "4dc297000efe699ca63fcfc0a3facd83",
+  "time": "02:03",
+  "ts": 1792548182746,
+  "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
+  "link": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 1,
+  "summary": "المستهلكين فالميريكان وأوروبا كيطالبو بأثمنة هابطة وتكنولوجيا مزيانة، الشي اللي كيزيد الضغط على هوامش أرباح شركات السيارات الغربية. هاد التراجع فالربحية كيقدر يأثر سلباً وبشكل طفيف على قطاع الاستهلاك التقديري والسيارات فمؤشر S&P 500.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "d4649e19629a5e6e0cb8c97fa05b050d",
   "time": "23:52",
   "ts": 1792540370809,
@@ -1088,38 +1108,6 @@
     "direction": "up",
     "strength": 3,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "600f70c588dd497a0dfe4311a1de871b",
-  "time": "20:03",
-  "ts": 1792008229415,
-  "title": "How high inflation became a 'fact of life' in the U.S.",
-  "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 4,
-  "summary": "تخوف الفيدرالي من ترسيخ التضخم كعامل دائم عند المستهلكين كيعزز فكرة إبقاء أسعار الفائدة مرتفعة لمدة أطول. هاد التوجه كيقوي الدولار وعوائد السندات وكيشكل ضغط بيعي على الذهب والأسهم.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
    }
   ]
  }

@@ -1,5 +1,37 @@
 [
  {
+  "id": "9ca3f0fed8244c50274345fe63b2a650",
+  "time": "13:38",
+  "ts": 1792676297775,
+  "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
+  "link": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "طلبات إعانة البطالة فالميريكان تراجعات لـ 194 ألف، وهادشي كيبين بلي سوق الشغل ما زال صحيح بزاف ومكاينش تسريح للعمال. هاد القوة كتزيد من احتمال بقاء أسعار الفائدة طالعة من طرف الفيدرالي، الشي اللي كيدعم الدولار وعوائد السندات وكيضغط هبوطياً على الذهب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "faf317235133f1dcd60e26f739e8bed2",
   "time": "08:32",
   "ts": 1792657920631,
@@ -1040,38 +1072,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "c5b1c4494bfa4b60bb8c8a4a061ef4c6",
-  "time": "11:58",
-  "ts": 1792151910326,
-  "title": "Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end",
-  "link": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "تراجع أسعار الفائدة بدا كيعطي نفس جديد للأسهم خارج قطاع التكنولوجيا، الشي اللي كيمهد لرالي إيجابي حتى لآخر السنة. هاد المعطى كيدعم مؤشرات الأسهم الأمريكية ويخفف الضغط على العوائد.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

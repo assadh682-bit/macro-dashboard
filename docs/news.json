@@ -1,5 +1,127 @@
 [
  {
+  "id": "047bcce3758edbe7c69fbdaaf88aefbe",
+  "time": "23:26",
+  "ts": 1792711613804,
+  "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+  "link": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 5,
+  "summary": "أسعار الطاقة كتقرب من قمم قياسية مع تزايد مخاطر حرب إقليمية مع إيران وغلاء نقل النفط. هاد الخطر الجيوسياسي كيهدد بارتفاع التضخم والاضطراب فالأسواق، الشي اللي كيعزز الطلب على الملاذات الآمنة.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "100256e3cca12f2cbbb552490a80cf4c",
+  "time": "23:26",
+  "ts": 1792711613394,
+  "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
+  "link": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "قطاع أشباه الموصلات طاح بشكل حاد بسباب تراجع توقعات Lam Research وخفض إنفاق تسلا، مع تخوفات من اعتماد طفرة الذكاء الاصطناعي على التمويل الخارجي. هاد الضعف كيضغط مباشرة وبقوة على مؤشر ناسداك.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "6002fb23584852ba9320cdbe6660aac3",
+  "time": "23:26",
+  "ts": 1792711612957,
+  "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
+  "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "عوائد سندات الخزانة سجلات أكبر تراجع يومي ليها من أزمة البنوك ديال 2023 بسبب تدفقات قوية على شراء السندات. المحللين كيشوفو بلي هادي حركة تصحيحية وتبديل مراكز ماشي بالضرورة خوف من ركود شامل.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "a083520d30ec078edfd4556a6724be62",
+  "time": "23:26",
+  "ts": 1792711612443,
+  "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
+  "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "سوق الأسهم الأمريكية كيعيش تخبط كبير مع تراجع موجة الذكاء الاصطناعي وارتفاع مؤشر الخوف. هاد التخوف دفع المستثمرين للهروب لسندات الخزانة، الشي اللي هبّط العائد ديال 10 سنين بأقوى وتيرة من أزمة البنوك.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 4,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "9ca3f0fed8244c50274345fe63b2a650",
   "time": "13:38",
   "ts": 1792676297775,
@@ -968,110 +1090,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "8730cefdf738cf28a2a5337bb14f519c",
-  "time": "18:24",
-  "ts": 1792175099333,
-  "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
-  "link": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 3,
-  "summary": "العجز فالميزانية الأمريكية طلع لتقريباً 2 تريليون دولار بزيادة 12% فالعام. هاد التوسع المالي كيعني زيادة إصدارات الخزينة مما كيرفع عوائد السندات وكيدعم الذهب كملاذ ضد المخاطر المالية.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "11bcb0a853b351ed8cf7803384633462",
-  "time": "18:24",
-  "ts": 1792175099333,
-  "title": "Many of 2026’s hottest stocks have seen dramatic comedowns this week",
-  "link": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "كاين تراجع حاد فالأسهم اللي كانت كتقود الارتفاعات هاد العام مع حركة تصحيح ودوران فالسوق. هاد الشي كيدل على جني أرباح فأسهم النمو والزخم، مما كيضغط سلباً على مؤشر النازداك والأسهم بشكل عام.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "0808a9baf35638dceed026ebfcf542f9",
-  "time": "11:58",
-  "ts": 1792151910326,
-  "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
-  "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "رئيس الفيدرالي فضل يخلي الأسواق فغموض بلا ما يلمح لقرارات الفائدة الجاية قبل اجتماع البنك المركزي. هاد التردد كيزيد من عدم اليقين وكيخلي المستثمرين فترقب حذر.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "neutral",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "4869ce15eddd46ce0591cb274729aa09",
-  "time": "11:58",
-  "ts": 1792151910326,
-  "title": "The best of the AI trade could be behind us. Here’s how to prepare, according to Barclays.",
-  "link": "https://www.marketwatch.com/story/the-best-of-the-ai-trade-could-be-behind-us-heres-how-to-prepare-according-to-barclays-725ab4dd?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "تحليل باركليز كيشير إلى أن أفضل فترات طفرة الذكاء الاصطناعي ممكن تكون سالات، مع ضرورة التركيز على الشركات ذات النماذج التشغيلية الصلبة. هادشي كيعني احتمال تباطؤ الزخم الصعودي لأسهم التكنولوجيا الكبرى.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
    }
   ]
  }

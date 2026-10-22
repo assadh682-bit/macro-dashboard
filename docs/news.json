@@ -1,5 +1,31 @@
 [
  {
+  "id": "faf317235133f1dcd60e26f739e8bed2",
+  "time": "08:32",
+  "ts": 1792657920631,
+  "title": "Top HSBC strategist has a warning for retail investors chasing the AI rally",
+  "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "محلل استراتيجي فـ HSBC كيحذر المستثمرين الأفراد اللي تابعين موجة الذكاء الاصطناعي، وموضح بلي شروط اللعبة كتبدل بالزربة وماشي ساهل استمرار هاد الصعود. هاد التحذيرات تقدر تبرد الحماس على أسهم التكنولوجيا وتدير ضغط هابط خفيف على النازداك.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "85dfbc660379ed74eb25dbe3f836fc21",
   "time": "23:23",
   "ts": 1792624998238,
@@ -1044,32 +1070,6 @@
    {
     "asset": "US10Y",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "0ccda704363dbfad2591de209c9830f6",
-  "time": "11:58",
-  "ts": 1792151910326,
-  "title": "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.",
-  "link": "https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "تقريبا 40% من شركات مؤشر S&P 500 داخلة فمنطقة هبوط حاد وخا المؤشر شاد راسو بفضل الشركات الكبرى. هاد التباين كيبين هشاشة فعمق السوق وممكن يرفع من الحيطة والحذر عند المستثمرين.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "neutral",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

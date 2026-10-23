@@ -1,5 +1,63 @@
 [
  {
+  "id": "458efcfb3eb03b3d76a23d257245579c",
+  "time": "19:57",
+  "ts": 1792785436773,
+  "title": "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade?",
+  "link": "https://www.marketwatch.com/story/can-nvidias-stock-become-a-safe-haven-as-wall-street-rethinks-the-ai-trade-64862936?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "كاين نقاش فوول ستريت حول اعتبار سهم إنفيديا ملاذ أكثر أمانا وثباتا وسط إعادة تقييم استثمارات الذكاء الاصطناعي. هاد النظرة كتعطي دعم واستقرار لمؤشر الناسداك والأسهم التكنولوجية بصفة عامة.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "b850bab9dc2671e3c1966509d5484bb4",
+  "time": "19:57",
+  "ts": 1792785436205,
+  "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
+  "link": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "التوترات الجيوسياسية وتوقعات بضربات عسكرية على إيران كترفع أسعار النفط ومخاوف التضخم فالأسواق. هاد الخوف كيدفع المستثمرين نحو الملاذات الآمنة بحال الذهب وكيطلع مؤشر التقلب، مع ضغط على مؤشرات الأسهم.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "047bcce3758edbe7c69fbdaaf88aefbe",
   "time": "23:26",
   "ts": 1792711613804,
@@ -1018,76 +1076,6 @@
    {
     "asset": "VIX",
     "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "a6201e0c025a019bb684ed9751d2fe7a",
-  "time": "20:58",
-  "ts": 1792184314593,
-  "title": "AI investors have woken up to the bond market’s warning signs",
-  "link": "https://www.marketwatch.com/story/ai-investors-have-woken-up-to-the-bond-markets-warning-signs-6f604c61?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "المستثمرين فمجال الذكاء الاصطناعي بداو كيردو البال لتحذيرات سوق السندات وارتفاع العوائد. هاد التخوف يقدر يشكل ضغط على تقييمات أسهم التكنولوجيا والنمو السريع ويزيد من الحذر فالأسواق.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "897304aca427777481305d0563593fc3",
-  "time": "18:24",
-  "ts": 1792175099333,
-  "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
-  "link": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 3,
-  "summary": "التحليل كيشير لاحتمال مفاجأة من الفيدرالي بخصوص الفائدة بسبب مخاوف التضخم عكس توقعات التثبيت. حالة عدم اليقين والتشديد المحتمل كتدعم الدولار وعوائد السندات وتضغط على أسهم التكنولوجيا والذهب.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
     "strength": 2,
     "duration": "daily"
    }

@@ -1,5 +1,57 @@
 [
  {
+  "id": "1be378bb50a32386bf4555c254429375",
+  "time": "13:07",
+  "ts": 1792847276366,
+  "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
+  "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "المستثمرين كيطالبو برؤية وتواصل أوضح من طرف الفيدرالي الأمريكي بخصوص السياسة النقدية المستقبلية. هاد الغموض وغياب أجوبة واضحة كيخلق نوع من الحذر فالأسواق وممكن يرفع التذبذب.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "neutral",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "1117ec6257c5ba5bf3cfcba4b9473ca9",
+  "time": "13:07",
+  "ts": 1792847276366,
+  "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
+  "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الإقبال المتزايد على صناديق الاستثمار الخاصة بالذكاء الاصطناعي والتكنولوجيا كيبين بلي شهية المخاطرة ما زال قوية فالسوق. هاد السيولة والزخم غادي يزيدو يدعمو أسهم قطاع التكنولوجيا ومؤشر الناسداك.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "458efcfb3eb03b3d76a23d257245579c",
   "time": "19:57",
   "ts": 1792785436773,
@@ -1014,64 +1066,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "08b3528ee1a828c1419371f7f541e536",
-  "time": "21:55",
-  "ts": 1792187758630,
-  "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
-  "link": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "سوق السندات تجاهل أرقام التضخم لي خرجات مرتفعة، والمستثمرين دخلو كيشريو حيت العوائد وصلات لمستويات مغرية. هاد الاستقرار أو التراجع فالعوائد ديال الخزينة كيعطي إشارة إيجابية ومحفزة لأسواق الأسهم لي كترتاح من ضغط الفائدة.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "2ec682e5f684d65d18ae1eaf17c80f13",
-  "time": "21:24",
-  "ts": 1792185864603,
-  "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
-  "link": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "التحليل التقني لمؤشر الناسداك كيبين بلي أسهم التكنولوجيا باقا مهددة بمزيد من النزول وما خاصش بنادم يزرب ويشري فهاد الهبوط. هاد النظرة السلبية غاتضغط على مؤشر NQ بالهبوط وتقدر ترفع من مستويات القلق والتقلب فالسوق.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
    },
    {
     "asset": "VIX",

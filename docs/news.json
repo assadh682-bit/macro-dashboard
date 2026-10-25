@@ -1,5 +1,31 @@
 [
  {
+  "id": "1d818c04d89e48058cf22c4ac36cbb45",
+  "time": "12:23",
+  "ts": 1792931003507,
+  "title": "Why economic health no longer dictates stock-market returns",
+  "link": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "المقال كيوضح كيفاش أداء البورصة ولا مفارق مع الواقع الاقتصادي الحقيقي، وزيادة تأثير الذكاء الاصطناعي كيعزز هاد الفجوة. هاد الشي كيدعم بالأساس شركات التكنولوجيا الكبرى واخا المؤشرات الاقتصادية العامة تبان ضعيفة.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "1be378bb50a32386bf4555c254429375",
   "time": "13:07",
   "ts": 1792847276366,
@@ -1034,44 +1060,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "690682bf124c356653f0f3b6c5223810",
-  "time": "11:17",
-  "ts": 1792235868758,
-  "title": "Fed interest-rate decision this month is a closer call than markets think",
-  "link": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "قرار الفيدرالي بخصوص أسعار الفائدة هاد الشهر متقارب وصعيب كثر من توقعات السوق، حيت كاين انقسام ونقاش واش يزيدو يرفعو الفائدة ولا يحبسو. هاد الغموض كيزيد من التذبذب فالأسواق ويقدر يضغط على الذهب والأسهم إذا رجحات كفة رفع الفائدة.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 21:54",
+ "updated": "2026-10-26 06:27",
  "auctions": [
   {
    "type": "Bill",
@@ -90,5 +90,36 @@
    "change": -2114
   }
  },
- "calendar": null
+ "calendar": [
+  {
+   "ts": 1793210400000,
+   "title": "Federal Funds Rate",
+   "forecast": "4.00%",
+   "previous": "4.00%"
+  },
+  {
+   "ts": 1793210400000,
+   "title": "FOMC Statement",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1793212200000,
+   "title": "FOMC Press Conference",
+   "forecast": "",
+   "previous": ""
+  },
+  {
+   "ts": 1793277000000,
+   "title": "Advance GDP q/q",
+   "forecast": "3.2%",
+   "previous": "1.5%"
+  },
+  {
+   "ts": 1793277000000,
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.2%"
+  }
+ ]
 }

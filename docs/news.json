@@ -1,5 +1,147 @@
 [
  {
+  "id": "d52a3e08e9d3de9e4ca12672ddcf4037",
+  "time": "12:04",
+  "ts": 1793102650524,
+  "title": "Fed rate hikes are coming, but not this week: CNBC survey",
+  "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "استطلاع CNBC كيبين توقع 93% لتثبيت الفائدة فهاد الاجتماع مع إمكانية زيادات لاحقة. تثبيت الفائدة كيعطي هدوء مؤقت للأسواق، ولكن التهديد برفعها مستقبلا كيدعم الدولار وعوائد السندات.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "6e87fb9c4b7713bde620ef056e7fc058",
+  "time": "12:04",
+  "ts": 1793102650524,
+  "title": "AI stocks haven’t played by the normal valuation rules. Now that rates are higher, they may have to, says UBS",
+  "link": "https://www.marketwatch.com/story/ai-stocks-havent-played-by-the-normal-valuation-rules-now-that-rates-are-higher-they-may-have-to-says-ubs-f8c78948?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تحذير من بنك UBS بلي تقييمات أسهم الذكاء الاصطناعي مابقاتش منطقية مع الفائدة المرتفعة وغادي ترجع للقواعد العادية. هاد الضغط كيزيد من احتمالية تصحيح نزولي فأسهم التكنولوجيا.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "5e10d047c2b85f1b8fcc3191e8fae2e1",
+  "time": "12:04",
+  "ts": 1793102650104,
+  "title": "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.",
+  "link": "https://www.marketwatch.com/story/big-techs-earnings-are-on-deck-theres-more-for-investors-to-watch-than-ai-spending-bb566c90?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "الأسواق كتسنى نتائج أرباح كبرى شركات التكنولوجيا بحال مايكروسوفت وأمازون مع مراقبة تقليص الوظائف ومصاريف الذكاء الاصطناعي. هاد النتائج غادي تحدد اتجاه مؤشرات الأسهم الأمريكية بشكل مباشر.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "neutral",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "neutral",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "e43f1e2b2e5a2699aea72f15571d6306",
+  "time": "12:04",
+  "ts": 1793102650104,
+  "title": "AI debt trouble could help Fed’s Warsh get his way with fewer rate hikes",
+  "link": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "صعوبة تمويل ديون الذكاء الاصطناعي مع ارتفاع التكاليف تقدر تدفع الفيدرالي يخفف وتيرة رفع الفائدة. هاد التباطؤ فـتمويل مشاريع التكنولوجيا كيدير ضغط على قطاع التقنية ولكن كيهبط عوائد السندات.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "b685bc195cfc3736fd49a8a89ea41f83",
+  "time": "12:04",
+  "ts": 1793102650104,
+  "title": "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit",
+  "link": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "كلام خامنئي على إمكانية اتفاق وتخفيف التوتر السياسي فإيران حرك الأسواق شوية. هاد الإشارات كتهدن المخاوف الجيوسياسية فمنطقة الشرق الأوسط، الشي اللي كينقص الطلب على الملاذات الآمنة.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "1d818c04d89e48058cf22c4ac36cbb45",
   "time": "12:23",
   "ts": 1792931003507,
@@ -922,142 +1064,6 @@
    {
     "asset": "NQ",
     "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "671fcb8506cd00af05d14674361a521b",
-  "time": "13:54",
-  "ts": 1792331642258,
-  "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
-  "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "كاين تخوف كبير فالسوق بسباب ارتفاع عوائد السندات وتكاليف الاقتراض لي ولات كتضغط على أسهم التكنولوجيا وخا كاين نتائج أرباح قوية. هاد الصراع بين الفائدة المرتفعة ونمو الذكاء الاصطناعي يقدر يضغط سلباً على المؤشرات ويزيد التقلبات.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "d85e9e0678f3107172590cbc10fd30d7",
-  "time": "12:19",
-  "ts": 1792325977328,
-  "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
-  "link": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "كاين دوران صامت فالتدفقات المالية داخل مؤشر S&P 500 مع ظهور نموذج فني 'triple-top' كينبه لضعف جاي فالسوق. هاد المؤشرات الفنية كتعكس ضغط هبوطي على عقود الأسهم وكتفتح المجال لتصحيح يقدر يطول. هادشي كيشكل تأثير سلبي مباشر على ES وكيطلع مستويات التذبذب VIX.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "55cf2c726cedd165877745304bb29058",
-  "time": "13:53",
-  "ts": 1792245228948,
-  "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
-  "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "المستثمرين الأفراد والمشترين ديال الديور الثانوية كيشكلو خمس المبيعات فشتنبر وخا واصلة فائدة القروض لـ 7%. هاد الإقبال كيبين استمرار الطلب وقوة بعض الفئات فالاقتصاد الأمريكي، الشي اللي كيعزز فكرة بقاء الفائدة والعوائد طالعة.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "12fdcc98636c55c49ec7a9639555b866",
-  "time": "13:01",
-  "ts": 1792242102455,
-  "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
-  "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "توقعات أرباح إيجابية لشركات التكنولوجيا والذكاء الاصطناعي بحال مايكروسوفت مع بداية موسم النتائج. هاد التفاؤل كيدعم معنويات المستثمرين فأسواق الأسهم وكيعطي دفعة إيجابية لمؤشر الناسداك.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "822757bfc91216fdc91a1f250ff69b43",
-  "time": "13:01",
-  "ts": 1792242102455,
-  "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
-  "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الهبوط القوي للفضة بنسبة كتر من 50% كيشير لتباطؤ اقتصادي محتمل حيت الفضة معدن صناعي واستثماري فنفس الوقت. هاد التراجع كيضغط على أسعار الفضة مباشرة وكيعكس مخاوف على النمو اللي تقدر تأثر على مؤشرات الأسهم بحال إس آند بي.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "SIL",
-    "direction": "down",
-    "strength": 4,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
     "strength": 2,
     "duration": "weekly"
    }

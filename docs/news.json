@@ -1,5 +1,37 @@
 [
  {
+  "id": "e70d093ac76c5c92783518f82de8dd71",
+  "time": "22:13",
+  "ts": 1793225601787,
+  "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+  "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "الفيدرالي الأمريكي ثبت ولا حرك الفائدة كيف ما كان متوقع، ولكن كانو مفاجآت فالتفاصيل ديال الاجتماع والندوة الصحفية. هاد الغموض حول التوجه المستقبلي كيزيد الحذر عند المستثمرين وكيأثر مباشرة على تحركات الدولار وسوق الأسهم.",
+  "confidence": 55,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "neutral",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "neutral",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "neutral",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "d52a3e08e9d3de9e4ca12672ddcf4037",
   "time": "12:04",
   "ts": 1793102650524,
@@ -1040,32 +1072,6 @@
     "direction": "up",
     "strength": 2,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "aac25fcc239d39f6fe9dea3185069930",
-  "time": "14:18",
-  "ts": 1792333112531,
-  "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
-  "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "شركات كبرى بحال بوينغ وميتا غادي تساهم فدعم نمو أرباح S&P 500 فهاد الربع، حيت العام الفايت كانت عندها مصاريف استثنائية كتسهل المقارنة دابا. هاد التوقعات الإيجابية كتعطي دفعة للمؤشرات الأمريكية بحال ES وNQ.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
    }
   ]
  }

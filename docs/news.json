@@ -1,5 +1,57 @@
 [
  {
+  "id": "6d9b7c502852bc5c27231491bd741ecd",
+  "time": "00:00",
+  "ts": 1793232039996,
+  "title": "Fortinet’s stock is taking a dive after earnings. Here’s why.",
+  "link": "https://www.marketwatch.com/story/fortinets-stock-is-taking-a-dive-after-earnings-heres-why-d407896e?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "أسهم فورتينيت وقطاع الأمن السيبراني كيعرفو هبوط ملحوظ بسباب تباطؤ النمو فواحد من الفروع الرئيسية للشركة. هاد التراجع كيدير ضغط طفيف وسلبي على مؤشر الناسداك ولكن التأثير كيبقى محلي ومحدود فمجال التكنولوجيا.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "9e81307143e2bb337b008b4b2eee30db",
+  "time": "00:00",
+  "ts": 1793232039550,
+  "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
+  "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "سهم ألفابت كيعيش ضغط بيعي قوي وخا أرباح الكلاود تضوبلات، بسباب تخوف المستثمرين من تأثير الذكاء الاصطناعي على مداخيل محرك البحث. هاد الهبوط ديال شركة عملاقة بحال هادي غادي يجر معاه مؤشرات التكنولوجيا لتحت ويزيد من تقلبات السوق.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "e70d093ac76c5c92783518f82de8dd71",
   "time": "22:13",
   "ts": 1793225601787,
@@ -1020,58 +1072,6 @@
     "direction": "up",
     "strength": 3,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "0373eb6e9355fb36b636aeaf2f79dda5",
-  "time": "11:00",
-  "ts": 1792407643280,
-  "title": "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.",
-  "link": "https://www.marketwatch.com/story/big-tech-is-wobbling-goldman-sachs-says-its-time-to-buy-these-23-unloved-stocks-instead-cff7a9e0?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "غولدمان ساكس كيحذر من تذبذب وتراجع شركات التكنولوجيا الكبرى مع توقعات بتباطؤ نمو الأرباح العام الجاي، وكيشجع على التدوير نحو أسهم قطاعات أخرى. هاد الضغط على قطاع التيك كيأثر بشكل سلبي ومباشر على مؤشر النازداك NQ.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "e6fc1d6c9c7680cc89ba6d4a66b0f3f7",
-  "time": "11:00",
-  "ts": 1792407643280,
-  "title": "The S&P 500 is masking a hidden market pullback. Why Morgan Stanley says an index retreat would signal a buying opportunity.",
-  "link": "https://www.marketwatch.com/story/the-s-p-500-is-masking-a-hidden-market-pullback-why-morgan-stanley-says-an-index-retreat-would-signal-a-buying-opportunity-08d079c0?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "مورغان ستانلي كيشير بلي مؤشر S&P 500 مخبي تراجع داخلي فالسوق، ولكن أي هبوط غيكون فرصة مزيانة للشراء. هاد الحذر وتركيز المستثمرين على الشركات الدفاعية كيقدر يضغط مؤقتاً على مؤشر ES ويرفع من تقلبات VIX.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

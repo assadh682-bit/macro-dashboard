@@ -1,23 +1,11 @@
 {
- "updated": "2026-10-28 06:30",
+ "updated": "2026-10-29 06:33",
  "auctions": [
-  {
-   "type": "Note",
-   "term": "2-Year",
-   "date": "",
-   "amount": "30000000000"
-  },
   {
    "type": "Note",
    "term": "7-Year",
    "date": "",
    "amount": "44000000000"
-  },
-  {
-   "type": "Bill",
-   "term": "17-Week",
-   "date": "",
-   "amount": "75000000000"
   },
   {
    "type": "Bill",

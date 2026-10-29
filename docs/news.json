@@ -1,5 +1,25 @@
 [
  {
+  "id": "dd3b80ce68305ce78050eba9d5105798",
+  "time": "23:28",
+  "ts": 1793316505165,
+  "title": "Why Intel’s stock is sinking toward its worst drop in two years",
+  "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "أسهم شركة إنتل كتعرف هبوط كبير بسباب تراجع مبيعات البيسيات وضعف ميزانيات الشركات الموجهة للتكنولوجيا. هاد التراجع كيأثر سلباً على معنويات قطاع أشباه الموصلات وكيضغط بالأساس على مؤشر الناسداك.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "6d9b7c502852bc5c27231491bd741ecd",
   "time": "00:00",
   "ts": 1793232039996,
@@ -1040,38 +1060,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "9b9d8925068f949989eef33c8631879d",
-  "time": "12:02",
-  "ts": 1792411320422,
-  "title": "Tech stocks stumbled. Now comes a crucial week for Wall Street.",
-  "link": "https://www.marketwatch.com/story/tech-stocks-stumbled-now-comes-a-crucial-week-for-wall-street-2a093abe?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "أسهم قطاع التكنولوجيا تعترات، ووال ستريت مقبلة على سيمانة حاسمة مع تقارير أرباح الشركات الكبرى. هاد النتائج غادي تحدد واش موجة الصعود الحالية غادي تستامر ولا المستثمرين بداو يخافو ويتراجعو. هاد الترقب كيزيد من الحذر والتقلبات فالسوق، الشي اللي يقدر يضغط على مؤشرات الأسهم ويطلع مؤشر الخوف.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
    }
   ]
  }

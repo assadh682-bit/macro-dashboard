@@ -1,5 +1,25 @@
 [
  {
+  "id": "e9027e791a16684ef7a16846555dc918",
+  "time": "23:03",
+  "ts": 1793401419890,
+  "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+  "link": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "سعر الذهب هبط لأدنى مستوى فظرف عام واخا كاينين مخاوف وتوترات جيوسياسية متجددة مع إيران مورا الانتخابات الأمريكية. هاد التراجع كيبين بلي الضغط البيعي وقوة الدولار تغلبو على طلب الملاذ الآمن، الشي اللي كيخلي النظرة سلبية على المعدن الأصفر على المدى القريب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "a96d7dffcf97551486f39f866aeda354",
   "time": "10:41",
   "ts": 1793356861559,
@@ -1020,38 +1040,6 @@
    {
     "asset": "ES",
     "direction": "down",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "84cc17973d80ace60ac3f1933f8a337e",
-  "time": "22:01",
-  "ts": 1792447290146,
-  "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
-  "link": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "أسواق السندات عالية المخاطر كتعطي إشارات تحذيرية ومقلقة للمستثمرين على كثرة الضغوط الائتمانية. هاد التوتر كيعزز الحذر والمخاوف من تباطؤ اقتصادي أو مشاكل فتمويل الشركات، الشي اللي كيضغط سلباً على الأسهم وكيطلع مؤشر التقلب.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
     "strength": 1,
     "duration": "daily"
    }

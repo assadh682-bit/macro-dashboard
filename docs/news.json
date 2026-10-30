@@ -1,5 +1,31 @@
 [
  {
+  "id": "a96d7dffcf97551486f39f866aeda354",
+  "time": "10:41",
+  "ts": 1793356861559,
+  "title": "Here’s the math on Amazon CEO’s claim to be on path to two trillion-dollar revenue businesses",
+  "link": "https://www.marketwatch.com/story/heres-the-math-on-amazon-ceos-claim-to-be-on-path-to-two-trillion-dollar-revenue-businesses-34d648e8?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "المدير التنفيذي ديال أمازون صرح بلي الشركة غادية فمسار باش تحقق إيرادات خيالية كتوصل لتريليون دولار فجوج قطاعات. هاد النظرة المتفائلة كتعزز معنويات المستثمرين فشركات التكنولوجيا الكبرى. هادشي يقدر يعطي دفعة إيجابية خفيفة لمؤشر الناسداك وإس آند بي 500.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "dd3b80ce68305ce78050eba9d5105798",
   "time": "23:28",
   "ts": 1793316505165,
@@ -1027,38 +1053,6 @@
     "asset": "GC",
     "direction": "up",
     "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "1bd23407b487494d77adb69cb0b4a794",
-  "time": "20:01",
-  "ts": 1792440105782,
-  "title": "Why the Treasury’s financing plans are sparking anxiety on Wall Street",
-  "link": "https://www.marketwatch.com/story/why-the-treasurys-financing-plans-are-sparking-anxiety-on-wall-street-b49b5e17?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "خطط وزارة الخزينة الأمريكية لتمويل الديون كتثير القلق فـ وول ستريت، وهادشي خلا عوائد سندات 10 سنين تعاود تطلع. ارتفاع العوائد كيضغط بشكل مباشر على أسواق الأسهم وتكلفة الاقتراض.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
     "duration": "daily"
    }
   ]

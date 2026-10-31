@@ -1,5 +1,77 @@
 [
  {
+  "id": "95af5baf9e948fa27b7a272176479e4d",
+  "time": "14:04",
+  "ts": 1793455493420,
+  "title": "Nvidia’s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+  "link": "https://www.marketwatch.com/story/nvidias-megaspeed-ties-show-potential-blind-spots-in-the-u-s-effort-to-block-china-from-accessing-advanced-chips-e75d541a?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "كاينين ثغرات فمحاولات واشنطن لمنع وصول الصين للرقائق المتطورة ديال إنفيديا عبر خدمات السحابة. هاد الجدل كيهدد بتشديد العقوبات والقيود التجارية، هادشي اللي يقدر يضغط على قطاع أشباه الموصلات ومؤشرات الأسهم التكنولوجية.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "cfedffc71c8eac6f1279235ccbd16e6e",
+  "time": "14:04",
+  "ts": 1793455492951,
+  "title": "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
+  "link": "https://www.marketwatch.com/story/the-stock-markets-front-runners-stumbled-in-october-heres-where-the-smart-money-is-moving-now-f901472a?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "الأسهم القيادية الأمريكية تعثرات فـ أكتوبر بسباب الخوف من تراجع التدفقات النقدية وارتفاع تكاليف الاقتراض اللي ضرات طفرة الذكاء الاصطناعي. خروج الفلوس الذكية من التكنولوجيا كيزيد الضغط على المؤشرات الرئيسية وكيطلع من حدة التقلبات فالسوق.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "aaca08bea46048a4c0a98898449d5550",
+  "time": "14:04",
+  "ts": 1793455492951,
+  "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
+  "link": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "غوغل كتواجه تحدي كبير مع إدماج الذكاء الاصطناعي فمحرك البحث ديالها، والشكوك كاينة واش هادشي غادي ينقذ أرباحها ولا يدمر نموذج خدمتها القديم. هاد الضبابية على مداخيل الإعلانات كتقدر تأثر سلبا على قطاع التكنولوجيا القيادي ومؤشر ناسداك.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
   "id": "8aef1dc3c8bea7e0877e152a7ab264d2",
   "time": "00:01",
   "ts": 1793404864326,
@@ -986,72 +1058,6 @@
    {
     "asset": "DXY",
     "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "9b94a70a3585916271cfa72cb6e20664",
-  "time": "14:07",
-  "ts": 1792505255941,
-  "title": "Salesforce gets a chilly investor response to a $6 billion deal at a 58% premium",
-  "link": "https://www.marketwatch.com/story/salesforce-gets-a-chilly-investor-response-to-a-6-billion-deal-at-a-58-premium-57bd260b?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "سيلزفورس علنات على صفقة استحواذ بقيمة 6 مليار دولار بعلاوة مرتفعة، والأسواق استقبلات الخبر ببرود وتخوف من تشتيت السيولة. هاد التراجع فسهم تكنولوجي كبير يقدر يدير ضغط طفيف ومحلي على مؤشرات الأسهم بحال إس آند بي 500.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "6cfc0cc9233e47f4c8e7ba713cbfdf21",
-  "time": "13:16",
-  "ts": 1792502161306,
-  "title": "The AI boom is getting all the attention. We’re about to find out how the rest of the economy is holding up.",
-  "link": "https://www.marketwatch.com/story/the-ai-boom-is-getting-all-the-attention-were-about-to-find-out-how-the-rest-of-the-economy-is-holding-up-77b2266d?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "موسم نتائج الشركات غادي يكشف دابا على صحة الاقتصاد الأمريكي خارج قطاع الذكاء الاصطناعي، خصوصاً إنفاق المستهلكين. هاد البيانات غادي تبين واش كاين تباطؤ اقتصادي حقيقي ولا الاقتصاد باقي شاد راسو. هادشي كيأثر مباشرة على تحركات المؤشر العام للأسهم الأمريكية.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "neutral",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "dedeb5353e66ef808f165532e8e0f9de",
-  "time": "13:16",
-  "ts": 1792502161306,
-  "title": "What happens to Wall Street if CoreWeave defaults? JPMorgan checked the math.",
-  "link": "https://www.marketwatch.com/story/what-happens-to-wall-street-if-coreweave-defaults-jpmorgan-checked-the-math-cd16938c?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "بنك جي بي مورغان كيدرس سيناريو عجز شركة كورويف ديال الذكاء الاصطناعي على سداد ديونها وتأثير داكشي على الأبناك. هاد التخوف كيبين بلي كاين قلق متزايد من ديون قطاع البنية التحتية للذكاء الاصطناعي. إلا تطورات هاد المخاوف تقدر تضغط على مؤشرات التكنولوجيا وترفع من تقلبات السوق.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
     "strength": 2,
     "duration": "daily"
    }

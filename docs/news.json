@@ -1,5 +1,43 @@
 [
  {
+  "id": "8aef1dc3c8bea7e0877e152a7ab264d2",
+  "time": "00:01",
+  "ts": 1793404864326,
+  "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+  "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "هاد التقرير كيشير بلي الهبوط القوي ديال مؤشر الناسداك كيشبه بزاف للفرقعة ديال فقاعة دوت كوم فعام 2000. هاد التخوفات كتخلق ضغط بيعي كبير على أسهم قطاع التكنولوجيا وكتزيد من قلق المستثمرين. النتيجة هي تراجع مؤشرات الأسهم وارتفاع مؤشر الخوف والتقلبات فالسوق.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "e9027e791a16684ef7a16846555dc918",
   "time": "23:03",
   "ts": 1793401419890,
@@ -1015,32 +1053,6 @@
     "asset": "VIX",
     "direction": "up",
     "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "656f9db4d65d67328ec3ed88bb675490",
-  "time": "08:27",
-  "ts": 1792484849640,
-  "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
-  "link": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "سوق العقار فميريكان كيعاني من ركود كبير بسباب فوائد الرهن العقاري اللي فايتة 7%، وبنك غولدمان ساكس كيتوقع الوضع يزيد يسوء. هاد التراجع كيدل على تباطؤ فالنمو الاقتصادي العام وكيضغط على عوائد السندات والأسهم.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 1,
     "duration": "daily"
    }
   ]

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 21:57",
+ "updated": "2026-11-02 06:58",
  "auctions": [
   {
    "type": "Bill",
@@ -92,34 +92,28 @@
  },
  "calendar": [
   {
-   "ts": 1793210400000,
-   "title": "Federal Funds Rate",
-   "forecast": "4.00%",
-   "previous": "4.00%"
-  },
-  {
-   "ts": 1793210400000,
-   "title": "FOMC Statement",
+   "ts": 1793718960000,
+   "title": "Congressional Elections",
    "forecast": "",
    "previous": ""
   },
   {
-   "ts": 1793212200000,
-   "title": "FOMC Press Conference",
-   "forecast": "",
-   "previous": ""
-  },
-  {
-   "ts": 1793277000000,
-   "title": "Advance GDP q/q",
-   "forecast": "3.2%",
-   "previous": "1.5%"
-  },
-  {
-   "ts": 1793277000000,
-   "title": "Core PCE Price Index m/m",
+   "ts": 1793971800000,
+   "title": "Average Hourly Earnings m/m",
    "forecast": "0.3%",
-   "previous": "0.2%"
+   "previous": "0.1%"
+  },
+  {
+   "ts": 1793971800000,
+   "title": "Non-Farm Employment Change",
+   "forecast": "63K",
+   "previous": "29K"
+  },
+  {
+   "ts": 1793971800000,
+   "title": "Unemployment Rate",
+   "forecast": "4.2%",
+   "previous": "4.2%"
   }
  ]
 }

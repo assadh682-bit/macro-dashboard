@@ -1,18 +1,6 @@
 {
- "updated": "2026-11-02 06:58",
+ "updated": "2026-11-03 06:48",
  "auctions": [
-  {
-   "type": "Bill",
-   "term": "13-Week",
-   "date": "",
-   "amount": "95000000000"
-  },
-  {
-   "type": "Bill",
-   "term": "26-Week",
-   "date": "",
-   "amount": "82000000000"
-  },
   {
    "type": "Bill",
    "term": "6-Week",
@@ -106,7 +94,7 @@
   {
    "ts": 1793971800000,
    "title": "Non-Farm Employment Change",
-   "forecast": "63K",
+   "forecast": "65K",
    "previous": "29K"
   },
   {

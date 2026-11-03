@@ -1,5 +1,25 @@
 [
  {
+  "id": "01bdacb739fff342fa01ee0cce74968c",
+  "time": "01:54",
+  "ts": 1793670864183,
+  "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+  "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "أسهم بالانتير تراجعات وخا حققات أرباح قوية بسباب تباطؤ نمو العقود التجارية فميريكان. هاد التراجع كيقدر يدير ضغط طفيف على معنويات المستثمرين فأسهم التكنولوجيا والذكاء الاصطناعي. هاد الشي عندو تأثير محدود وسلبي على مؤشر النازداك.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "95af5baf9e948fa27b7a272176479e4d",
   "time": "14:04",
   "ts": 1793455493420,
@@ -1026,38 +1046,6 @@
    {
     "asset": "VIX",
     "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "74b7cfcd1e2e4ccb47ef826a92a76577",
-  "time": "16:03",
-  "ts": 1792512219669,
-  "title": "Pending home sales sink to 25-year low as buyers flee high mortgage rates",
-  "link": "https://www.marketwatch.com/story/pending-home-sales-sink-to-25-year-low-as-buyers-flee-high-mortgage-rates-d02c6b30?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "مبيعات المنازل المنتظرة فميريكان طاحت لأدنى مستوى فـ 25 عام بسباب قفزة فوائد الرهن العقاري فوق 7%. هاد التراجع الحاد كيعكس تباطؤ ملحوظ فالاقتصاد الميريكاني، الشي اللي يقدر يضغط على عوائد السندات والدولار ويدعم الذهب كملاذ آمن.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "down",
     "strength": 2,
     "duration": "daily"
    }

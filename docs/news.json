@@ -1,5 +1,161 @@
 [
  {
+  "id": "8a675b10f8ff4b483ad5f9a934bf475f",
+  "time": "16:22",
+  "ts": 1793809359317,
+  "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+  "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "التضخم فمنطقة الأورو وصل لـ 4% مدفوع بارتفاع الطاقة، مع توقعات برفع الفائدة من البنك المركزي الأوروبي. هاد الأمر كايعطي قوة لليورو وممكن يضغط سلباً على مؤشر الدولار.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "8c5054934c6ac8ca43f9f416f76fb51e",
+  "time": "16:22",
+  "ts": 1793809359317,
+  "title": "Private companies added 86,000 jobs in October, slightly higher than expected, ADP says",
+  "link": "https://www.cnbc.com/2026/11/04/private-companies-added-86000-jobs-in-october-slightly-higher-than-expected-adp-says.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 2,
+  "summary": "تقرير الوظائف الخاص ADP ورا زيادة خفيفة كتر من المتوقع بـ 86 ألف وظيفة. الاستقرار النسبي فسوق العمل كايدعم الدولار وعوائد السندات بشكل طفيف حيت كايقلل احتمالات خفض الفائدة بسرعة.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "0ecc5ca650f272007ed7f1c40e2a695e",
+  "time": "16:22",
+  "ts": 1793809358552,
+  "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+  "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 4,
+  "summary": "خلاف سياسي مرتقب على سقف الدين كايزيد من خطر التخلف عن السداد والاضطراب فالأسواق المالية. هاد التوتر كايطلع مؤشر الخوف ويدفع المستثمرين للدهب كملاذ آمن مع هبوط الأسهم.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "e87a5611ab4069463df6f2776973f41d",
+  "time": "16:22",
+  "ts": 1793809358552,
+  "title": "Midterm elections deliver a ‘blue wave.’ The stock market sees green.",
+  "link": "https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الأسواق تفاعلات بإيجابية مع نتائج الانتخابات ووضوح الرؤية السياسية والصفقات فمجال الذكاء الاصطناعي. هاد التفاؤل كايعطي دفعة قوية لمؤشرات الأسهم الأمريكية بحال إس آند بي وناسداك.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "17a2243b656881ae70430fa2edcabe54",
+  "time": "16:22",
+  "ts": 1793809358552,
+  "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+  "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "أسهم الرقائق الإلكترونية والذكاء الاصطناعي تراجعات بسباب مخاوف سياسية متعلقة بمستقبل مراكز البيانات بعد نتائج الانتخابات. هاد التراجع كايأثر بشكل سلبي ومباشر على مؤشر ناسداك لقطاع التكنولوجيا.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "672f8452954aaade1964842f837de566",
+  "time": "16:22",
+  "ts": 1793809358552,
+  "title": "The U.S. economy is barreling ahead — but there’s one big problem",
+  "link": "https://www.marketwatch.com/story/the-u-s-economy-is-barreling-ahead-but-theres-one-big-problem-6d62e3b3?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الاقتصاد الأمريكي كايسجل نمو قوي ولكن التضخم باقي شاد راسو ومقلق الشركات. هاد الشي كايعني بلي الفيدرالي يقدر يخلي الفائدة طالعة لمدة أطول، الشي اللي كايدعم عوائد السندات والدولار وكيضغط على الأسهم.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "01bdacb739fff342fa01ee0cce74968c",
   "time": "01:54",
   "ts": 1793670864183,
@@ -889,162 +1045,6 @@
    },
    {
     "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "e66488d2a436f1e80afb6eb2bb74dd2d",
-  "time": "11:01",
-  "ts": 1792580504782,
-  "title": "In the battle for AI supremacy, China is only six months behind the U.S — but that means it’s winning, says former Google CEO",
-  "link": "https://www.marketwatch.com/story/in-the-battle-for-ai-supremacy-china-is-only-six-months-behind-the-u-s-but-that-means-theyre-winning-says-former-google-ceo-82d71e7a?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الرئيس التنفيذي السابق لغوغل كايأكد بلي الذكاء الاصطناعي ماشي فقاعة وفيه نمو وأرباح حقيقية، وخا الشينوا قريبة بزاف للميريكان فالمنافسة. هاد الهضرة كتعطي ثقة للمستثمرين فأسهم التكنولوجيا وكتدعم قطاع التقنية. التأثير كيبقى إيجابي نسبياً على مؤشر الناسداك على المدى القصير.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "4dc297000efe699ca63fcfc0a3facd83",
-  "time": "02:03",
-  "ts": 1792548182746,
-  "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
-  "link": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 1,
-  "summary": "المستهلكين فالميريكان وأوروبا كيطالبو بأثمنة هابطة وتكنولوجيا مزيانة، الشي اللي كيزيد الضغط على هوامش أرباح شركات السيارات الغربية. هاد التراجع فالربحية كيقدر يأثر سلباً وبشكل طفيف على قطاع الاستهلاك التقديري والسيارات فمؤشر S&P 500.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 1,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "d4649e19629a5e6e0cb8c97fa05b050d",
-  "time": "23:52",
-  "ts": 1792540370809,
-  "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
-  "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الطلب القوي بزاف على قدرات الحوسبة المرتبطة بـ SpaceX والذكاء الاصطناعي عطا ثقة كبيرة للمستثمرين فوول ستريت. هاد التفاؤل بموجة الذكاء الاصطناعي كيدعم قطاع التكنولوجيا والأسهم الأمريكية بشكل إيجابي.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "f95815613d0cfd01eda0dca7766a35a8",
-  "time": "20:59",
-  "ts": 1792529980276,
-  "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
-  "link": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "هاد التحليل كيحذر من إمكانية وصول سوق الأسهم للذروة ديالو وحدوث تصحيح بنسبة 15% فمؤشر S&P 500 بشكل تدريجي. هاد النظرة السلبية كتعزز الحذر عند المستثمرين وكتضغط على مؤشرات الأسهم بينما كترفع مؤشر التقلبات VIX.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "137c59887b8555bb006e99a87e6f324f",
-  "time": "20:01",
-  "ts": 1792526492186,
-  "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-  "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 4,
-  "summary": "تراجع بيانات قطاع الإسكان الأمريكي كيزيد من مخاوف تباطؤ الاقتصاد، خصوصاً مع تلويح الفيدرالي بمزيد من رفع الفائدة. هاد الضعف كيهدد النمو الاقتصادي وكيشكل ضغط سلبي على سوق الأسهم.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "68ea953cffe248dd7b5a2a24cf3bae74",
-  "time": "20:01",
-  "ts": 1792526492186,
-  "title": "Investors’ search for safety has made toothpaste stocks more expensive than tech",
-  "link": "https://www.marketwatch.com/story/investors-search-for-safety-has-made-toothpaste-stocks-more-expensive-than-tech-57a75e56?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "المستثمرين كيهربو من أسهم التكنولوجيا وكيفضلو الأسهم الدفاعية بحال المواد الاستهلاكية خوفاً من تقلبات السوق. هاد التحول كيبين ضعف شهية المخاطرة وكيضغط بشكل سلبي على مؤشر التكنولوجيا.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
     "direction": "up",
     "strength": 2,
     "duration": "daily"

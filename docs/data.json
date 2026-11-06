@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06 06:54",
+ "updated": "2026-11-06 22:00",
  "auctions": [
   {
    "type": "Note",
@@ -36,22 +36,58 @@
    "term": "6-Week",
    "date": "",
    "amount": "100000000000"
+  },
+  {
+   "type": "Bill",
+   "term": "17-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "4-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "8-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "13-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "26-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "6-Week",
+   "date": "",
+   "amount": ""
   }
  ],
  "cot": {
   "GC": {
-   "date": "2026-10-27",
-   "long": 122508,
-   "short": 16946,
-   "net": 105562,
-   "change": 1356
+   "date": "2026-11-03",
+   "long": 122283,
+   "short": 18669,
+   "net": 103614,
+   "change": -1948
   },
   "SIL": {
-   "date": "2026-10-27",
-   "long": 16864,
-   "short": 13543,
-   "net": 3321,
-   "change": -184
+   "date": "2026-11-03",
+   "long": 17522,
+   "short": 13487,
+   "net": 4035,
+   "change": 714
   }
  },
  "calendar": [

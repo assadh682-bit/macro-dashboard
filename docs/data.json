@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06 22:00",
+ "updated": "2026-11-09 07:04",
  "auctions": [
   {
    "type": "Note",
@@ -92,28 +92,28 @@
  },
  "calendar": [
   {
-   "ts": 1793718960000,
-   "title": "Congressional Elections",
-   "forecast": "",
-   "previous": ""
+   "ts": 1794317400000,
+   "title": "Core CPI m/m",
+   "forecast": "0.2%",
+   "previous": "0.3%"
   },
   {
-   "ts": 1793971800000,
-   "title": "Average Hourly Earnings m/m",
+   "ts": 1794317400000,
+   "title": "CPI m/m",
    "forecast": "0.3%",
-   "previous": "0.1%"
+   "previous": "0.6%"
   },
   {
-   "ts": 1793971800000,
-   "title": "Non-Farm Employment Change",
-   "forecast": "65K",
-   "previous": "29K"
+   "ts": 1794576600000,
+   "title": "Core PPI m/m",
+   "forecast": "0.3%",
+   "previous": "0.7%"
   },
   {
-   "ts": 1793971800000,
-   "title": "Unemployment Rate",
-   "forecast": "4.2%",
-   "previous": "4.2%"
+   "ts": 1794576600000,
+   "title": "PPI m/m",
+   "forecast": "0.4%",
+   "previous": "1.3%"
   }
  ]
 }

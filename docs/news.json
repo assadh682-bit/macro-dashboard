@@ -1,5 +1,31 @@
 [
  {
+  "id": "fd60b30c929e40b81b7e287729498d0e",
+  "time": "03:18",
+  "ts": 1794194291526,
+  "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+  "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "التضخم عند المنتجين فـ الشينوا طلع لـ 5.7% وفات التوقعات، وهادشي كيبين بلي كاين ضغوط تضخمية فـ سلاسل التوريد العالمية. هاد الارتفاع يقدر يدعم الذهب كأداة تحوط ضد التضخم ويزيد الضغط على عوائد السندات الأمريكية باش تطلع.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "8a675b10f8ff4b483ad5f9a934bf475f",
   "time": "16:22",
   "ts": 1793809359317,
@@ -1022,32 +1048,6 @@
     "direction": "up",
     "strength": 1,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "a9ba9add87047719685846750818b3ba",
-  "time": "12:00",
-  "ts": 1792584013535,
-  "title": "Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?",
-  "link": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "إيلون ماسك كيفكر فإمكانية دمج SpaceX مع Tesla، وهاد الهضرة مع تحركات إيجابية فشركات التكنولوجيا رجعات التفاؤل لوول ستريت. هاد الأخبار كتعزز شهية المخاطرة وكتدعم أسهم التكنولوجيا ومؤشرات الأسهم الأمريكية.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
    }
   ]
  }

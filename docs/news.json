@@ -1,5 +1,127 @@
 [
  {
+  "id": "aeb90f5868cb83df4ae62a6d8c2e7fb9",
+  "time": "04:53",
+  "ts": 1794372793916,
+  "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+  "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 5,
+  "summary": "مؤشر أسعار المستهلكين فميريكان طلع بـ 0.4% فـ أكتوبر كثر من التوقعات، الشي اللي كيعقد مهمة الفيدرالي فمحاربة التضخم. هاد البيانات كتعزز فرضية بقاء الفائدة مرتفعة لمدة أطول، مما كيدعم الدولار وعوائد السندات وكيضغط بقوة على الأسهم والذهب.",
+  "confidence": 95,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "b15f43955ab91caef9c6a18cc4076163",
+  "time": "04:53",
+  "ts": 1794372793440,
+  "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+  "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "عوائد سندات الخزانة الأمريكية لأجل 10 سنين قربات من حاجز 5%، الشي اللي تسبب فنزول قوي للأسهم. ارتفاع العوائد كيزيد من تكلفة الاقتراض وكيخلي المستثمرين يفضلو السندات على الأسهم ذات المخاطر العالية.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "40eb7bd1f6d9a39562aa0f61278e99fe",
+  "time": "04:53",
+  "ts": 1794372793440,
+  "title": "Meet the former prosecutor Nvidia hired to investigate the Jensen Huang spy scandal",
+  "link": "https://www.marketwatch.com/story/meet-the-former-prosecutor-nvidia-hired-to-investigate-the-jensen-huang-spy-scandal-e8078f67?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "إنفيديا عينات مدعي عام سابق باش يقود تحقيق مستقل فمزاعم تجسس صيني كان كيستهدف المدير التنفيذي ديالها. هاد النوع ديال التوترات المرتبطة بالصين كيزيد الحذر عند المستثمرين وكيأثر سلبياً بشكل طفيف على قطاع التكنولوجيا.",
+  "confidence": 60,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "0c20d17f643fbefbc35403202a74994b",
+  "time": "04:53",
+  "ts": 1794372793440,
+  "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+  "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "أسهم شركة AMD عرفات تراجع حيت المستثمرين باقين مترددين واش المشاكل ديال إنفيديا غاتعطي أرباح دائمة للشركة. هاد التردد فتحركات قطاع أشباه الموصلات كيدير ضغط خفيف ومحدود على مؤشر التكنولوجيا ناسداك.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "fd60b30c929e40b81b7e287729498d0e",
   "time": "03:18",
   "ts": 1794194291526,
@@ -962,92 +1084,6 @@
     "direction": "up",
     "strength": 1,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "802017dc6638c89e40595154aaa338a4",
-  "time": "22:22",
-  "ts": 1792621364999,
-  "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
-  "link": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "صادرات النفط من الخليج رجعات كتعافى لمستويات ما قبل التوترات، ولكن الأسعار باقا شادة بسبب هشاشة الوضع الجيوسياسي. استقرار الإمدادات كينقص تدريجيا من علاوة المخاطر والتضخم، الشي اللي كيهدّن عوائد السندات.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "down",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "1b0e018f98823315f5b925b77fe4ab4c",
-  "time": "22:22",
-  "ts": 1792621364999,
-  "title": "Trump says data centers should generate their own electricity — but experts say only states can mandate that",
-  "link": "https://www.marketwatch.com/story/trump-says-data-centers-should-generate-their-own-electricity-but-experts-say-only-states-can-mandate-that-415dcaad?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "ترامب طالب مراكز البيانات باش تولد الطاقة ديالها بنفسها، وخا التطبيق القانوني صعيب. هاد المقترح كيزيد الشكوك حول تكاليف البنية التحتية لشركات الذكاء الاصطناعي والتكنولوجيا.",
-  "confidence": 55,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 1,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "95e8b122360418a04efaee08b83af3ea",
-  "time": "22:22",
-  "ts": 1792621364999,
-  "title": "Why investors should be skeptical of a potential Tesla-SpaceX merger",
-  "link": "https://www.marketwatch.com/story/why-investors-should-be-skeptical-of-a-potential-tesla-spacex-merger-9e119d32?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "كاين تشكيك كبير فالسوق بخصوص إمكانية اندماج تسلا مع سبيس إكس، والخبراء كيعتبروها خطوة سلبية للمساهمين. هاد الحذر كيقدر يدير ضغط سلبي خفيف ومؤقت على أسهم التكنولوجيا ومؤشر ناسداك.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "e993c2eb343b99565b2d6653c460867b",
-  "time": "12:00",
-  "ts": 1792584013535,
-  "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
-  "link": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "الرئيس التنفيذي ديال بلاك روك، لاري فينك، كيحذر من أن عرقلة بناء مراكز البيانات غادية تزيد من الضغوط التضخمية وتأثر سلباً على النمو. هاد التحذير كيركز على تكاليف الطاقة والبنية التحتية، الشي اللي يقدر ينعكس على توقعات التضخم وعوائد السندات عل المدى المتوسط.",
-  "confidence": 55,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 1,
-    "duration": "weekly"
    }
   ]
  }

@@ -1,5 +1,69 @@
 [
  {
+  "id": "73ee60ebd4579d9a299ecbf1760b482a",
+  "time": "01:48",
+  "ts": 1794448128345,
+  "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
+  "link": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "تراجع أسعار البترول ما بقاش قادر يهبط عوائد سندات الخزانة، حيت التضخم ولا متجذر فقطاعات خرى بلا الطاقة. هاد فك الارتباط كيدل على بقاء أسعار الفائدة مرتفعة، الشي اللي كيدعم عوائد السندات والدولار.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 2,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "4b0352e87264792b0362b44b5eeb726d",
+  "time": "01:48",
+  "ts": 1794448127690,
+  "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+  "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "أسهم إنفيديا هبطات بـ 8% فالتداولات اللاحقة بسباب إشاعات على إقالة الرئيس التنفيذي، الشي اللي جر معاه عقود الناسداك وقطاع الرقائق كلو. هاد الهبوط الحاد فشركة قيادية غادي يضغط بقوة على مؤشرات الأسهم ويزيد من حدة التوتر فالسوق.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "aeb90f5868cb83df4ae62a6d8c2e7fb9",
   "time": "04:53",
   "ts": 1794372793916,
@@ -1036,52 +1100,6 @@
    {
     "asset": "ES",
     "direction": "down",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "85dfbc660379ed74eb25dbe3f836fc21",
-  "time": "23:23",
-  "ts": 1792624998238,
-  "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
-  "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "أسهم شركة ميتا طلعات بفضل نتائج أعمال قوية فمجال الإعلانات والتفاؤل بفرص جديدة فمجال الذكاء الاصطناعي. هاد النمو الإيجابي كيعطي دفعة لأسهم التكنولوجيا، الشي اللي غايأثر إيجاباً على مؤشرات ناسداك وS&P 500.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "17f633796af8b147030a1cbf89ac80e5",
-  "time": "22:22",
-  "ts": 1792621364999,
-  "title": "7 healthcare stocks that stand out as investors pay up for the sector",
-  "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "قطاع الرعاية الصحية وصل لمستويات قياسية بفضل إقبال المستثمرين وتوقعات النمو القوية. هاد الزخم فالأسهم الدفاعية كيعطي دعم إيجابي متوازن لمؤشر إس آند بي 500.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "ES",
-    "direction": "up",
     "strength": 1,
     "duration": "daily"
    }

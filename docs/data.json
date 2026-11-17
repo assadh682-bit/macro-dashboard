@@ -1,18 +1,6 @@
 {
- "updated": "2026-11-16 14:32",
+ "updated": "2026-11-17 15:23",
  "auctions": [
-  {
-   "type": "Bill",
-   "term": "13-Week",
-   "date": "",
-   "amount": "95000000000"
-  },
-  {
-   "type": "Bill",
-   "term": "26-Week",
-   "date": "",
-   "amount": "82000000000"
-  },
   {
    "type": "Bill",
    "term": "6-Week",
@@ -72,22 +60,34 @@
    "term": "1-Year 11-Month",
    "date": "",
    "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "52-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "6-Week",
+   "date": "",
+   "amount": ""
   }
  ],
  "cot": {
   "GC": {
-   "date": "2026-11-03",
-   "long": 122283,
-   "short": 18669,
-   "net": 103614,
-   "change": -1948
+   "date": "2026-11-10",
+   "long": 127406,
+   "short": 15065,
+   "net": 112341,
+   "change": 8727
   },
   "SIL": {
-   "date": "2026-11-03",
-   "long": 17522,
-   "short": 13487,
-   "net": 4035,
-   "change": 714
+   "date": "2026-11-10",
+   "long": 17182,
+   "short": 13567,
+   "net": 3615,
+   "change": -420
   }
  },
  "calendar": [
@@ -106,7 +106,7 @@
   {
    "ts": 1794922200000,
    "title": "Retail Sales m/m",
-   "forecast": "0.2%",
+   "forecast": "0.1%",
    "previous": "0.8%"
   },
   {

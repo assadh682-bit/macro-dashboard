@@ -1,5 +1,139 @@
 [
  {
+  "id": "a4f9f3a51fbce83de374d7b923ed51a8",
+  "time": "19:44",
+  "ts": 1794944653248,
+  "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+  "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 5,
+  "summary": "تصريح متشدد بزاف من عضو الفيدرالي موسالم كيقترح رفع الفائدة 4 دالمرات فالشهور الجاية. هاد التوجه كيدعم الدولار وعوائد السندات بقوة وكيضغط سلبيا على الأسهم والذهب.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "0e40b12db14ece031a6a60bd6d2c888e",
+  "time": "19:44",
+  "ts": 1794944653248,
+  "title": "Why Salesforce’s stock is leading S&P 500 decliners amid tech jitters",
+  "link": "https://www.marketwatch.com/story/why-salesforces-stock-is-leading-s-p-500-decliners-amid-tech-jitters-17510caf?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "مخاوف تقنية وأعطال فشركات السوفتوير بحال سيلزفورس كتضغط على قطاع التكنولوجيا. التأثير سلبي بشكل أساسي على مؤشر النازداك ولكن التأثير الماكرو العام كيبقى محدود.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "affdd00b96d303752e2e6b50bff2c449",
+  "time": "19:44",
+  "ts": 1794944653248,
+  "title": "As stocks struggle, bonds are finally helping investors play defense again. There’s just one problem.",
+  "link": "https://www.marketwatch.com/story/as-stocks-struggle-bonds-are-finally-helping-investors-play-defense-again-theres-just-one-problem-94c8a1d8?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "السندات كترجع تلعب دور دفاعي وكتعوض خسائر الأسهم مع لجوء المستثمرين ليها كملاذ آمن. هاد الطلب كيدفع عوائد السندات للهبوط وسط ضعف مستمر فمؤشرات الأسهم.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "b635812ec7f5b1d36318e6f8fa0b65af",
+  "time": "19:44",
+  "ts": 1794944652670,
+  "title": "These charts show investor fears run even deeper than the stock market’s decline suggests",
+  "link": "https://www.marketwatch.com/story/these-charts-show-investor-fears-run-even-deeper-than-the-stock-markets-decline-suggests-924e2647?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "صعود الين كيدل على تراجع المستثمرين على المخاطرة وتفكيك صفقات الكاري تريد. هاد الخوف كيزيد الضغط البيعي على أسواق الأسهم وكيطلع مؤشر الفيكس مع توجه جزئي للذهب.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "73ee60ebd4579d9a299ecbf1760b482a",
   "time": "01:48",
   "ts": 1794448128345,
@@ -979,128 +1113,6 @@
     "asset": "ES",
     "direction": "down",
     "strength": 3,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "6002fb23584852ba9320cdbe6660aac3",
-  "time": "23:26",
-  "ts": 1792711612957,
-  "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
-  "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "عوائد سندات الخزانة سجلات أكبر تراجع يومي ليها من أزمة البنوك ديال 2023 بسبب تدفقات قوية على شراء السندات. المحللين كيشوفو بلي هادي حركة تصحيحية وتبديل مراكز ماشي بالضرورة خوف من ركود شامل.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "DXY",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "a083520d30ec078edfd4556a6724be62",
-  "time": "23:26",
-  "ts": 1792711612443,
-  "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
-  "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "سوق الأسهم الأمريكية كيعيش تخبط كبير مع تراجع موجة الذكاء الاصطناعي وارتفاع مؤشر الخوف. هاد التخوف دفع المستثمرين للهروب لسندات الخزانة، الشي اللي هبّط العائد ديال 10 سنين بأقوى وتيرة من أزمة البنوك.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 4,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "9ca3f0fed8244c50274345fe63b2a650",
-  "time": "13:38",
-  "ts": 1792676297775,
-  "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-  "link": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 3,
-  "summary": "طلبات إعانة البطالة فالميريكان تراجعات لـ 194 ألف، وهادشي كيبين بلي سوق الشغل ما زال صحيح بزاف ومكاينش تسريح للعمال. هاد القوة كتزيد من احتمال بقاء أسعار الفائدة طالعة من طرف الفيدرالي، الشي اللي كيدعم الدولار وعوائد السندات وكيضغط هبوطياً على الذهب.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "faf317235133f1dcd60e26f739e8bed2",
-  "time": "08:32",
-  "ts": 1792657920631,
-  "title": "Top HSBC strategist has a warning for retail investors chasing the AI rally",
-  "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "محلل استراتيجي فـ HSBC كيحذر المستثمرين الأفراد اللي تابعين موجة الذكاء الاصطناعي، وموضح بلي شروط اللعبة كتبدل بالزربة وماشي ساهل استمرار هاد الصعود. هاد التحذيرات تقدر تبرد الحماس على أسهم التكنولوجيا وتدير ضغط هابط خفيف على النازداك.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 1,
     "duration": "daily"
    }
   ]

@@ -1,5 +1,167 @@
 [
  {
+  "id": "39bcced1fe96155d5235cf733c5ec4d0",
+  "time": "01:04",
+  "ts": 1795136650311,
+  "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+  "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 2,
+  "summary": "التضخم الأساسي فاليابان وصل لأعلى مستوى هاد العام بسباب انتهاء دعم الطاقة، وخا جا قل من التوقعات شوية. ارتفاع التضخم كيزيد التوقعات بأن بنك اليابان غادي يرفع الفائدة، الشي اللي كيقوي الين. هاد التحرك كيدير ضغط طفيف هبوطي على مؤشر الدولار.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "83ff3513b9f07a0fecbade15705cd464",
+  "time": "01:04",
+  "ts": 1795136650311,
+  "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+  "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "أسهم الذكاء الاصطناعي والرقائق الإلكترونية بحال ميكرون وبرودكوم ضيعات الأرباح ديالها بعد تراجع الحماس وتزايد المخاوف من الصين. هاد التراجع كيأثر مباشرة على قطاع أشباه الموصلات اللي كيقود السوق. الشي اللي كيعطي ضغط هبوطي على مؤشر التكنولوجيا ناسداك.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "91ad0bf8adb4e4140249e16c7417f1b7",
+  "time": "01:04",
+  "ts": 1795136650007,
+  "title": "Markets are sending troubling signals about the state of the economy",
+  "link": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "كاينين إشارات مقلقة على الاقتصاد وبداية ظهور تداولات الركود (Recession trades) وخا بعض البيانات باقية مزيانة. هاد الخوف من التباطؤ الاقتصادي كيخلي السيولة تمشي للملاذات الآمنة وتخرج من الأسهم. هادشي كيدعم الذهب وكيضغط على عوائد السندات ومؤشرات الأسهم.",
+  "confidence": 80,
+  "impacts": [
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "weekly"
+   }
+  ]
+ },
+ {
+  "id": "1fd61fa7fb0c0fb6c702581f48d557db",
+  "time": "01:04",
+  "ts": 1795136649663,
+  "title": "Anthropic’s stock surges in its debut — and the rest of the market dives anyway",
+  "link": "https://www.marketwatch.com/story/anthropics-stock-surges-in-its-debut-and-the-rest-of-the-market-dives-anyway-19671218?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 5,
+  "summary": "وخا البداية القوية لأسهم Anthropic، الأسواق الأمريكية كتعيش أسوأ أسبوع بسباب مخاوف الركود والتعريفات الجمركية. هاد الانهيار الواسع فالمؤشرات كيزيد من قلق المستثمرين وكيخليهم يهربو من المخاطرة. هادشي كيطيح الأسهم بقوة وكيطلع الذهب ومؤشر الفولاتيليتي.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 5,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "1b0d0e3397c42a0ab17a4ec40878b357",
+  "time": "01:04",
+  "ts": 1795136649663,
+  "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+  "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 3,
+  "summary": "التوقعات المتشائمة ديال شركة Intuit عمقات قلق وول ستريت بخصوص مستقبل شركات البرمجيات والنمو. هاد التخوف كيدير ضغط بيعي على قطاع التكنولوجيا بصفة خاصة. الشي اللي كينعكس سلبياً على مؤشر ناسداك.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "1c4812ab6e17ff1a51115bdad1d91872",
+  "time": "01:04",
+  "ts": 1795136649259,
+  "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+  "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 4,
+  "summary": "هاد الخبر كيوضح موجة بيع قوية طاحو فيها 11 قطاع فـ S&P 500 كثر من 1%، وخا شركات الأمن السيبراني قاومات. هاد التراجع الواسع كيعكس ضغط سلبي كبير على الأسواق وخوف المستثمرين. هادشي كيهبط مؤشرات الأسهم وكيطلع مؤشر الخوف.",
+  "confidence": 85,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 4,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 4,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "a4f9f3a51fbce83de374d7b923ed51a8",
   "time": "19:44",
   "ts": 1794944653248,
@@ -946,174 +1108,6 @@
     "direction": "up",
     "strength": 1,
     "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "1be378bb50a32386bf4555c254429375",
-  "time": "13:07",
-  "ts": 1792847276366,
-  "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
-  "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "المستثمرين كيطالبو برؤية وتواصل أوضح من طرف الفيدرالي الأمريكي بخصوص السياسة النقدية المستقبلية. هاد الغموض وغياب أجوبة واضحة كيخلق نوع من الحذر فالأسواق وممكن يرفع التذبذب.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "neutral",
-    "strength": 1,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "1117ec6257c5ba5bf3cfcba4b9473ca9",
-  "time": "13:07",
-  "ts": 1792847276366,
-  "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
-  "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "الإقبال المتزايد على صناديق الاستثمار الخاصة بالذكاء الاصطناعي والتكنولوجيا كيبين بلي شهية المخاطرة ما زال قوية فالسوق. هاد السيولة والزخم غادي يزيدو يدعمو أسهم قطاع التكنولوجيا ومؤشر الناسداك.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "458efcfb3eb03b3d76a23d257245579c",
-  "time": "19:57",
-  "ts": 1792785436773,
-  "title": "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade?",
-  "link": "https://www.marketwatch.com/story/can-nvidias-stock-become-a-safe-haven-as-wall-street-rethinks-the-ai-trade-64862936?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "كاين نقاش فوول ستريت حول اعتبار سهم إنفيديا ملاذ أكثر أمانا وثباتا وسط إعادة تقييم استثمارات الذكاء الاصطناعي. هاد النظرة كتعطي دعم واستقرار لمؤشر الناسداك والأسهم التكنولوجية بصفة عامة.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 1,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "b850bab9dc2671e3c1966509d5484bb4",
-  "time": "19:57",
-  "ts": 1792785436205,
-  "title": "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted",
-  "link": "https://www.marketwatch.com/story/oil-markets-are-on-edge-ahead-of-the-weekend-as-midterm-elections-near-and-fresh-u-s-strikes-on-iran-are-predicted-8c27e634?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "التوترات الجيوسياسية وتوقعات بضربات عسكرية على إيران كترفع أسعار النفط ومخاوف التضخم فالأسواق. هاد الخوف كيدفع المستثمرين نحو الملاذات الآمنة بحال الذهب وكيطلع مؤشر التقلب، مع ضغط على مؤشرات الأسهم.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "047bcce3758edbe7c69fbdaaf88aefbe",
-  "time": "23:26",
-  "ts": 1792711613804,
-  "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-  "link": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 5,
-  "summary": "أسعار الطاقة كتقرب من قمم قياسية مع تزايد مخاطر حرب إقليمية مع إيران وغلاء نقل النفط. هاد الخطر الجيوسياسي كيهدد بارتفاع التضخم والاضطراب فالأسواق، الشي اللي كيعزز الطلب على الملاذات الآمنة.",
-  "confidence": 90,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "up",
-    "strength": 4,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 4,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "100256e3cca12f2cbbb552490a80cf4c",
-  "time": "23:26",
-  "ts": 1792711613394,
-  "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
-  "link": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "قطاع أشباه الموصلات طاح بشكل حاد بسباب تراجع توقعات Lam Research وخفض إنفاق تسلا، مع تخوفات من اعتماد طفرة الذكاء الاصطناعي على التمويل الخارجي. هاد الضعف كيضغط مباشرة وبقوة على مؤشر ناسداك.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 4,
-    "duration": "daily"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 3,
-    "duration": "daily"
    }
   ]
  }

@@ -1,5 +1,31 @@
 [
  {
+  "id": "62b30a54c7b457fc0476674558b7f836",
+  "time": "00:59",
+  "ts": 1795309149633,
+  "title": "‘Buyers are out for blood’: With home sales at a record low, buyers are calling the shots",
+  "link": "https://www.marketwatch.com/story/buyers-are-out-for-blood-as-housing-market-finally-hits-rock-bottom-fa5093a6?mod=mw_rss_topstories",
+  "source": "MarketWatch.com - Top Stories",
+  "relevant": true,
+  "importance": 2,
+  "summary": "مبيعات المنازل فميريكان وصلات لمستويات منخفضة قياسية بسبب نسب الفائدة ديال الرهن العقاري اللي واصلة لـ 7%. هاد الضعف فسوق العقار كيبين باللي التشديد النقدي واصل مفعولو للاقتصاد، الشي اللي يقدر يضغط شوية على عوائد السندات والأسهم.",
+  "confidence": 65,
+  "impacts": [
+   {
+    "asset": "US10Y",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 1,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "39bcced1fe96155d5235cf733c5ec4d0",
   "time": "01:04",
   "ts": 1795136650311,
@@ -1082,32 +1108,6 @@
     "direction": "down",
     "strength": 2,
     "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "1d818c04d89e48058cf22c4ac36cbb45",
-  "time": "12:23",
-  "ts": 1792931003507,
-  "title": "Why economic health no longer dictates stock-market returns",
-  "link": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 2,
-  "summary": "المقال كيوضح كيفاش أداء البورصة ولا مفارق مع الواقع الاقتصادي الحقيقي، وزيادة تأثير الذكاء الاصطناعي كيعزز هاد الفجوة. هاد الشي كيدعم بالأساس شركات التكنولوجيا الكبرى واخا المؤشرات الاقتصادية العامة تبان ضعيفة.",
-  "confidence": 60,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "up",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "up",
-    "strength": 1,
-    "duration": "weekly"
    }
   ]
  }

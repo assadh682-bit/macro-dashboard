@@ -1,18 +1,6 @@
 {
- "updated": "2026-11-21 02:35",
+ "updated": "2026-11-23 17:09",
  "auctions": [
-  {
-   "type": "Bill",
-   "term": "13-Week",
-   "date": "",
-   "amount": "95000000000"
-  },
-  {
-   "type": "Bill",
-   "term": "26-Week",
-   "date": "",
-   "amount": "82000000000"
-  },
   {
    "type": "Note",
    "term": "2-Year",
@@ -72,6 +60,18 @@
    "term": "13-Week",
    "date": "",
    "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "26-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "6-Week",
+   "date": "",
+   "amount": ""
   }
  ],
  "cot": {
@@ -92,28 +92,16 @@
  },
  "calendar": [
   {
-   "ts": 1794848400000,
-   "title": "Fed Chairman Warsh Speaks",
-   "forecast": "",
-   "previous": ""
+   "ts": 1795613400000,
+   "title": "Core PCE Price Index m/m",
+   "forecast": "0.3%",
+   "previous": "0.3%"
   },
   {
-   "ts": 1794922200000,
-   "title": "Core Retail Sales m/m",
-   "forecast": "0.4%",
-   "previous": "0.9%"
-  },
-  {
-   "ts": 1794922200000,
-   "title": "Retail Sales m/m",
-   "forecast": "0.1%",
-   "previous": "0.8%"
-  },
-  {
-   "ts": 1795028400000,
-   "title": "FOMC Meeting Minutes",
-   "forecast": "",
-   "previous": ""
+   "ts": 1795613400000,
+   "title": "Prelim GDP q/q",
+   "forecast": "3.5%",
+   "previous": "3.4%"
   }
  ]
 }

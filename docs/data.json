@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 16:14",
+ "updated": "2026-11-27 15:58",
  "auctions": [
   {
    "type": "Bill",
@@ -18,6 +18,60 @@
    "term": "6-Week",
    "date": "",
    "amount": "90000000000"
+  },
+  {
+   "type": "Bill",
+   "term": "17-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "4-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "8-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "13-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "26-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Note",
+   "term": "3-Year",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bill",
+   "term": "6-Week",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Note",
+   "term": "9-Year 11-Month",
+   "date": "",
+   "amount": ""
+  },
+  {
+   "type": "Bond",
+   "term": "29-Year 11-Month",
+   "date": "",
+   "amount": ""
   }
  ],
  "cot": {

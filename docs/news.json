@@ -1,5 +1,141 @@
 [
  {
+  "id": "3dbe2aa2f30a84ff1d6d2f36eaee5578",
+  "time": "04:48",
+  "ts": 1795754916887,
+  "title": "Peterson: Here’s what Bessent’s about-face on Jensen Huang reveals about Trump and China",
+  "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-trump-bessent-china.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "تراجع وزير الخزانة على الموقف الصارم ضد إنفيديا كيخفف من مخاوف القيود التجارية على قطاع أشباه الموصلات. هاد التهدئة كتعطي ارتياح لأسهم التكنولوجيا والناسداك بحكم الثقل الكبير لقطاع الرقائق.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "2d7f5ef9d0d91c7acd07ad27b70467e2",
+  "time": "04:48",
+  "ts": 1795754916887,
+  "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+  "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "ثقة المستهلك الأمريكي قفزات لـ 103.3 واخا باقي تخوف من التضخم. تحسن التفاؤل كيدعم عادةً إنفاق الأفراد والشركات، الشي اللي كيعطي دفعة إيجابية خفيفة لمؤشرات الأسهم الأمريكية.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "bc349b0efa1966271e9ae9d34a601670",
+  "time": "04:48",
+  "ts": 1795754916887,
+  "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+  "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "المستهلكين فـ ميريكان كينقصو من مصاريف العطلات بسبب غلاء المعيشة وصدمات الطاقة. هاد الضغط على الاستهلاك كيأثر سلباً على أرباح الشركات ومؤشر الأسهم العام، وكيغذي المخاوف من تباطؤ اقتصادي.",
+  "confidence": 75,
+  "impacts": [
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "VIX",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "ba89a581cc1d64b57ac428ab820c8842",
+  "time": "04:48",
+  "ts": 1795754916507,
+  "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+  "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 5,
+  "summary": "مؤشر التضخم المفضل عند الفيدرالي تسارع لـ 3.8%، الشي اللي كيزيد الضغط على البنك المركزي باش يخلي الفائدة طالعة لمدة أطول. هاد التطور كيقوي الدولار وعوائد السندات الأمريكية، فـ حين كيضغط سلباً على الذهب والأسهم بحكم تشديد السياسة النقدية.",
+  "confidence": 90,
+  "impacts": [
+   {
+    "asset": "DXY",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "US10Y",
+    "direction": "up",
+    "strength": 4,
+    "duration": "weekly"
+   },
+   {
+    "asset": "GC",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   },
+   {
+    "asset": "ES",
+    "direction": "down",
+    "strength": 3,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
+  "id": "31c3e83e818d9b2c0a925c53b2428b6f",
+  "time": "04:48",
+  "ts": 1795754916507,
+  "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+  "link": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+  "source": "Economy",
+  "relevant": true,
+  "importance": 3,
+  "summary": "الأرباح الصناعية فـ الشينوا طلعات بـ 20.1% بفضل قطاع التكنولوجيا والتصدير، وخا الاستهلاك الداخلي باقي ضعيف. هادشي كيعطي دفعة إيجابية لأسهم التكنولوجيا العالمية والطلب على المعادن الصناعية بحال الفضة. التأثير كيدعم شهية المخاطرة وكيعاون مؤشرات الأسهم.",
+  "confidence": 70,
+  "impacts": [
+   {
+    "asset": "SIL",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   },
+   {
+    "asset": "NQ",
+    "direction": "up",
+    "strength": 2,
+    "duration": "daily"
+   }
+  ]
+ },
+ {
   "id": "62b30a54c7b457fc0476674558b7f836",
   "time": "00:59",
   "ts": 1795309149633,
@@ -964,148 +1100,6 @@
    {
     "asset": "GC",
     "direction": "neutral",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "d52a3e08e9d3de9e4ca12672ddcf4037",
-  "time": "12:04",
-  "ts": 1793102650524,
-  "title": "Fed rate hikes are coming, but not this week: CNBC survey",
-  "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-  "source": "Economy",
-  "relevant": true,
-  "importance": 4,
-  "summary": "استطلاع CNBC كيبين توقع 93% لتثبيت الفائدة فهاد الاجتماع مع إمكانية زيادات لاحقة. تثبيت الفائدة كيعطي هدوء مؤقت للأسواق، ولكن التهديد برفعها مستقبلا كيدعم الدولار وعوائد السندات.",
-  "confidence": 85,
-  "impacts": [
-   {
-    "asset": "DXY",
-    "direction": "up",
-    "strength": 3,
-    "duration": "daily"
-   },
-   {
-    "asset": "US10Y",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "6e87fb9c4b7713bde620ef056e7fc058",
-  "time": "12:04",
-  "ts": 1793102650524,
-  "title": "AI stocks haven’t played by the normal valuation rules. Now that rates are higher, they may have to, says UBS",
-  "link": "https://www.marketwatch.com/story/ai-stocks-havent-played-by-the-normal-valuation-rules-now-that-rates-are-higher-they-may-have-to-says-ubs-f8c78948?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "تحذير من بنك UBS بلي تقييمات أسهم الذكاء الاصطناعي مابقاتش منطقية مع الفائدة المرتفعة وغادي ترجع للقواعد العادية. هاد الضغط كيزيد من احتمالية تصحيح نزولي فأسهم التكنولوجيا.",
-  "confidence": 75,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   }
-  ]
- },
- {
-  "id": "5e10d047c2b85f1b8fcc3191e8fae2e1",
-  "time": "12:04",
-  "ts": 1793102650104,
-  "title": "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.",
-  "link": "https://www.marketwatch.com/story/big-techs-earnings-are-on-deck-theres-more-for-investors-to-watch-than-ai-spending-bb566c90?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 4,
-  "summary": "الأسواق كتسنى نتائج أرباح كبرى شركات التكنولوجيا بحال مايكروسوفت وأمازون مع مراقبة تقليص الوظائف ومصاريف الذكاء الاصطناعي. هاد النتائج غادي تحدد اتجاه مؤشرات الأسهم الأمريكية بشكل مباشر.",
-  "confidence": 80,
-  "impacts": [
-   {
-    "asset": "NQ",
-    "direction": "neutral",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "ES",
-    "direction": "neutral",
-    "strength": 3,
-    "duration": "weekly"
-   },
-   {
-    "asset": "VIX",
-    "direction": "up",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "e43f1e2b2e5a2699aea72f15571d6306",
-  "time": "12:04",
-  "ts": 1793102650104,
-  "title": "AI debt trouble could help Fed’s Warsh get his way with fewer rate hikes",
-  "link": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "صعوبة تمويل ديون الذكاء الاصطناعي مع ارتفاع التكاليف تقدر تدفع الفيدرالي يخفف وتيرة رفع الفائدة. هاد التباطؤ فـتمويل مشاريع التكنولوجيا كيدير ضغط على قطاع التقنية ولكن كيهبط عوائد السندات.",
-  "confidence": 65,
-  "impacts": [
-   {
-    "asset": "US10Y",
-    "direction": "down",
-    "strength": 2,
-    "duration": "weekly"
-   },
-   {
-    "asset": "NQ",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   }
-  ]
- },
- {
-  "id": "b685bc195cfc3736fd49a8a89ea41f83",
-  "time": "12:04",
-  "ts": 1793102650104,
-  "title": "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit",
-  "link": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories",
-  "source": "MarketWatch.com - Top Stories",
-  "relevant": true,
-  "importance": 3,
-  "summary": "كلام خامنئي على إمكانية اتفاق وتخفيف التوتر السياسي فإيران حرك الأسواق شوية. هاد الإشارات كتهدن المخاوف الجيوسياسية فمنطقة الشرق الأوسط، الشي اللي كينقص الطلب على الملاذات الآمنة.",
-  "confidence": 70,
-  "impacts": [
-   {
-    "asset": "GC",
-    "direction": "down",
-    "strength": 2,
-    "duration": "daily"
-   },
-   {
-    "asset": "VIX",
-    "direction": "down",
     "strength": 2,
     "duration": "daily"
    }
